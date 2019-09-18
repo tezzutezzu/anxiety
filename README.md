@@ -11,6 +11,7 @@
 - credits
 - intermission
 - PROMO
+- Readme
 
 # [Play the interactive story here!](https://ncase.me/anxiety/)
 
