@@ -39,10 +39,10 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if _.PLAYED_BEFORE}}
-[Chapter Select](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
+[Seleziona un capitolo](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
-[(content notes)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
+[(Note sul contenuto)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
 
 # chapter-select
 
