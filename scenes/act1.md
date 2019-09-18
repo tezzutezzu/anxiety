@@ -6,7 +6,7 @@ SceneSetup.act1();
 
 (...300)
 
-n: E QUESTA É LA TUA ANSIA
+n: E QUESTA É LA SUA ANSIA
 
 n: _TU_ SEI L'ANSIA
 
@@ -186,7 +186,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Grandioso, riecco il mio lupo. Faaaaantastico.
+h: Grandioso, riecco il mio lupo. Faaantastico.
 
 `hong({eyes:"0_neutral"})`
 
@@ -194,9 +194,9 @@ n: IL TUO COMPITO É PROTEGGERE IL TUO UMANO DAL *PERICOLO*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN EFFETTI, QUEL SANDWICH LI STA METTENDO IN *PERICOLO* PROPRIO ORA
+n: IN EFFETTI, QUEL TRAMEZZINO LO STA METTENDO IN *PERICOLO* PROPRIO ORA
 
-n: PRESTO, AVVERTILI!
+n: PRESTO, AVVERTILO!
 
 ```
 sfx("squeak");
@@ -208,7 +208,7 @@ b: Umano! Ascolta, siamo in pericolo! Il pericolo é...
 
 `bb({body:"squeeze"})`
 
-n4: (LASCIA CHE LA _TUA_ ANSIA VENGA FUORI A GIOCARE! SCEGLI QUELLO CHE LA _TUA_ PAURA TI DICE)
+n4: (LASCIA CHE LA _TUA_ ANSIA GIOCHI CON TE! SCEGLI QUELLO CHE LA _TUA_ PAURA TI DICE)
 
 (#act1_normal_choice)
 
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: HAI USATO *PAURA DI NON ESSERE AMATO*
+n: HAI USATO LA *PAURA DI NON ESSERE AMATO*
 
 (#act1b)
 
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: HAI USATO *PAURA DI DIVENTARE UNA CATTIVA PERSONA*
+n: HAI USATO LA *PAURA DI DIVENTARE UNA CATTIVA PERSONA*
 
 (#act1b)
 
@@ -315,17 +315,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Ma questi studi sono stati replicat--
+h: Ma questo è scientificamente approv--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Il grano raffinato farà impennare la nostra glicemia e dovranno amputare tutti i nostri arti e poi noi finiremo per--
+b: Il grano raffinato farà impennare la nostra glicemia, poi dovranno amputare tutti i nostri arti e poi finiremo per--
+
 `bb({body:"panic"})`
 
-b: MORIIIREEEEEEEE
+b: MORIREEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -338,7 +339,7 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: HAI USATO *PAURA DI ESSERE FERITO*
+n: HAI USATO LA *PAURA DI ESSERE FERITO*
 
 (#act1b)
 
@@ -352,7 +353,7 @@ b: Vedi, umano? Io sono il tuo leale cane da guardia!
 
 `bb({body:"pride_talk"});`
 
-b: Ascolta l'istinto! Le tue emozioni sono corrette
+b: Ascolta l'istinto! Le tue emozioni sono giuste
 
 `bb({body:"pride"});`
 
@@ -368,7 +369,7 @@ n: PAURA DI ESSERE UNA *CATTIVA PERSONA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (CONSIGLIO: FA' LE SCELTE CHE COLPISCONO LE TUE PIÚ INTIME E OSCURE PAURE PERSONALI!~)
+n4: (CONSIGLIO: FA' LE SCELTE CHE COLPISCONO LE TUE PIÚ INTIME E OSCURE PAURE!)
 
 h: ...
 
@@ -450,7 +451,7 @@ b: Poi nessuno verrà al nostro funerale, butteranno le ceneri nell'oceano che v
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: e diventiamo CACCA DI BALENA!
+b: e diventeremo CACCA DI BALENA!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -475,7 +476,7 @@ b: Porta anche il laptop così possiamo lavorare, e non essere dei parassiti del
 {{/if}}
 
 {{if _.whitebread}}
-b: Solo se non ci danno da mangiare del PANCARRÈ
+b: Solo se non ci faranno mangiare del PANCARRÈ
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
@@ -623,7 +624,7 @@ bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: Sembra che il mondo stia finendo, come se tutto stia morendo e siamo segnati, e non c'è niente che possiamo fare.
+b: Sembra che il mondo stia finendo, come se tutto stia per morire. Siamo destinati, non c'è niente che possiamo fare.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -634,7 +635,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Ritwittiamo la notizia!
+b: Facciamo un retweet della notizia!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -656,7 +657,7 @@ h: Ok. Lo faccio, ma per piacere calmati!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Chi se ne frega, vediamo cosa c'è su Snapchat.
+h: ^Sticazzi^, vediamo cosa c'è su Snapchat.
 
 (#act1e)
 
@@ -789,7 +790,7 @@ bb({mouth:"normal", eyes:"normal"});
 {{/if}}
 
 {{if _.badnews}}
-[Aspetta, abbiamo fatto un retweet senza controllare le fonti.](#act1e_ignore_factcheck)
+[Aspetta, abbiamo fatto un retweet senza controllare.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
@@ -1147,7 +1148,7 @@ hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, Ho un match! Carini!
+h: Oh, Ho un match! Carina!
 
 ```
 bb({eyes:"narrow_eyebrow"});
@@ -1352,7 +1353,7 @@ h:
 
 h: voglo solo vivere la mia vita
 
-h: voglio solo liberarmi da questo...dolore
+h: voglio solo liberarmi da questo...dolore.
 
 `bb({eyes:"look_sad"});`
 
@@ -1428,7 +1429,7 @@ h: VAI A FARTI
 
 `hong({body:"2_you"});`
 
-h: *^FOTTERE^.*.
+h: *^FOTTERE^*
 
 (...500)
 
@@ -1464,7 +1465,7 @@ sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Ora scusami mentre mangio questo ^fottuto^ sandwich in pace.
+h: Ora scusami mentre mangio questo ^fottuto^ tramezzino con pancarré in pace.
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1589,9 +1590,9 @@ n: SCEGLI LA TUA MOSSA FINALE
 
 n: *FINISCILI*
 
-[{FIGHT: Punish your stressful phone!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FIGHT: Punisci il tuo telefono stressante!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Curl up in a ball and cry!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FLIGHT: Rannichiati in un angolino e piangi!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
@@ -1634,7 +1635,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Fai come l'armadillo! Chiuditi a riccio! Per auto-difesa!
+b: Fai come l'armadillo! Rannichiati in un angolino! Per auto-difesa!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1643,7 +1644,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: CHIUDITI A RICCIO CHIUDITI A RICCIO CHIUDITI A RICCIO CHIUDITI A RICCIO CHIUDITI A RICCIO CHIUDITI A-- 
+b: RANNICCHIATI RANNICCHIATI RANNICCHIATI RANNICCHIATI RANNICCHIATI RANNICCH-- 
 
 (#act1j)
 
