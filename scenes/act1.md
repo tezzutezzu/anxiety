@@ -218,7 +218,7 @@ n4: (LASCIA CHE LA _TUA_ ANSIA GIOCHI CON TE! SCEGLI QUELLO CHE LA _TUA_ PAURA T
 
 [Mentre mangiamo non siamo produttivi!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[Il pancarré non ci fa bene!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Il pane bianco non ci fa bene!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -476,7 +476,7 @@ b: Porta anche il laptop così possiamo lavorare, e non essere dei parassiti del
 {{/if}}
 
 {{if _.whitebread}}
-b: Solo se non ci faranno mangiare del PANCARRÈ
+b: Solo se non ci faranno mangiare del PANE BIANCO
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
@@ -498,7 +498,7 @@ b: Cacca di balena, umano! Cacca di balena!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: o peggio... PANCARRÈ
+b: o peggio... PANE BIANCO
 {{/if}}
 
 {{if _.whitebread}}
@@ -506,7 +506,7 @@ b: o peggio... PANCARRÈ
 {{/if}}
 
 {{if _.whitebread}}
-b: Faremo un overdose di metanftemina e pancarré così enorme che non riusciranno a mettere il nostro cadavere ciccione nel forno crematorio!
+b: Faremo un overdose di metanftemina e pane bianco così enorme che non riusciranno a mettere il nostro cadavere ciccione nel forno crematorio!
 {{/if}}
 
 {{if !_.whitebread}}
@@ -599,7 +599,7 @@ h: Comunque. Facebook è troppo per me. Ho bisogno di qualcosa di più tranquill
 
 `hong({eyes:"neutral"});`
 
-h: Che si dice su Twitter?
+h: Cosa c'è su Twitter?
 
 `bb({eyes:"look"});`
 
@@ -781,9 +781,9 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Cambiare la nostra risposta? Come degli stupidi?!](#act1e_yes_dontchange)
+[Cambio la nostra risposta? Come degli stupidi?!](#act1e_yes_dontchange)
 
-[Cambiare la nostra risposta? È troppo affollato!](#act1e_yes_changetono)
+[Cambio la nostra risposta? È troppo affollato!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
 [Eh si, definitivamente un subtweet su di me.](#act1e_ignore_subtweet)
@@ -890,9 +890,9 @@ h: Forse non avrei dovuto dire di no all'invito?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Cambiare la nostra risposta? Come degli stupidi?!](#act1e_no_dontchange)
+[Cambio la nostra risposta? Come degli stupidi?!](#act1e_no_dontchange)
 
-[Cambiare la nostra risposta? Per non morire soli!](#act1e_no_changetoyes)
+[Cambio la nostra risposta? Almeno non moriamo da soli](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
 [Eh si, definitivamente un subtweet su di me.](#act1e_ignore_subtweet)
@@ -912,7 +912,7 @@ h: Forse non avrei dovuto dire di no all'invito?
 
 b: Tutti contavano su di noi!
 
-b: ...e lasciarli da soli con la loro bella festa senza orribili disgustosi vermi {{if _.whitebread}}mangiatori di pancarré{{/if}} come n--
+b: ...e lasciarli da soli con la loro bella festa senza orribili disgustosi vermi {{if _.whitebread}}mangiatori di pane bianco{{/if}} come n--
 
 
 ```
@@ -976,7 +976,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: Ci smaschereranno e esplusi e fatti trascinare con una corda da un cavallo lungo l'autostrada delle informazioni!
+b: Ci smaschereranno, saremo esplusi, tipo fatti trascinare con una corda da un cavallo lungo la superstrada dell'informazione!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1295,7 +1295,7 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: Ti intrappoleranno in un pozzo e ti daranno da mangiare pancarré per farti ingrassare così potranno indossare la tua pelle come un vestito!
+b: Ti intrappoleranno in un pozzo e ti daranno da mangiare pane bianco per farti ingrassare così potranno indossare la tua pelle come un vestito!
 {{/if}}
 
 {{if _.parasite}}
@@ -1349,11 +1349,11 @@ h:
 {{if _.hookuphole}}"moriremo da soli"... {{/if}}
 {{if _.serialkiller}}"sono dei serial killer"... {{/if}}
 {{if _.catmilk}}"i gatti non digeriscono il latte"... {{/if}}
-{{if _.pokemon}}una parodia di ^merda^ di una canzone di ^merda^... {{/if}}
+{{if _.pokemon}}"una ^fottuta^ parodia della sigla dei Pokemon"... {{/if}}
 
 h: voglo solo vivere la mia vita
 
-h: voglio solo liberarmi da questo...dolore.
+h: voglio solo liberarmi da questo, dolore.
 
 `bb({eyes:"look_sad"});`
 
@@ -1380,7 +1380,7 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Ultima app. Instagram. Cosa c'è?
+h: Ultima app. Instagram.
 
 `hong({eyes:"sad"});`
 
@@ -1433,7 +1433,7 @@ h: *^FOTTERE^*
 
 (...500)
 
-b: w
+b: c-
 
 (...1500)
 
@@ -1465,7 +1465,7 @@ sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Ora scusami mentre mangio questo ^fottuto^ tramezzino con pancarré in pace.
+h: Ora scusami mentre mangio questo ^fottuto^ tramezzino in pace.
 
 `hong({body:"2_sammich_eat"});`
 
