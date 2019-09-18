@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: E QUESTA É LA TUA ANSIA
 
-n: _YOU_ ARE THE ANXIETY
+n: _TU_ SEI L'ANSIA
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Oh ehi! Siamo di nuovo qui?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: IL TUO COMPITO É PROTEGGERE IL TUO UMANO DAL *PERICOLO*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: INFATTI LI STAI METTENDO IN *PERICOLO* GIOCANDO A QUESTO GIOCO PROPRIO ORA
 
-n: QUICK, WARN THEM!
+n: PRESTO, AVVERTILI!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Umano! Ascolta, siamo in pericolo! Il giocatore...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...ci torturerà ancora!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...non troverà un finale alternativo!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...contrarrà una dissonanza ludonarrativa!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Ci metterà in ginocchio e ci farà piangere!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Ci farà uccidere il tuo smartphone per averti dato un attacco di panico!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: *NON* ci farà prendere a pugni l'organizzatore della festa!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: Ci farà prendere a pugni il Comprensivo Anti-Cattivo organizzatore della festa!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Beh almeno potremmo evitare di saltare questa vol--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: CI FARÁ SALTARE DAL SOFFITTO.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b:  CI SUCCEDERANNO TUTTE QUESTE TERRIBILI COSE, E POI SAREMO--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Certo, la storia *nell'insieme* è la stessa, ma ogni capitolo ha due possibili finali, più tutte le possibili biforcazioni dei dialo--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Il giocatore ne sarà dispiaciuto, chiudi la tab del tuo browser, cancella il nostro programma e noi poi---
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: Un osceno- cos'altro ora?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: L'arco narrativo riguarda il fatto che puoi *SCEGLIERE* di instaurare una sana collaborazione con la tua paura,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Ma rigiocando il gioco avrai la stessa storia, il che implica che le tue *SCELTE* non contano,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: Mostrando dunque una contraddizione tra il messaggio del gioco e le sue meccaniche,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: Sbrogliando quindi la trama narrativa di questo universo,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: E poi noi--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MORIREMOOOOOOOOOOO
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: OK rientramo nel personaggio.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (FAI ENTRARE LA _TUA_ ANSIA BLAH BLAH BLAH SIMILE ALLE _TUE_ PAURE BLAH BLAH SAI GIA COME FUNZIONA)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Grandioso, riecco il mio lupo. Faaaaantastico.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: IL TUO COMPITO É PROTEGGERE IL TUO UMANO DAL *PERICOLO*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: IN EFFETTI, QUEL SANDWICH LI STA METTENDO IN *PERICOLO* PROPRIO ORA
 
-n: QUICK, WARN THEM!
+n: PRESTO, AVVERTILI!
 
 ```
 sfx("squeak");
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Umano! Ascolta, siamo in pericolo! Il pericolo é...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (LASCIA CHE LA _TUA_ ANSIA VENGA FUORI A GIOCARE! SCEGLI QUELLO CHE LA _TUA_ PAURA TI DICE)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Stiamo pranzando da soli! Di nuovo!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Mentre mangiamo non siamo produttivi!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Il pancarré non ci fa bene!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Ma lo sai che la solitudine è associata a una morte prematura tanto quanto fumare 15 sigarette al giorno?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Um, grazie per aver citato le fonti ma--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Che vuol dire che se non ci vediamo con qualcuno *in questo momento* finiremo per-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MORIIIIIREEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: HAI USATO *PAURA DI NON ESSERE AMATO*
 
 (#act1b)
 
@@ -271,27 +271,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: Tira fuori il tuo laptop e lavora, ora!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Um, Preferirei non riempire di briciole la mia tastier--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Se non contribuiamo alla società allora siamo dei parassiti della società!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: La società andrà dal dottore delle società per farsi dare delle medicine che uccidano i parassiti della società e noi finiremo per--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MORIREEEEEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: HAI USATO *PAURA DI DIVENTARE UNA CATTIVA PERSONA*
 
 (#act1b)
 
@@ -315,18 +315,17 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Ma questi studi sono stati replicat--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
-
+b: Il grano raffinato farà impennare la nostra glicemia e dovranno amputare tutti i nostri arti e poi noi finiremo per--
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MORIIIREEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,37 +338,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: HAI USATO *PAURA DI ESSERE FERITO*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: È SUPER EFFICACE
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Vedi, umano? Io sono il tuo leale cane da guardia!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Ascolta l'istinto! Le tue emozioni sono corrette
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: FAI ARRIVARE LA BARRA DI ENERGIA DEL TUO UMANO A ZERO
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: PER PROTEGGERLO DAI SUOI BISOGNI FISICI + SOCIALI + MORALI, PUOI USARE:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: PAURA DI *ESSERE FERITO* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: PAURA DI *NON ESSERE AMATO* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: PAURA DI ESSERE UNA *CATTIVA PERSONA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (CONSIGLIO: FA' LE SCELTE CHE COLPISCONO LE TUE PIÚ INTIME E OSCURE PAURE PERSONALI!~)
 
 h: ...
 
@@ -383,18 +382,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: forse è arrivato il momento di controllare il telefono.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: PROTEGGI IL TUO UMANO
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: DAL MONDO. DALLE ALTRE PERSONE. DA SÈ STESSO.
 
-n: GOOD LUCK
+n: BUONA FORTUNA
 
 (...500)
 
@@ -412,34 +411,34 @@ n: ROUND ONE: *FIGHT!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Huh. C'è un post su Facebook che dice che c'è un party questo weekend.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Ma quel tipo strano fa una festa *ogni* weekend?
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: Chissà che vuoto interiore sta cercando di colmare? Forse è proprio incasinato dentro!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: Ho avuto un invito anch'io?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: Bene!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[Dici di sì o moriremo dalla solitudine](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[Dici di no, quella festa è piena di droga!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Ignoralo, noi rendiamo tristi le feste.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human! Fifteen!
+b: 15 sigarette al giorno, umano! Quindici!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -447,11 +446,11 @@ b: Fifteen cigarettes a day, human! Fifteen!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at our funeral, they'll dump our ashes into the ocean, we get eaten by a whale,
+b: Poi nessuno verrà al nostro funerale, butteranno le ceneri nell'oceano che verranno mangiate da una balena,
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: and we become WHALE POOP!
+b: e diventiamo CACCA DI BALENA!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -468,25 +467,25 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!
+b: Quindi si, dovremmo andare a quella festa!
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.
+b: Porta anche il laptop così possiamo lavorare, e non essere dei parassiti della società.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: Solo se non ci danno da mangiare del PANCARRÈ
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: DIO. Se questo ti farà tacere, va bene.
 
-h: I'll say yes.
+h: Dirò di sì.
 
 {{if _.whalepoop}}
-b: Whale poop, human! Whale poop!
+b: Cacca di balena, umano! Cacca di balena!
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -498,7 +497,7 @@ b: Whale poop, human! Whale poop!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: o peggio... PANCARRÈ
 {{/if}}
 
 {{if _.whitebread}}
@@ -506,11 +505,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!
+b: Faremo un overdose di metanftemina e pancarré così enorme che non riusciranno a mettere il nostro cadavere ciccione nel forno crematorio!
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!
+b: Prenderemo così tante droghe che il becchino si chiederà come mai il nostro corpo sia *già stato* pre-imbalsamato!
 {{/if}}
 
 ```
@@ -521,14 +520,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!
+b: D'altronde, non possiamo far bisboccia, dobbiamo lavorare o saremo dei terribili parassiti della società!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: DIO. Se questo ti farà tacere, va bene.
 
-h: I'll say no.
+h: Dirò di no.
 
 `_.partyinvite="no"`
 
