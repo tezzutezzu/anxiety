@@ -1,262 +1,340 @@
 <!DOCTYPE html>
 <html>
-<head>
-	
-	<!-- THE BIG META -->
-	<title>Adventures With Anxiety!</title>  <!-- TRANSLATE -->
-	<meta name="description" content="A story-game about a human and their anxiety. You play as the anxiety." />  <!-- TRANSLATE: content -->
-	<link rel="icon" type="image/png" href="favicon.png">
+  <head>
+    <!-- THE BIG META -->
+    <title>Adventures With Anxiety!</title>
+    <!-- TRANSLATE -->
+    <meta
+      name="description"
+      content="A story-game about a human and their anxiety. You play as the anxiety."
+    />
+    <!-- TRANSLATE: content -->
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-	<!-- Twitter Card data -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@ncasenmare">
-	<meta name="twitter:title" content="Adventures With Anxiety!">  <!-- TRANSLATE: content -->
-	<meta name="twitter:description" content="A story-game about a human and their anxiety. You play as the anxiety.">  <!-- TRANSLATE: content -->
-	<meta name="twitter:image" content="https://ncase.me/anxiety/sharing/thumb.png">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ncasenmare" />
+    <meta name="twitter:title" content="Adventures With Anxiety!" />
+    <!-- TRANSLATE: content -->
+    <meta
+      name="twitter:description"
+      content="A story-game about a human and their anxiety. You play as the anxiety."
+    />
+    <!-- TRANSLATE: content -->
+    <meta
+      name="twitter:image"
+      content="https://ncase.me/anxiety/sharing/thumb.png"
+    />
 
-	<!-- Open Graph data -->
-	<meta property="og:title" content="Adventures With Anxiety!">  <!-- TRANSLATE: content -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://ncase.me/anxiety/">
-	<meta property="og:image" content="https://ncase.me/anxiety/sharing/thumb.png">
-	<meta property="og:description" content="A story-game about a human and their anxiety. You play as the anxiety.">  <!-- TRANSLATE: content -->
-	<meta property="og:site_name" content="Adventures With Anxiety!">  <!-- TRANSLATE: content -->
-	
-	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="styles/game.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Adventures With Anxiety!" />
+    <!-- TRANSLATE: content -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ncase.me/anxiety/" />
+    <meta
+      property="og:image"
+      content="https://ncase.me/anxiety/sharing/thumb.png"
+    />
+    <meta
+      property="og:description"
+      content="A story-game about a human and their anxiety. You play as the anxiety."
+    />
+    <!-- TRANSLATE: content -->
+    <meta property="og:site_name" content="Adventures With Anxiety!" />
+    <!-- TRANSLATE: content -->
 
-</head>
-<body>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="styles/game.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!-- - - - - - - - - - - - - - - - - - -->
+    <!-- THE GAME ITSELF, FRONT AND CENTER -->
+    <!-- - - - - - - - - - - - - - - - - - -->
 
-<!-- - - - - - - - - - - - - - - - - - -->
-<!-- THE GAME ITSELF, FRONT AND CENTER -->
-<!-- - - - - - - - - - - - - - - - - - -->
+    <div id="game_container">
+      <!-- The main game -->
+      <canvas id="game_canvas"></canvas>
+      <div id="game_words"></div>
+      <div id="game_hp"></div>
+      <div id="game_choices"></div>
 
-<div id="game_container">
-	
-	<!-- The main game -->
-	<canvas id="game_canvas"></canvas>
-	<div id="game_words"></div>
-	<div id="game_hp"></div>
-	<div id="game_choices"></div>
+      <!-- Click to Advance-->
+      <div id="click_to_advance">
+        <span id="cta_text1">
+          <div class="mini-icon" pic="click" style="top:3px;"></div>
+          <span id="instructions_if_not_mobile">
+            click o barra spaziatrice
+          </span>
+          <span id="instructions_if_mobile" style="display:none">
+            fai tap ovunque
+          </span>
+        </span>
+        <span id="cta_text2">
+          <div class="mini-icon" pic="next"></div>
+        </span>
+      </div>
 
-	<!-- Click to Advance-->
-	<div id="click_to_advance">
-		<span id="cta_text1">
-			<div class="mini-icon" pic="click" style="top:3px;"></div>
-			<span id="instructions_if_not_mobile">
-				click or spacebar <!-- TRANSLATE THIS -->
-			</span>
-			<span id="instructions_if_mobile" style="display:none">
-				tap anywhere <!-- TRANSLATE THIS -->
-			</span>
-		</span>
-		<span id="cta_text2">
-			<div class="mini-icon" pic="next"></div>
-		</span>
-	</div>
+      <!-- HACK: SPECIAL ATTACK -->
+      <div id="special_attack"></div>
 
-	<!-- HACK: SPECIAL ATTACK -->
-	<div id="special_attack"></div>
+      <!-- Bottom Corner Tabs -->
+      <div
+        id="gear"
+        style="display:none"
+        onclick="publish('show_options'); sfx('ui_button1');"
+      >
+        <div class="icon">
+          <div class="mini-icon" pic="gear"></div>
+        </div>
+      </div>
+      <div id="huh" style="display:none">
+        <div class="icon">
+          <div class="mini-icon" pic="about"></div>
+        </div>
+      </div>
 
-	<!-- Bottom Corner Tabs -->
-	<div id="gear" style="display:none" onclick="publish('show_options'); sfx('ui_button1');">
-		<div class="icon">
-			<div class="mini-icon" pic="gear"></div>
-		</div>
-	</div>
-	<div id="huh" style="display:none">
-		<div class="icon">
-			<div class="mini-icon" pic="about"></div>
-		</div>
-	</div>
+      <!-- Paused Screen -->
+      <div id="paused">
+        <div>
+          <!-- TRANSLATE THIS -->
+          pausa
+          <div>clicca ovunque per continuare a dare di matto</div>
+        </div>
+      </div>
 
-	<!-- Paused Screen -->
-	<div id="paused">
-		<div>
-			<!-- TRANSLATE THIS -->
-			paused
-			<div>click anywhere to keep freaking out</div>
-		</div>
-	</div>
+      <!-- LOADING -->
+      <div id="loading">
+        <div id="loading_bar">
+          <div id="loading_bar_bg"></div>
+          <div id="loading_pic"></div>
+        </div>
+      </div>
 
-	<!-- LOADING -->
-	<div id="loading">
-		<div id="loading_bar">
-			<div id="loading_bar_bg"></div>
-			<div id="loading_pic"></div>
-		</div>
-	</div>
+      <!-- CONTENT NOTES -->
+      <div id="content_notes">
+        <!-- TRANSLATE THIS -->
+        <p style="margin-top: 0.6em;">
+          <i style="color:#ff4040">Avventure Con l'Ansia</i> parla
+          sostanzialmente dell'ansia.
+        </p>
+        <p>
+          Ho fatto questo <i>per</i> persone afflitte da disturbi d'ansia, come
+          me. Spero che riesca a mostrare – con un po' di humour – come funziona
+          l'ansia. E che riesca, forse, a ridurre la paura della paura stessa.
+        </p>
+        <p>
+          Ci sono anche delle figure stilizzate e un lupo iperattivo. Buon
+          divertimento!
+        </p>
+        <p style="color:#999; font-size: 16px; line-height: 1.3em;">
+          altre note: abuso d'alcohol, scene di sesso<span
+            class="hide-if-cuss-free"
+            >, e @✩$!tante parolacce</span
+          >
+        </p>
+        <p>
+          <a target="_blank" href="https://ncase.me/mental-health/"
+            >risorse sulla salute mentale (in inglese)</a
+          >
+          &#x1f517;
+        </p>
+        <div id="cn_ok" onclick="publish('hide_cn');" style="float:none">
+          ok
+          <div class="mini-icon" pic="ok" style="top: 3px;"></div>
+        </div>
+      </div>
 
-	<!-- CONTENT NOTES -->
-	<div id="content_notes">
+      <!-- ABOUT -->
+      <div id="about">
+        <!-- about=yes-->
+        <div id="about_words">
+          <!-- TRANSLATE THIS -->
+          <div style="font-size: 40px; margin-top: 42px; line-height: 30px;">
+            mental health
+            <a href="https://ncase.me/mental-health/" target="_blank"
+              >risorse</a
+            >
+          </div>
 
-		<!-- TRANSLATE THIS -->
-		<p style="margin-top: 0.6em;">
-			<i style="color:#ff4040">Adventures With Anxiety</i> is about, well, anxiety.
-		</p>
-		<p>
-			But I've made this <i>for</i> folks with anxiety disorder, like myself.
-			I hope it can help you see – with humor – how anxiety works.
-			And, just maybe, reduce the fear of fear itself.
-		</p>
-		<p>
-			There's also badly-drawn stick figures and a hyperactive wolf.
-			Enjoy!
-		</p>
-		<p style="color:#999; font-size: 16px; line-height: 1.3em;">
-			other notes: alcohol abuse, sexuality<span class="hide-if-cuss-free">, a @✩$!load of swearing</span>
-		</p>
-		<p>
-			<a target="_blank" href="https://ncase.me/mental-health/">mental health tips &amp; resources</a>
-			&#x1f517;
-		</p>
-		<div id="cn_ok" onclick="publish('hide_cn');" style="float:none">
-			ok <div class="mini-icon" pic="ok" style="top: 3px;"></div>
-		</div>
+          <div style="margin-top: 26px; color: #999;">
+            &mdash; or &mdash;
+          </div>
 
-	</div>
+          <div
+            style="font-size: 25px; text-align: left; width: 170px;
+						margin-left: 165px; line-height: 25px; margin-top: 31px;"
+          >
+            <!-- TRANSLATE ALL THIS -->
+            <div>
+              play more of
+              <a href="https://ncase.me" target="_blank">la mia roba</a>
+            </div>
+            <div style="margin-top: 32px;">
+              throw coins<br />at me
+              <a href="https://www.patreon.com/ncase" target="_blank"
+                >su Patreon</a
+              >
+            </div>
+            <div style="margin-top: 28px;">
+              date piacere ai vostri fori auditivi con la
+              <a
+                href="https://chezmonplaisir.bandcamp.com/album/anxiety"
+                target="_blank"
+                >soundtrack originale</a
+              >
+              di Monplaisir.
+            </div>
+          </div>
 
-	<!-- ABOUT -->
-	<div id="about"><!-- about=yes-->
-		<div id="about_words">
-		
-			<!-- TRANSLATE THIS -->
-			<div style="font-size: 40px; margin-top: 42px; line-height: 30px;">
-				mental health
-				<a href="https://ncase.me/mental-health/" target="_blank">resources</a>
-			</div>
+          <div id="replay"></div>
 
-			<div style="margin-top: 26px; color: #999;">
-				&mdash; or &mdash;
-			</div>
-			
-			<div style="font-size: 25px; text-align: left; width: 170px;
-						margin-left: 165px; line-height: 25px; margin-top: 31px;">
-				
-				<!-- TRANSLATE ALL THIS -->
-				<div>
-					play more of
-					<a href="https://ncase.me" target="_blank">my shtuff</a>
-				</div>
-				<div style="margin-top: 32px;">
-					throw coins<br>at me
-					<a href="https://www.patreon.com/ncase" target="_blank">on Patreon</a>
-				</div>
-				<div style="margin-top: 28px;">
-					please your ear-holes with Monplaisir's
-					<a href="https://chezmonplaisir.bandcamp.com/album/anxiety" target="_blank">original soundtrack</a>
-				</div>
+          <div style="clear:both;"></div>
+          <div
+            id="close_about"
+            style="margin: 0; float: right; margin-top: 20px;"
+          >
+            close
+          </div>
+          <!-- TRANSLATE -->
+        </div>
+      </div>
 
-			</div>
+      <!-- OPTIONS -->
+      <div id="options">
+        <div style="width: 150px; height: 63px; float: left;">
+          <div id="text_speed_preview"></div>
+          <input
+            id="text_speed_slider"
+            type="range"
+            min="0"
+            value="0.5"
+            max="1"
+            step="0.01"
+          />
+        </div>
+        <div style="float: right; width: 135px; height: 63px;">
+          <!-- TRANSLATE THIS -->
+          And advance
+          <div id="text_automatic_toggle">on click</div>
+        </div>
+        <div style="clear:both"></div>
+        <span id="volume_options">
+          <div>Volume:</div>
+          <!-- TRANSLATE -->
+          <input
+            id="volume_slider"
+            type="range"
+            min="0"
+            max="1"
+            value="1"
+            step="0.01"
+          />
+        </span>
+        <div id="options_ok">
+          ok
+          <div class="mini-icon" pic="ok" style="top: 3px;"></div>
+          <!-- TRANSLATE -->
+        </div>
+      </div>
 
-			<div id="replay"></div>
+      <!-- Dialogue position debugging elements -->
+      <div
+        class="debug"
+        style="position: absolute; width: 5px; height: 250px; background: red;"
+      ></div>
+      <div
+        class="debug"
+        style="position: absolute; width: 5px; height: 80px; background: white;"
+      ></div>
+    </div>
 
-			<div style="clear:both;"></div>
-			<div id="close_about" style="margin: 0; float: right; margin-top: 20px;">close</div> <!-- TRANSLATE -->
+    <div class="debug" id="section_debug_list"></div>
 
-		</div>
-	</div>
+    <!-- - - - - - - - - - - - - - - - - - -->
+    <!-- SHTUFF IN THE CORNER - - - - - - - -->
+    <!-- - - - - - - - - - - - - - - - - - -->
 
-	<!-- OPTIONS -->
-	<div id="options">
-		<div style="width: 150px; height: 63px; float: left;">
-			<div id="text_speed_preview"></div>
-			<input id="text_speed_slider" type="range" min=0 value=0.5 max=1 step="0.01"/>
-		</div>
-		<div style="float: right; width: 135px; height: 63px;">
-			<!-- TRANSLATE THIS -->
-			And advance
-			<div id="text_automatic_toggle">on click</div>
-		</div>
-		<div style="clear:both"></div>
-		<span id="volume_options">
-			<div>Volume:</div> <!-- TRANSLATE -->
-			<input id="volume_slider" type="range" min=0 max=1 value=1 step="0.01"/>
-		</span>
-		<div id="options_ok">
-			ok <div class="mini-icon" pic="ok" style="top: 3px;"></div> <!-- TRANSLATE -->
-		</div>
-	</div>
+    <!-- TRANSLATE ALL OF THIS -->
 
-	<!-- Dialogue position debugging elements -->
-	<div class='debug' style='position: absolute; width: 5px; height: 250px; background: red;'></div>
-	<div class='debug' style='position: absolute; width: 5px; height: 80px; background: white;'></div>
+    <div class="corner-text" id="topleft">
+      Creato da
+      <a href="https://ncase.me/" target="_blank">Nicky Case</a>
+      <br />
+      Musica di
+      <a href="https://loyaltyfreakmusic.com" target="_blank">Monplaisir</a>
+      <br />
+      Extra codice di
+      <a href="https://spacie.me/" target="_blank">Spacie</a>
+      <br />
+      <a href="https://github.com/ncase/anxiety#full-credits" target="_blank"
+        >Crediti</a
+      >
+    </div>
 
-</div>
+    <div class="corner-text" id="bottomleft">
+      <img src="sprites/about/cc0.png" height="30" style="opacity:0.7" />
+      <br />
+      Sei libero di ri-usare e fare un &amp; remix di questo gioco per qualsiasi
+      uso!
+      <a href="https://github.com/ncase/anxiety#public-domain" target="_blank"
+        >(huh?)</a
+      >
+      <br />
+      <a href="https://github.com/ncase/anxiety" target="_blank">Codice</a>
+    </div>
 
-<div class="debug" id="section_debug_list"></div>
+    <div class="corner-text" id="topright">
+      Condividi su un'app portatrice d'ansia:
+      <span id="sharing_title">
+        Avventure Con l'Ansia!
+      </span>
+      <span id="sharing_desc">
+        Ho appena giocato a questo gioco che parla di un umano e della sua
+        ansia! Tu *sei* l'ansia. 😱
+      </span>
+      <div id="share">
+        <a
+          id="share_link_fb"
+          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fncase.me%2Fanxiety%2F"
+          target="_blank"
+          class="no_deco"
+        >
+          <div id="share_fb"></div>
+        </a>
+        <a
+          id="share_link_tw"
+          href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fncase.me%2Fanxiety%2F&text=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
+          target="_blank"
+          class="no_deco"
+        >
+          <div id="share_tw"></div>
+        </a>
+        <a
+          id="share_link_em"
+          href="mailto:?subject=Adventures%20with%20Anxiety!&body=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
+          target="_blank"
+          class="no_deco"
+        >
+          <div id="share_em"></div>
+        </a>
+      </div>
+      <br />
+      Per il tuo piacere di condividere:<br />
+      <a href="sharing" target="_blank">Videos &amp; Thumbnails</a>
+    </div>
 
-<!-- - - - - - - - - - - - - - - - - - -->
-<!-- SHTUFF IN THE CORNER - - - - - - - -->
-<!-- - - - - - - - - - - - - - - - - - -->
-
-<!-- TRANSLATE ALL OF THIS -->
-
-<div class="corner-text" id="topleft">
-Created by
-<a href="https://ncase.me/" target="_blank">Nicky Case</a>
-<br>
-Music by
-<a href="https://loyaltyfreakmusic.com" target="_blank">Monplaisir</a>
-<br>
-Extra code by
-<a href="https://spacie.me/" target="_blank">Spacie</a>
-<br>
-<a href="https://github.com/ncase/anxiety#full-credits" target="_blank">Full credits</a>
-<br><br>
-No fan-made translations yet!
-<br>
-<a href="https://github.com/ncase/anxiety#how-to-translate" target="_blank">Make one?</a>
-</div>
-
-<div class="corner-text" id="bottomleft">
-<img src="sprites/about/cc0.png" height="30" style="opacity:0.7"/>
-<br>
-You're already free to reuse &amp; remix this for any use!
-<a href="https://github.com/ncase/anxiety#public-domain" target="_blank">(huh?)</a>
-<br>
-<a href="https://github.com/ncase/anxiety" target="_blank">Get the full source code</a>
-</div>
-
-<div class="corner-text" id="topright">
-Share on an anxiety-app:
-<span id="sharing_title">
-	Adventures With Anxiety!
-</span>
-<span id="sharing_desc">
-	I just played this story-game about a human and their anxiety! You play *as* the anxiety. 😱
-</span>
-<div id="share">
-	<a id="share_link_fb" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fncase.me%2Fanxiety%2F" target="_blank" class="no_deco">
-		<div id="share_fb"></div>
-	</a>
-	<a id="share_link_tw" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fncase.me%2Fanxiety%2F&text=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
-		target="_blank" class="no_deco">
-		<div id="share_tw"></div>
-	</a>
-	<a id="share_link_em" href="mailto:?subject=Adventures%20with%20Anxiety!&body=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
-		target="_blank" class="no_deco">
-		<div id="share_em"></div>
-	</a>
-</div>
-<br>
-For your sharing pleasure:<br>
-<a href="sharing" target="_blank">Videos &amp; Thumbnails</a>
-</div>
-
-<div class="corner-text" id="bottomright">
-<a href="https://ncase.me/mental-health/" target="_blank">Mental Health Tips &amp; Resources</a>
-<span class="hide-if-cuss-free">
-	<br><br>
-	<a href="?c=1">Cuss-Free Mode</a><br>
-	(for educators who want to avoid an awkward PTA meeting)
-</span>
-</div>
-
-
-</body>
+    <div class="corner-text" id="bottomright">
+      <a href="https://ncase.me/mental-health/" target="_blank"
+        >Consigli sulla salute mentale &amp; risorse (in inglese)</a
+      >
+      <span class="hide-if-cuss-free">
+        <br /><br />
+        <a href="?c=1">Modalità senza parolacce</a><br />
+        (per gli insegnanti che vogliono evitare imbarazzanti riunioni con i genitori)
+      </span>
+    </div>
+  </body>
 </html>
 
 <!-- SCRIPTS -->
