@@ -1,5 +1,17 @@
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
+
+# Traduzione in italiano
+**TODO**
+- UI
+- immagini
+- act2
+- act3
+- act4
+- credits
+- intermission
+- PROMO
+
 # [Play the interactive story here!](https://ncase.me/anxiety/)
 
 ## Public Domain
