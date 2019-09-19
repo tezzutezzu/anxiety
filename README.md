@@ -3,15 +3,17 @@
 
 # Traduzione in italiano
 **TODO**
-- UI
-- immagini
-- act2
+- ~~index~~
+- ~~act1~~
+- act2 > *in progress*
 - act3
 - act4
 - credits
 - intermission
 - PROMO
 - Readme
+- UI
+- images
 
 # [Play the interactive story here!](https://ncase.me/anxiety/)
 
