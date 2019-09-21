@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: Alla salute!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -30,7 +30,7 @@ publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: Sai, kid...
 
 ```
 publish("act3",["roofhunter",3]);
@@ -44,20 +44,20 @@ publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: Mi sembra di vedere me quando ero più giovane. Quando l'animale nella mia testa mi tormentava.
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: Sento gratitudine nel poter fare lo stesso con te, aiutarti ad uccidere la bestia come ho fatto io.
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: Hey, domanda veloce: obbligo o ver--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -65,7 +65,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: OBBLIGO!
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -73,7 +73,7 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: Haha! Bene.
 
 ```
 publish("act3",["roofhunter",21]);
@@ -81,6 +81,7 @@ publish("act3",["roofhong",4]);
 ```
 
 r: Ok. You see that baby-blue swimming pool down there?
+r: Ok. La vedi quella piscinetta blu lì sotto?
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +89,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: Sì? Sei piani più in basso?
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: Salta.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,32 +109,32 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: Un momento, cosa?
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: L'animale ha cominciato a lagnarsi, vero?
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *Oh nooooo è pericoloso, non farlooooo.*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: Questo è il motivo per cui abbiamo bisogno di ssfiorare la morte! Spassatela! Carpe diem! Sniffa coca dal ^culo^ di un bel bocconcino, #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: Mostra all'animale che non ce ne frega due *^cazzi^* delle sue ^stronz^ate! Buttati.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -141,6 +142,7 @@ publish("act3",["roofhong",13]);
 ```
 
 h2: Uh, but sometimes, um... fear has a point...
+h2: Uh, talvolta, um... fear has a point...
 
 ```
 publish("act3",["roofhunter",5]);
