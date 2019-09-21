@@ -6,7 +6,7 @@
 - ~~index~~
 - ~~act1~~
 - act2 > *in progress*
-- act3 > *in progress - Elsman84*
+- act3
 - act4
 - credits
 - intermission
