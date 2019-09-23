@@ -13,9 +13,28 @@
 - PROMO
 - Readme
 - UI
-- images
+- sprites
+    about
+    ├── cc0.png
+    ├── replay.png
+    ├── share.png
+    └── the_end.png
+    credits
+    ├── end_message.png
+    ├── end_walk.png
+    ├── gramm.png
+    ├── screens.png
+    ├── starring.png
+    └── thanks.png
+    intermission
+    └── youwin.png
+    intro
+    └── intro_logo.png
+    ui
+    ├── fear_captions.png
+    └── preloader.png
 
-# [Play the interactive story here!](https://ncase.me/anxiety/)
+
 
 ## Public Domain
 
