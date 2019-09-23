@@ -7,7 +7,7 @@
 - ~~act1~~
 - ~~act2~~
 - act3 > *in progress*
-- act4
+- ~~act4~~
 - credits
 - intermission
 - PROMO
