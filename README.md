@@ -15,14 +15,11 @@
 - UI
 - sprites
     about
-    ├── cc0.png
-    ├── replay.png
-    ├── share.png
-    └── the_end.png
+    ├── ~~cc0.png~~
+    ├── ~~replay.png~~
+    └── ~~the_end.png~~
     credits
-    ├── end_message.png
-    ├── end_walk.png
-    ├── gramm.png
+    ├── ~~end_message.png~~
     ├── screens.png
     ├── starring.png
     └── thanks.png
