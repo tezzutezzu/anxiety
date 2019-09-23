@@ -5,9 +5,9 @@
 **TODO**
 - ~~index~~
 - ~~act1~~
-- act2 > *in progress*
-- act3
-- act4
+- ~~act2~~
+- act3 > *in progress*
+- ~~act4~~
 - credits
 - intermission
 - PROMO
