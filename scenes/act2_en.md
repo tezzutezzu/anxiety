@@ -23,14 +23,14 @@
 publish("act2",["dee",3]);
 ```
 
-s: Ma hai *visto* quella notizia riguardo quella cosa orribile successa da qualche parte?
+s: But did you *see* that "news story" about that horrible thing happening somewhere?
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: C-ciao...
+h2: h-hi...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +38,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Dio odio le news. Tutto senzionalismo e titoloni acchiappa click.
+a: God I hate the news. It's all sensationalism and clickbait.
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: b-bella festa...
+h2: n... nice party...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Vero, ma sono solo alla ricerca di incentivi. Il *vero* problema sono le persone che ci cliccano su quei titoli.
+s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Chi spargerebbe mai una tale notizia e far sentire male tutti i propri amici?
+s: Who would retweet a terrible news story, and make all their friends feel bad?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh... vero, no?
+a: Ugh, I know right?
 
 (#act2-preamble-end)
 
@@ -78,14 +78,14 @@ a: Ugh... vero, no?
 publish("act2",["dee",3]);
 ```
 
-s: Ma hai *visto* quella notizia che è diventata virale?
+s: But did you *see* that "news story" going viral?
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: c-ciao...
+h2: h-hi...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,14 +93,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Si, completamente falsa. Mi domando come fa la gente a crederci e a condividerla...
+a: Yeah, totally fake. Who would fall for that and retweet it?
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... bella festa...
+h2: n... nice party...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Sul serio. Dai, pronto? fare almeno qualche ricerca per verificarla?
+s: Seriously dude. Like, hello, open up Google and factcheck first?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh,vero?
+a: Ugh, I know right?
 
 (#act2-preamble-end)
 
@@ -127,14 +127,14 @@ a: Ugh,vero?
 publish("act2",["dee",3]);
 ```
 
-s: Come stavo dicendo, il Sistema Industriale Memetico sfrutta i gatti.
+s: Like I was saying, the Meme Industrial Complex exploits cats.
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: c-ciao...
+h2: h-hi...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +142,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elabora questa tua tesi
+a: Elaborate on this thesis.
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: b-bella festa...
+h2: n... nice party...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +157,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Beh, ho visto qualcuno condividere una GIF di un gatto che beveva latte ieri.
+s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: I gatti non digeriscono quella ^merda^ di latte! Chi farebbe mai un retweet di un tale *abuso* sugli animali?
+s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, giusto no?
+a: Ugh, I know right?
 
 (#act2-preamble-end)
 
@@ -182,14 +182,14 @@ a: Ugh, giusto no?
 publish("act2",["dee",1]);
 ```
 
-s: Eh si, non ha mai risposto!
+s: So yeah they never replied back!
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: c-ciao...
+h2: h-hi...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +197,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Anche se avete avuto entrambi un match su Tinder?
+a: Even though you both matched each other on Tinder?
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: b-bella festa...
+h2: n... nice party...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Eh si! Non so, magari pensavano fossi un *serial killer* o qualcosa del genere. Che paranoie.
+s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -237,7 +237,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, vero no?
+a: Ugh, I know right?
 
 (#act2-preamble-end)
 
@@ -249,9 +249,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Ma che ne so, forse pensano che rimorchiare qualcuno non possa riempire il vuoto nel loro cuore?
+s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
 
-s: Finiscila di fare la santarellina! Apri la tua mente...e poi apri le cosce!
+s: Stop being such a prude! Open your mind, then open your legs!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, vero no?
+a: Ugh, I know right?
 
 (#act2-preamble-end)
 
@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Boh! Non era così figo poi, ma sarebbe stata una bella preda!
+s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -302,25 +302,25 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 n: ROUND TWO: *FIGHT!*
 
-[Oh no, tutti ci odiano!](#act2a_social)
+[Oh no they all hate us!](#act2a_social)
 
-[Stavi *fissando* la rossa?](#act2a_perv)
+[Were you *ogling* the redhead?](#act2a_perv)
 
-[Dai, parliamo del significato della vita.](#act2a_meaning)
+[Hey, let's talk about the meaning of life.](#act2a_meaning)
 
 # act2a_social
 
 `bb({eyes:"sad"})`
 
-b: Stiamo affliggendo tutti con la nostra seriosità!
+b: We're bringing down the mood of this party by being such a sad lump!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Stiamo ammazzando l'atmosfera! Siamo degli assassini di atmosfere di primo grado!
+b: We're killing the good vibes! We're committing first-degree vibe-murder!
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Umano, dobbiamo andarcene, *ora*. Prima che--
+b: Human, we have to leave *now* before--
 
 ```
 _.a2_first_danger = 'social';
@@ -333,15 +333,15 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: È molto più attraente di noi, che significa che se solo la *guardiamo* poi---
+b: They're more attractive than us, which means if we even *look* at them, then--
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: SIAMO DEI VISCIDONI
+b: WE'RE CREEPS
 
 `bb({body:"normal"})`
 
-b: Siamo dei vermi, dei viscidi, dei terribili, luridi schifosissimi perv--
+b: We're creepy, evil, bad bad bad terrible terrible perv--
 
 ```
 _.a2_first_danger = 'perv';
@@ -354,31 +354,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: Alla fine, possiamo davvero dire *cosa* importa davvero?
+b: At the end of it all, what can we possibly do that really matters? 
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribuire all'umanità? Tutte le grandi opere deperiscono allo stesso modo di Osimandia. L'amore? Sarà sfaldato dalla morte.
+b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
 
 `bb({eyes:"sad_r"})`
 
-b: E quanta morte c'è attorno a noi! *Noi* moriremo. *Tutti i nostri cari* moriranno.
+b: And how much death there is! *We* will die. *Our loved ones* will die.
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Cavolo, secondo la Seconda Legge della Termodinamica persino il nostro *universo* morirà!
+b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "la morte ci fa apprezzare la vita"? È come dire che la schiavitù è buona perché ci fa apprezzare la libertà!
+b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
 
 `bb({body:"one_up"})`
 
-b: Oh, "sei tu che devi creare il significato della tua vita"? Questo è proprio quello che i complottari e i cospirazionisti fanno!
+b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: La vita non ha senso, la morte non ha senso, persino il *senso* non ha senso! Cosa dovrebbe fare un mortale--
+b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -395,7 +395,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... mi puoi sentire, umano?
+b: Um... can you hear me, human?
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -407,19 +407,19 @@ b: *GASP*
 
 `bb({mouth:"small_talk"})`
 
-b: DEVO AVVERTIRTI CHE...
+b: I MUST WARN YOU ABOUT...
 
-[C'è *ancora* pericolo!](#act2b_louder)
+[*More* of the same danger!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[C'è un *altro* pericolo sociale!](#act2b_different_social)
+[A *different* social danger!](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[C'è un *altro* pericolo morale!](#act2b_different_moral)
+[A *different* moral danger!](#act2b_different_moral)
 {{/if}}
 
-[Stai ignorando il pericolo! È pericoloso!](#act2b_ignore)
+[You're ignoring danger! That's dangerous!](#act2b_ignore)
 
 # act2b_louder
 
@@ -441,13 +441,13 @@ b: DEVO AVVERTIRTI CHE...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: LE EMOZIONI SONO CONTAGIOSE! SE NON TE NE VAI INFETTERAI TUTTI CON LA TUA MALATTIA MENTALE!
+b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
 
-b: Creerai un'epidemia fatale della SINDROME DEL TRISTONE
+b: You'll create a deadly outbreak of SAD LUMP SYNDROME
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: Dobbiamo andare in quarantena per sempre in una piccola stanza con Netflix e consegne di cibo a domicilio!
+b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
 
 ```
 _.a2_second_danger = 'netflix';
@@ -461,7 +461,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: NON FARE IL VISCIDO, È CONTRO LA LEGGE!
+b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -486,11 +486,11 @@ sfx("gravel");
 
 (...501)
 
-b: Legge sul Viscidume, Sezione 74.5: (1) Tutte le persone che continuano a guardare (a) quelle spalle muscolose (b) quel culetto delizioso (2) saranno tacciate di essere
+b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "DEI GRAN PERVERTITI SCHIFOSI"
+b: "A BIG DISGUSTING TRASH PERVERT"
 
 ```
 _.a2_second_danger = 'law';
@@ -504,26 +504,26 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Veramente, anche se hai un nobile scopo nella tua vita, puoi *comunque* continuare a incasinare tutto!
+b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel voleva la pace nel mondo e che i popoli si capissero l'un l'altro. Quindi decise di facilitare le persone a viaggiare
+b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
 
 `bb({eyes:"normal_r"})`
 
-b: Quindi aveva bisogno di creare in modo poco costoso le gallerie per i treni. Quindi ha inventato una cosa chiamata "dinamite"....
+b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: che fu usata nella prima Guerra Mondiale per UCCIDERE MILIONI DI PERSONE
+b: which was used in World War I to KILL MILLIONS OF PEOPLE
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: È L'EFFETTO FARFALLA, UMANO! QUANTE PERSONE STAI INVOLONTARIAMENTE UCCIDENDO ORA?
+b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
 
 ```
-_.a2_escond_danger = 'butterfly';
+_.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
 _.a2_hoodie_callback = "World War I";
 ```
@@ -536,19 +536,19 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: In realtà, sai cosa è peggio dell'essere rifiutato dagli altri? Essere popolare per *tutti*.
+b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: Ovvero, diventare uno di *questi* animali da festa sempre alla ricerca del piacere.
+b: That is, becoming one of *these* pleasure-chasing party animals.
 
 `bb({body:"normal", mouth:"small"})`
 
-b: Una vita superficiale con amici superficiali che hanno ti conoscono solo in modo superficiale!
+b: A shallow life with shallow friends who only know the shallow you!
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Umano, scappiamo da questi zombi ricerca-piacere prima che ci trasformino in uno di loro!
+b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
 
 ```
 _.a2_second_danger = 'zombies';
@@ -564,19 +564,19 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: La gente sta morendo di fame *in questo momento* e noi semplicemente, facciamo festa!
+b: People are dying in famines and genocides *right now* and we're just partying!
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: Un saggio una volta disse: "l'unica cosa necessaria affinché il male trionfi è che la gente comune non faccia nulla."
+b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: NON STIAMO FACENDO NULLA
+b: WE'RE DOING NOTHING.
 
 `bb({mouth:"small"})`
 
-b: FACENDO FESTA, STIAMO AIUTANDO *HITLER*.
+b: BY PARTYING, WE'RE HELPING *HITLER*.
 
 ```
 _.a2_second_danger = 'hitler';
@@ -592,15 +592,15 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: Pensi che sei al sicuro solo perché hai tolto le batterie al rilevatore di monossido di carbonio?
+b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
 
 `bb({eyes:"suspect_r"})`
 
-b: Non sentirai neanche l'odore del gas! Semplicemente ti addormenterai e--
+b: You won't even smell the poison! You'll just get sleepy and then you'll--
 
 `bb({body:"scream_c_1"})`
 
-b: MORIRAIIIIIIIII
+b: DIEEEEEEEEEEEEEEEEEE
 
 ```
 _.a2_second_danger = 'ignore';
@@ -621,29 +621,29 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh finalmente, sembra che tu possa sentirmi di nuovo!
+b: Oh thank goodness human, I think you can hear me again!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: DEVO AVVERTIRTI CHE
+b: I SHALL WARN YOU ABOUT...
 
 {{if _.a2_first_choice=="louder"}}
-[C'è *ancora* pericolo!](#act2c_louder)
+[*Even more* of the same danger!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[C'è *ancora* pericolo!](#act2c_louder)
+[*More* of the same danger!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[C'è un *altro* pericolo sociale!](#act2c_different_social)
+[A *different* social danger!](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[C'è un *altro* pericolo morale!](#act2c_different_moral)
+[A *different* moral danger!](#act2c_different_moral)
 {{/if}}
 
-[Hai controllato il drink prima di berlo?](#act2c_punch)
+[Did you check that punch before drinking?](#act2c_punch)
 
 #act2c_louder
 
@@ -675,15 +675,15 @@ b: DEVO AVVERTIRTI CHE
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: In realtà, Netflix e consegne a domicilio non è abbastanza! Infetteremo anche i ragazzi delle consegne!
+b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: Dobbiamo trasferirci in qualche eremo e farci consegnare il cibo coi droni!
+b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: E poi dovremmo sterilizzare i droni per eliminare i germi della SINDROME DEL TRISTONE
+b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
 
 `_.a2_attack_3 = "alone";`
 
@@ -716,13 +716,13 @@ sfx("gravel");
 
 (...501)
 
-b: Il GRAN VISCIDO PERVERTITO  sarà condannato a 72 ore di gogna
+b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
 
-b: (a meno che le gogne non lo eccitino)
+b: unless they're secretly *into* that sort of thing
 
 `bb({body:"scream_a_1"})`
 
-b: perché sono dei GRAN VISCIDI PERVERTITI
+b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `_.a2_attack_3 = "bad";`
 
@@ -734,19 +734,19 @@ b: perché sono dei GRAN VISCIDI PERVERTITI
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: EFFETTO FARFALLA! Stai usando dei bicchieri di plastica non bio-degradabili?
+b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, PERCOLATI TOSSICI DALLA DISCARICA UCCIDONO UN BAMBINO
+b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: Stai sudando e ti sta scoppiando il cuore?
+b: You're sweating and your heart's pounding?
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, DISTRUGGI IL SISTEMA SANITARIO NAZIONALE E MILIONI DI PERSONE MUOIONO
+b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `_.a2_attack_3 = "bad";`
 
@@ -758,15 +758,15 @@ b: BAM, DISTRUGGI IL SISTEMA SANITARIO NAZIONALE E MILIONI DI PERSONE MUOIONO
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: Questi zombi ricerca-piacere barcolleranno verso di te borbottando,
+b: These pleasure-zombies will stumble towards you mumbling,
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: METTI UN MI PIAAACEEE, METTI UN MI PIAAACEEE
+b: LIIIIIKES. LIIIIIIIIIIKES.
 
 `bb({body:"scream_a_1"})`
 
-b: Poi ti MORDERANNO e ti trasformeranno in uno MACHO SENZACERVELLO e/o una CAGNA SVAMPITA
+b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
 
 `_.a2_attack_3 = "bad";`
 
@@ -778,15 +778,15 @@ b: Poi ti MORDERANNO e ti trasformeranno in uno MACHO SENZACERVELLO e/o una CAGN
 
 `bb({body:"scream_a_1"})`
 
-b: I NAZI SONO RITORNATI A MARCIARE SULLE STRADE
+b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Dicendo *meno male che quelle 'brave persone' scansafatiche si stanno 'rilassando' e 'prendendo cura di sé'!*
+b: Saying, *good thing those 'good folks' slacked off with stuff like 'relaxing' and 'self-care'!*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Ora i nostri piani possono proseguire, appena in tempo!*
+b: *Now our plans can go fourth, reich on schedule!*
 
 `_.a2_attack_3 = "bad";`
 
@@ -798,15 +798,15 @@ b: *Ora i nostri piani possono proseguire, appena in tempo!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: A pensarci, sappiamo se *questo palazzo* ha un rilevatore di monossido di carbonio
+b: Come to think about it, do we know if this building *has* a monoxide detector?!
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: E se ci stessero avvelenando *IN QUESTO MOMENTO*?
+b: What if we're all being poisoned *RIGHT NOW?*
 
 `bb({body:"scream_a_1"})`
 
-b: NON RIUSCIREMMO NEANCHE A VEDERE LA MORTE AVVICINARSI. SEMPLICEMENTE CESSEREMO DI ESISTERE PER SEMP-
+b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER AND EV--
 
 `_.a2_attack_3 = "harm";`
 
@@ -818,15 +818,15 @@ b: NON RIUSCIREMMO NEANCHE A VEDERE LA MORTE AVVICINARSI. SEMPLICEMENTE CESSEREM
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: E se fossimo essenzialmente *incapaci* di essere amati, o di amare?
+b: What if we're just *fundamentally incapable* of ever being loved, or loving another?
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: E se qualcosa si fosse rotto irreversibilmente tanto tempo fa dentro di noi? O magari non è mai esistito?
+b: What if something irreversibly broke inside of us a long time ago? Or never existed in us in the first place?
 
 `bb({body:"scream_a_1"})`
 
-b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI! 
+b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `_.a2_attack_3 = "alone";`
 
@@ -836,19 +836,19 @@ b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: E se fossimo essenzialmente *marci*?
+b: What if we're just *fundamentally rotten?*
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Gli altri almeno hanno una predisposizione a fare del bene, noi quando facciamo del "bene" solo perché ci vergognamo o ci sentiamo in colpa.
+b: Others have an inner drive to do goodness, but we only do "good" out of guilt or shame, if at all.
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: E se fosse nella nostra natura ferire gli altri? E se non potessimo essere *nient'altro* che un peso per coloro che ci sono vicini?
+b: What if it's in our nature to hurt others? What if we can't be anything *other* than a burden to those close to us?
 
 `bb({body:"scream_a_1"})`
 
-b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI! 
+b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `_.a2_attack_3 = "bad";`
 
@@ -858,15 +858,15 @@ b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Non sono irrazionale. La gente droga i drink *per davvero*. Questa è una cosa che succede.
+b: I'm not being irrational. People *do* drug punch bowls. That is an actual thing that actually happens.
 
 `bb({eyes:"suspect"})`
 
-b: Umano, ti fa male la testa? Ti senti le gambe molli? Penso che stiamo morendo.
+b: Human, does your head hurt? Are your limbs limp? I think we're dying.
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH STIAMO MORENDO! MORENDO MORENDO MORENDO MOREN--
+b: AHHH WE'RE DYING! WE'RE DYING WE'RE DYING WE'RE DYI--
 
 `_.a2_attack_3 = "harm";`
 
@@ -898,70 +898,70 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: C^AAAAZZO^!
+h: F^AAACK^!
 
-h: C^AZZ^O C^AZZO^-C^AZZ^O *C^AAAAZZZO^*
+h: F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Evviva Umano! Sono contento che puoi sentirmi di nuovo!
+b: Yay, human! I'm so happy you can hear me again!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
-b: Perché mi stavi ignorando?
+b: Why were you ignoring me?
 
 `hong({body:"facepalm"})`
 
-h: Dio santo, imbecille.
+h: Holy ^hell^, you absolute moron.
 
 `hong({body:"facepalm_2"})`
 
-h: Conosci la storia dei nativi americani?
+h: You know that Native American story?
 
-h: "Ci sono due lupi dentro di te, uno è la speranza, l'altro è la disperazione. Quale lupo vince? Quello a cui dai da mangiare."
+h: "There are two wolves inside you, one is hope, one is despair, which wolf wins? The one you feed."
 
 ```
 hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: Stavo cercando di *farti morire di fame* grande sadica testa di ^cazzo^.
+h: I was trying to *starve* you, you sadistic ^asshole^!
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Chi se ne frega. Mi concentro sul pensiero positivo.
+h: Screw it, I'll do positive affirmations instead.
 
-h: *Io sono amato. Io sono buono. Io sono intelligente. Io sono bello. Io sono speciale.*
+h: *I am loved. I am good. I am smart. I am beautiful. I am special.*
 
 `bb({eyes:"suspect"});`
 
-[Accidenti, che narcisismo!](#act2d_narcissist)
+[Golly, that's so narcissistic!](#act2d_narcissist)
 
-[Sai che il pensiero positivo è stato *confutato?*](#act2d_disproven)
+[Y'know affirmations were *disproven?*](#act2d_disproven)
 
-[Wow. Per piacere non attribuire assurde storie folcloristiche alle popolazioni indigene](#act2d_racist)
+[omg don't credit random stories to indigenous folk](#act2d_racist)
 
 # act2d_disproven
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Anzi, addirittura *è nocivo* per le persone con bassa autostima!
+b: In fact, they actually *backfire* for people with low self-esteem! 
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: È stato stabilito da uno studio scientifico serio, nell'esperimento lo sperimentatore non era al corrente a quale gruppo appartenevano gli esaminati.
+b: It was a well-designed study – randomized controlled trial, experimenter was blinded as to who was in which group.
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Risultato: se soffri di bassa autostima, ripeterti questo tipo di affermazioni ti fa' sentire *peggio* di quando non dici alcun tipo di affermazioni!
+b: Results: if you already had low self-esteem, being asked to repeat affirmations makes you feel *worse* than if you'd said nothing at all!
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Controllalo pure so Google Scholar, umano
+b: Wood 2009, Psychological Science. Look it up on Google Scholar, human,
 
 `bb({body:"scream_b_1"})`
 
-b: ALLORA SMETTILA DI DIFFONDERE DISINFORMAZIONE
+b: THEN STOP SPREADING UNSCIENTIFIC FAKE NEWS
 
 ```
 hong({body:"attacked"});
@@ -977,19 +977,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: *Devi* umilmente constatare le tue limitazioni se vorrai crescere come persona!
+b: You *need* to humbly see your own flaws in order to grow as a person!
 
 `bb({body:"two_up", eyes:"suspect"})`
 
-b: Non puoi semplicemente spruzzare del deodorante in una stanza ammuffita! Coprire i tuoi difetti, a lungo andare, renderà le cose peggiori.
+b: You can't spray air freshener over a moldy room! Covering up your flaws makes you worse in the long run.
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
-b: Per fortuna, io, come tuo lupo da guardia, posso avvertirti dei tuoi difetti. E ora--
+b: Thankfully, I, as your loyal guard-wolf, can alert you to your flaws. And right now, it's-
 
 `bb({body:"scream_b_1"})`
 
-b: TUTTO. TUTTO É SBAGLIATO.
+b: EVERYTHING. EVERYTHING IS WRONG
 
 ```
 hong({body:"attacked"});
@@ -1005,15 +1005,15 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: I nativi americami sono delle *persone*, non dei *selvaggi buoni* che puoi buttare in una conversazione per rendere il tuo consiglio da Bacio Perugina più *esotico*.
+b: Native Americans are *actual people*, not some "noble savages" you can namedrop to make your fortune-cookie advice more *exotic*.
 
 `bb({eyes:"suspect_r"})`
 
-b: Stai riducendo persone e culture complesse a degli slogan da cartolina! Questo è vero e proprio razzismo bonario.
+b: You're reducing individual persons & complex cultures to a Hallmark card! That's "benevolent racism"! 
 
 `bb({body:"scream_b_1"})`
 
-b: FINISCILA DI ESSERE RAZZISTA, STUPIDO SECCHIONE.
+b: STOP BEING RACIST YOU SQUINTY-EYED JERK
 
 ```
 hong({body:"attacked"});
@@ -1027,45 +1027,45 @@ attack("10p", "bad");
 
 # act2e
 
-h: ^PORCA MISERIA^
+h: ^ASSDAMMIT^.
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: Sai cosa? *TU* sei irrazionale.
+h: You know what? You're *irrational*.
 
-h: Tutti sanno che le emozioni sono irrazionali. Specialmente la paura.
+h: Everyone knows emotions are irrational! Especially fear!
 
 `hong({body:"facepalm_2"})`
 
-h: Sei un inutile residuo del processo evolutivo. Come la mia appendice, o il mio dente del giodizio!
+h: You're a useless evolutionary leftover, like my appendix or wisdom teeth!
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: ^Cazzo^, persino questa metafora del lupo da guardia è una stupidaggine! Sei soltanto un pugno di sostanze neuro-chimiche all'interno del mio cervello.
+h: ^Hell^, this whole wolf metaphor is stupid! You're just a bunch of neuro-chemicals in my head.
 
 `hong({body:"cross", mouth:"cross"})`
 
-h: Quindi perché dovrei dare ascolto a un irrazionale, non esistente pezzo di ^merda^ senza valore come te?
+h: So why should I listen to a worthless, irrational, non-existent piece of ^shit^ like you?!
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
 b: ...
 
-[Umano, mi stai facendo davvero del male.](#act2e_hurtful)
+[Jeez, human. That's really hurtful.](#act2e_hurtful)
 
-[Io sono un'emozione e le emozioni hanno senso.](#act2e_valid)
+[I'm a feeling. Feelings are valid.](#act2e_valid)
 
-[Umano, siamo *entrambi* "un pugno di sostanze chimiche."](#act2e_rational)
+[Human, we're *both* "just chemicals."](#act2e_rational)
 
 # act2e_hurtful
 
 `bb({body:"chest"})`
 
-b: Io sono *parte* di te, sai? Quando dici questo, sta in realtà facendo male a te stesso. 
+b: I'm *part* of you, you know. When you say that, you're hurting *yourself*.
 
 `bb({body:"scream_a_1"})`
 
-b: Perché ti fai del male, umano? SMETTI DI FARTI DEL MALE
+b: Why are you hitting yourself, human? STOP HITTING YOURSELF.
 
 ```
 music(null);
@@ -1082,23 +1082,23 @@ attack("10p", "harm");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"});`
 
-b: Le tue più recondite motivazioni sono dopamina, le tue gioie più grandi sono serotonina.
+b: Your deepest motivations are dopamine, your richest joys are serotonin.
 
 `bb({body:"one_up"});`
 
-b: Le tue memorie sono pesi sinaptici, la tua ragione sono segnali elettrici soggetti a guasti.
+b: Your memories are synaptic weights, your reason is fault-prone electrical signals.
 
 `bb({eyes:"normal", body:"normal"});`
 
-b: Quindi se l'essere "solo sostanze chimiche" significa essere irrazionale...beh allora questo significa che *irrazionale* lo sei anche tu!
+b: So if me being "just chemicals" means *I'm* irrational... then that means *you're* irrational!
 
 `bb({body:"two_up", eyes:"shock"});`
 
-b: E se siamo entrambi *irrazionali*, allora non riusciremo *mai* a capire come fare ad essere soddisfatti e felici!
+b: And if we're *both* irrational, then we'll *never* figure out how to be fulfilled and happy!
 
 `bb({body:"scream_a_1"})`
 
-b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI! 
+b: AHHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKEN--
 
 ```
 music(null);
@@ -1115,19 +1115,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Aspetta... "loro" dicono che i sentimenti sono validi, allora dovresti sempre accettare le tue emozioni. 
+b: Hang on... "they" say that feelings are valid, that you should always accept your emotions.
 
 `bb({eyes:"suspect_r"});`
 
-b: Ma "loro" dicono anche che le emozioni sono irrazionali, che non ci si può fidare delle emozioni.
+b: But "they" also say emotions are irrational, that emotions are not to be trusted.
 
 `bb({eyes:"angry"});`
 
-b: O mio dio, "loro" ci hanno ingannato tutto il tempo!
+b: Oh my gosh, "they" have been lying to us this whole time!
 
 `bb({body:"scream_a_1"})`
 
-b: "LORO" CI CIBANO DI CONTRADDIZIONI PER RENDERCI DIPENDENTI DALL'INDUSTRIA DELL'AUTO-AIUTO
+b: "THEY" FEED US CONTRADICTIONS TO MAKE US DEPENDENT ON THE SELF-HELP INDUSTRIAL COMPLEX
 
 ```
 music(null);
@@ -1146,62 +1146,62 @@ attack("10p", "harm");
 
 h: ...
 
-h: Odio tutto questo. Sto male e *odio* tutto questo.
+h: I hate this. God it hurts so much I *hate* this.
 
-h: Non posso placarti. Non posso ignorarti. Non posso combatterti.
+h: I can't appease you. I can't ignore you. I can't fight you. 
 
 `bb({eyes:"suspect"});`
 
-h: Non importa quanti sforzi faccia, non riesco a sbarazzarmi di--
+h: No matter what I do, I can't seem to get rid of yo--
 
 `bb({body:"cry_1"});`
 
-b: Beh, forse NON *DOVRESTI* SBARAZZARTI DI ME.
+b: Well maybe you're NOT *SUPPOSED* TO GET RID OF ME.
 
 `bb({body:"cry_2"});`
 
-b: Come pensi che *IO* mi senta, umano?
+b: How do you think *I* feel, human?!
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: Ce la sto mettendo tutta per essere il tuo lupo da guardia, ma tu continui a vedermi come il Gran Lupo Cattivo!
+b: I'm trying my best to be your guard-dog, but you keep seeing me as some Big Bad Wolf!
 
-b: Quindi io mi sofrzo *ancora di più* per avvertirti del pericolo! *Più* pericoli! *Altri* pericoli!
+b: So I try even *harder* to alert you to danger! *More* danger! *Different* danger!
 
 `bb({eyes:"cry_2"})`
 
-b: Ma non importa quanto io mi impegni, tu credi *ancora* che io sia tuo nemico.
+b: But no matter how hard I try to protect you, you *still* think I'm your enemy!
 
 `bb({body:"cry_5"});`
 
-b: Dove sto sbagliando?!
+b: What am I doing wrong?!
 
 `bb({body:"cry_2"});`
 
-b: Lo *so* che faccio schifo come lupo da guardia. Ma ci sto *provando*, umano!
+b: I *know* I suck at my job. But I'm *trying*, human!
 
 `bb({body:"cry_3"});`
 
-b: ...ci sto provando.
+b: ...I'm trying.
 
 `bb({body:"cry_6", mouth:"right", eyes:"cry_r_1"});`
 
-b: Non devi seguire i miei avvertimenti, o essere d'accordo con me, non devi neanche *apprezzarmi*.
+b: You don't have to heed my warnings, or agree with me, or even *like* me.
 
 `bb({eyes:"cry_r_2"});`
 
-b: Tutto quello che voglio...è che tu sia paziente con me.
+b: I just... all I want is for you to be patient with me.
 
 `bb({eyes:"cry_r_3"});`
 
-b: Vuoi solo che tu ti sieda con me per un po', invece di guardare dall'altro lato e--
+b: I just want for you to sit with me for a while, instead of turning away and--
 
 ```
 bb({eyes:"cry_r_4"});
 hong({body:"listen"});
 ```
 
-r: Ehi..
+r: Hey.
 
 ```
 hong({body:"look"});
@@ -1218,21 +1218,21 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Sembra che tu stia nel bel mezzo di una lotta con te stesso, ragazzo.
+r: Looks like you're caught in a fight with yourself, kid.
 
 ```
 publish("act2",["party_hunter",3]);
 publish("act2",["party_hong",13]);
 ```
 
-h2: Era così ovvio?
+h2: Was it that obvious?
 
 ```
 publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: Eh, stavi parlando da solo di {{_.a2_hoodie_callback}} o qualcosa del genere.
+r: You were, uh, mumbling at your hoodie about {{_.a2_hoodie_callback}} or something.
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1248,7 +1248,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: ho dio, 
+h2: oh god i'm such a mess.
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1256,7 +1256,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Ehi, non sei solo. Essere ansiosi è una cosa molto diffusa.
+r: Hey. You're not alone, friend. Anxiety's super common.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1264,38 +1264,38 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Pensa che proprio ieri ho sentito di uno che ha avuto un esaurimento nervoso e ha scaraventato il telefono al suolo!
+r: Heck, just yesterday, I heard someone on campus had a nervous breakdown and smashed their phone!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Pensa che proprio ieri un tipo si è rannicchiato e si messo a piangere in pubblico!
+r: Heck, just yesterday, I heard someone curled up into an armadillo ball and cried in public!
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
-r: Ascolta, so che vuol dire avere quell'animale in testa.
+r: Listen: I know what it's like to have that animal in your head.
 
 ```
 publish("act2",["party_hunter",8]);
 ```
 
-r: *Tutti* lo sappiamo. Ecco perché dò una festa ogni weekend. Per dimenticarci delle nostre paure e dimenticare quell'animale.
+r: We *all* do. That's why I throw these parties every weekend, to forget our worries, forget that animal.
 
 ```
 publish("act2",["party_hunter",9]);
 publish("act2",["party_hong",20]);
 ```
 
-h2: ma la mia ansia...
+h2: but my anxiety...
 
 ```
 publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Non preoccuparti. Io ero come te. Poi ho trovato un piccolo trucchetto per zittire quella voce negativa...
+r: Don't worry, kid. I used to be like you. But then I found a little trick to get that negative voice to shut up forever...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1325,14 +1325,14 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: La mia miscela personale. È un po' più forte di...beh tutto quello che puoi comprare legalmente in effetti.
+r: My own specialty blend. It's a bit stronger than... well, anything legal really.
 
 ```
 publish("act2",["party_hunter",12]);
 publish("act2",["party_hong",24]);
 ```
 
-r: Alla salute ^beell-lla^!
+r: Bottoms up, ^bee-yatch^!
 
 ```
 hong({body:"hold"});
@@ -1345,11 +1345,11 @@ publish("hp_show");
 
 (...3500)
 
-[O. Mio. Dio.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
+[Oh my God.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Questo non è un buon modo di reagire.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[This is a bad coping mechanism.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Non accettare drink dagli sconosciuti.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Don't take drinks from strangers.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2g_1
 

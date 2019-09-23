@@ -215,35 +215,35 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Quindi quale ^diavolo^ è la morale della storia?
+h: So what the ^hell^ was the moral of this story?
 
 `hong({body:"one_up", eyes:"annoyed"})`
-  
-h: Che cosa abbiamo *imparato*? Io sono stato stupido, i miei "amici" mi hanno usato, e siamo quasi *morti*.
+
+h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Si, per non parlare delle spese mediche.](#act4a_bill)
+[Yeah, not to mention the hospital bill.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Si, per non parlare dei danni al fegato.](#act4a_liver)
+[Yeah, not to mention the liver damage.](#act4a_liver)
 {{/if}}
 
-[Si, quello *era* il peggiore dei casi.](#act4a_worst)
+[Yeah, that *was* the worst-case scenario.](#act4a_worst)
 
-[Si, avevo ragione.](#act4a_right)
+[Yeah, I was right.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Già. Non penso l'assicurazione copra "essere un ^imbecille^".
+h: Right. I don't think my insurance plan covers "being a dumb^ass^".
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: Eppure... siamo sopravvissuti!
+b: And yet... we survived!
 
 `hong({eyes:"normal"});`
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: Di sicuro ci abbiamo rimesso qualche anno di vita...
+b: We definitely shaved a few years off our life expectancy...
 
 `bb({eyes:"surprise"});`
 
-b: Almeno ce *l'abbiamo* ancora una vita! Siamo sopravvissuti!
+b: But at least we still *have* a life expectancy! We survived!
 
 ```
 hong({eyes:"surprise"});
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: Eppure...
+b: And yet...
 
 h: Hm?
 
 `bb({eyes:"surprise"});`
 
-b: Siamo sopravvissuti!
+b: We survived!
 
 (#act4b)
 
@@ -288,7 +288,7 @@ b: Siamo sopravvissuti!
 
 `bb({eyes:"normal_d"});`
 
-b: Ma... avevi ragione pure tu.
+b: But... you were right, too.
 
 `hong({eyes:"surprise"});`
 
@@ -296,11 +296,11 @@ h: Hm?
 
 `bb({eyes:"normal"});`
 
-b: Ero *io* il lupo che gridava "al lupo". E quando il pericolo era *reale*, tu – giustamente – non mi hai creduto.
+b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
 
 `bb({eyes:"surprise_r"});`
 
-b: Eppure, siamo sopravvissuti!
+b: And yet, we survived!
 
 (#act4b)
 
@@ -311,16 +311,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Nonostante tutto, siamo ancora qui.
+b: Despite everything, we're still here.
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: Sembri abbastanza calmo considerando che abbiamo visto la morte in faccia.
+h: You seem pretty calm considering we just had a near-death experience.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Sembri abbastanza calmo considerando che abbiamo *quasi* visto la morte in faccia.
+h: You seem pretty calm considering we just had a *near*-near-death experience.
 {{/if}}
 
 ```
@@ -328,7 +328,7 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Beh, rende tutto il resto meno preoccupante a confronto. Mi ha anche fatto riflettere.
+b: Well, it makes everything else less scary in comparison. It's also got me thinking.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
@@ -338,11 +338,11 @@ h: But me fighting you *also* sucks, because it just makes you yell louder...
 
 `bb({eyes:"normal_r"})`
 
-b: Allora forse...
+b: Then maybe...
 
 `bb({eyes:"normal"})`
 
-h: Forse non dobbiamo litigare.
+h: Maybe we don't have to fight.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,15 +381,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: Non sono il Lupo Cattivo, ma non sono neanche un lupo da guardia.
+b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
 
 `bb({eyes:"sad_d"})`
 
-b: Sono un cane randagio malconcio.
+b: I'm a battered shelter dog.
 
 `bb({eyes:"sad"})`
 
-b: Abbiamo passato dei brutti momenti. Forse trauma o abbandono. Per questo a volte esagero e faccio:
+b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -410,15 +410,15 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: Ma non *voglio* essere un cane codardo! Voglio proteggerti! Voglio essere un bravo cane!
+b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Umano... mi aiutarai ad addomesticare questo lupo?
+b: Human... will you help tame this wolf?
 
 `hong({eyes:"sad"})`
 
-h: Ci... ci proverò.
+h: I... I'll try.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
