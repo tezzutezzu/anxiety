@@ -20,15 +20,15 @@
 	- ~~the_end.png~~
 - credits
 	- ~~end_message.png~~
-	- screens.png
-	- starring.png
-	- thanks.png
+	- ~~screens.png~~
+	- ~~starring.png~~
+	- ~~thanks.png~~
 - intermission
 	- youwin.png
 - intro
 	- intro_logo.png
 - ui
-	- fear_captions.png
+	- ~~fear_captions.png~~
 	- preloader.png
 
 
