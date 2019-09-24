@@ -14,22 +14,22 @@
 - Readme
 - UI
 - sprites
-    about
-    ├── ~~cc0.png~~
-    ├── ~~replay.png~~
-    └── ~~the_end.png~~
-    credits
-    ├── ~~end_message.png~~
-    ├── screens.png
-    ├── starring.png
-    └── thanks.png
-    intermission
-    └── youwin.png
-    intro
-    └── intro_logo.png
-    ui
-    ├── fear_captions.png
-    └── preloader.png
+- about
+	- ~~cc0.png~~
+	- ~~replay.png~~
+	- ~~the_end.png~~
+- credits
+	- ~~end_message.png~~
+	- ~~screens.png~~
+	- ~~starring.png~~
+	- ~~thanks.png~~
+- intermission
+	- youwin.png
+- intro
+	- intro_logo.png
+- ui
+	- ~~fear_captions.png~~
+	- preloader.png
 
 
 
