@@ -15,21 +15,21 @@
 - UI
 - sprites
     about
-    ├── ~~cc0.png~~
-    ├── ~~replay.png~~
-    └── ~~the_end.png~~
+    	~~cc0.png~~
+    	~~replay.png~~
+    	~~the_end.png~~
     credits
-    ├── ~~end_message.png~~
-    ├── screens.png
-    ├── starring.png
-    └── thanks.png
+    	~~end_message.png~~
+    	screens.png
+    	starring.png
+    	thanks.png
     intermission
-    └── youwin.png
+    	youwin.png
     intro
-    └── intro_logo.png
+    	intro_logo.png
     ui
-    ├── fear_captions.png
-    └── preloader.png
+    	fear_captions.png
+    	preloader.png
 
 
 
