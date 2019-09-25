@@ -774,7 +774,7 @@ h: Uh, foto di ieri sera. Quindi *ecco* come sono quelle feste.
 
 h: Uff! Sembra troppo affollato per la mia ansia.
 
-h: Forse avrei dovuto accettare l'invito?
+h: Forse non avrei dovuto accettare l'invito?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
@@ -783,7 +783,7 @@ bb({mouth:"normal", eyes:"normal"});
 
 [Cambio la nostra risposta? Come degli stupidi?!](#act1e_yes_dontchange)
 
-[Cambio la nostra risposta? È troppo affollato!](#act1e_yes_changetono)
+[Cambio la nostra risposta! È troppo affollato!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
 [Eh si, definitivamente un subtweet su di me.](#act1e_ignore_subtweet)
@@ -892,7 +892,7 @@ h: Forse non avrei dovuto dire di no all'invito?
 
 [Cambio la nostra risposta? Come degli stupidi?!](#act1e_no_dontchange)
 
-[Cambio la nostra risposta? Almeno non moriamo da soli](#act1e_no_changetoyes)
+[Cambio la nostra risposta! Almeno non moriamo da soli](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
 [Eh si, definitivamente un subtweet su di me.](#act1e_ignore_subtweet)
@@ -1334,7 +1334,7 @@ h: ...
 
 (...500)
 
-h: Sono stufa di questo gioco
+h: Ne ho abbastanza di questo gioco
 
 (...700)
 
@@ -1351,7 +1351,7 @@ h:
 {{if _.catmilk}}"i gatti non digeriscono il latte"... {{/if}}
 {{if _.pokemon}}"una ^fottuta^ parodia della sigla dei Pokemon"... {{/if}}
 
-h: voglo solo vivere la mia vita
+h: voglio solo vivere la mia vita
 
 h: voglio solo liberarmi da questo, dolore.
 
@@ -1367,7 +1367,7 @@ b: Andrà tutto bene.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Come tuo fedele lupo da guardia, sarò sempre in allerta, e farò il mio meglio per tenerti al sicuro.
+b: Come tuo fedele lupo da guardia, sarò sempre in allerta, e farò del mio meglio per tenerti al sicuro.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
