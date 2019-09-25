@@ -332,9 +332,9 @@ b: Beh, rende tutto il resto meno preoccupante a confronto. Mi ha anche fatto ri
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: If me fighting you sucks, perché non ti protegge...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: But me fighting you *also* sucks, perché ti fa solo urlare di piu'...
 
 `bb({eyes:"normal_r"})`
 
@@ -422,23 +422,23 @@ h: Ci... ci proverò.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: Okay. Un rapporto sano con le emozioni. I rapporti hanno bisogno di comunicazione. Quindi, comunichiamo.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: I prossimi cinque minuti saranno super sdolcinati, ma proviamoci finché non ci riusciamo.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: Caro lupo interiore...*Tu* come stai?
 
 n2: TOTAL FEARS USED:
 
 n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: DI QUALE PAURA VUOI PARLARE PRIMA? (POSSIAMO PARLARE DELLE ALTRE DOPO)
 
 ```
 _.a4_fears_discussed = 0;
@@ -462,69 +462,69 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: Voglio proteggere il tuo bisogno di incolumità fisica,
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: Ma il *mondo intero* sembra così pericoloso. Pieno di tragedie e male.
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Non so, ne ho abbastanza di decidere *io* cosa dire. *Tu* cosa hai da dire, umano?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Tocca di nuovo a te, umano. Che ne pensi?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Altri pensieri, umano?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[Hai ragione. Ci dobbiamo proteggere.](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[Esponiamoci a *più* pericoli.](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Grazie.](#act4_thanks) `_.thanks_for = "physical safety";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: Ma... come? Io ho zanne e artigli, ma sono solo una metafora.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: Potremmo imparare auto-difesa? Unirci ad un gruppo che si protegge a vicenda? Migliorare la nostra salute e limiti?
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: Forse, ma...
 
-[Where do we even start?](#act4_harm_skills_start)
+[E da dove iniziamo?](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[E se neanche questo funziona?](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[E se esageriamo con la "sicurezza"?](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: C'è cosi tanto da fare, tanto che dobbiamo correggere. Da dove iniziamo?
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: Iniziamo adesso.
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
@@ -535,19 +535,19 @@ bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: Ci stiamo esercitanto a comunicare in questo momento. Che ci aiuterá a percepire il pericolo con meno falsi positivi,
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: *Che* ci aiuterá a proteggerci dal dolore!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: Perciò: questo *è* un corso di auto-difesa.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: Huh. Mi aspettavo piú di questo:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: Vero, non c'é modo di proteggerci al 100%...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: Ma anche un miglioramento dell' 1% vale la pena, giusto?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: Vedi il bicchiere non come vuoto al 99%, ma pieno all' 1%?
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: Che é ancora un bene prezioso se sei bloccato in mezzo al deserto.
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: Beh. Alla goccia, allora.
 
 (#act4_something_else)
 
