@@ -100,7 +100,7 @@ publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... bella festa...
+h2: B... bella festa...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -1005,7 +1005,7 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: I nativi americami sono delle *persone*, non dei *selvaggi buoni* che puoi buttare in una conversazione per rendere il tuo consiglio da Bacio Perugina più *esotico*.
+b: I nativi Americani sono delle *persone*, non dei *selvaggi buoni* che puoi buttare in una conversazione per rendere il tuo consiglio da Bacio Perugina più *esotico*.
 
 `bb({eyes:"suspect_r"})`
 
@@ -1045,7 +1045,7 @@ h: ^Cazzo^, persino questa metafora del lupo da guardia è una stupidaggine! Sei
 
 `hong({body:"cross", mouth:"cross"})`
 
-h: Quindi perché dovrei dare ascolto a un irrazionale, non esistente pezzo di ^merda^ senza valore come te?
+h: Quindi perché dovrei dare ascolto a un irrazionale, inesistente pezzo di ^merda^ senza valore come te?
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
@@ -1166,7 +1166,7 @@ b: Come pensi che *IO* mi senta, umano?
 
 b: Ce la sto mettendo tutta per essere il tuo lupo da guardia, ma tu continui a vedermi come il Gran Lupo Cattivo!
 
-b: Quindi io mi sofrzo *ancora di più* per avvertirti del pericolo! *Più* pericoli! *Altri* pericoli!
+b: Quindi io mi sforzo *ancora di più* per avvertirti del pericolo! *Più* pericoli! *Altri* pericoli!
 
 `bb({eyes:"cry_2"})`
 

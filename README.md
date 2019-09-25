@@ -4,8 +4,8 @@
 # Traduzione in italiano
 **TODO**
 - ~~index~~
-- ~~act1~~
-- ~~act2~~
+- act1 > *in review*
+- act2 > *in progress*
 - act3 > *in progress*
 - act4 > *in progress*
 - ~~intermission~~

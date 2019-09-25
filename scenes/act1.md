@@ -1590,9 +1590,9 @@ n: SCEGLI LA TUA MOSSA FINALE
 
 n: *COLPO DI GRAZIA*
 
-[{SCOPPIA: Punisci il tuo insopportabile telefono!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[LOTTA: Punisci il tuo insopportabile telefono!](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{SCAPPA: Rannicchiati in un angolino e piangi!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[SCAPPA: Rannicchiati in un angolino e piangi!](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
