@@ -23,7 +23,7 @@
 publish("act2",["dee",3]);
 ```
 
-s: Ma hai *visto* quella notizia riguardo quella cosa orribile successa da qualche parte?
+s: Ma hai *letto* quella notizia riguardo quella cosa orribile successa da qualche parte?
 
 ```
 publish("act2",["dee",2]);
@@ -59,7 +59,7 @@ s: Vero, ma sono solo alla ricerca di incentivi. Il *vero* problema sono le pers
 publish("act2",["dee",3]);
 ```
 
-s: Chi spargerebbe mai una tale notizia e far sentire male tutti i propri amici?
+s: Chi spargerebbe mai una notizia del genere e far star male tutti i propri amici?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -78,7 +78,7 @@ a: Ugh... vero, no?
 publish("act2",["dee",3]);
 ```
 
-s: Ma hai *visto* quella notizia che è diventata virale?
+s: Ma hai *letto* quella notizia che si sta spargendo?
 
 ```
 publish("act2",["dee",2]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Sul serio. Dai, pronto? fare almeno qualche ricerca per verificarla?
+s: Sul serio. Dai, ci sei? Ameno fare qualche ricerca per verificarla?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh,vero?
+a: Ugh, vero?
 
 (#act2-preamble-end)
 
@@ -127,7 +127,7 @@ a: Ugh,vero?
 publish("act2",["dee",3]);
 ```
 
-s: Come stavo dicendo, il Sistema Industriale Memetico sfrutta i gatti.
+s: Come stavo dicendo, l'Impianto Industriale Memetico sfrutta i gatti.
 
 ```
 publish("act2",["dee",2]);
@@ -142,7 +142,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elabora questa tua tesi
+a: Elabora un po' questa tua tesi.
 
 ```
 publish("act2",["dum",0]);
@@ -157,13 +157,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Beh, ho visto qualcuno condividere una GIF di un gatto che beveva latte ieri.
+s: Beh, ho visto qualcuno ritwittare una GIF di un gatto che beveva latte ieri.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: I gatti non digeriscono quella ^merda^ di latte! Chi farebbe mai un retweet di un tale *abuso* sugli animali?
+s: I gatti non digeriscono quella ^merda^ di latte! Chi ritwitterebbe un tale *abuso* sugli animali?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, giusto no?
+a: Ugh, vero no?
 
 (#act2-preamble-end)
 
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Eh si! Non so, magari pensavano fossi un *serial killer* o qualcosa del genere. Che paranoie.
+s: Eh si! Non so, magari pensavano fossi un *serial killer* o qualcosa del genere. Che paranoici.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -251,7 +251,7 @@ publish("act2",["dee",3]);
 
 s: Ma che ne so, forse pensano che rimorchiare qualcuno non possa riempire il vuoto nel loro cuore?
 
-s: Finiscila di fare la santarellina! Apri la tua mente...e poi apri le cosce!
+s: Finiscila di fare il santarellino! Apri la mente...e poi apri le cosce!
 
 ```
 publish("act2",["party_hunter",1]);
