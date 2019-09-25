@@ -1248,7 +1248,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: ho dio, 
+h2: Oh, dio...
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1256,7 +1256,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Ehi, non sei solo. Essere ansiosi è una cosa molto diffusa.
+r: Ehi, non sei solo. Essere ansiosi è una cosa molto comune.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1384,34 +1384,33 @@ hong({body:"forward", mouth:"forward"});
 bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 ```
 
-h: Mmm, what an exquisite palette!
+h: Mmm, che bouquet sopraffino!
 
-h: A full-bodied flavor of "shut your mind up," with a subtle aftertaste of "never feel anything ever again"!
+h: Un forte sentore di "fatti gli affari tuoi" con un leggero retrogusto di "non voglio provare mai alcun sentimento"!
 
-b: This is bad, human. This is really, really bad.
+b: Questo è male, umano. Davvero davvero male.
 
-[This is *actually* how addiction starts.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[È *così* che iniziano le dipendenze.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[I *knew* the host was deeply messed up!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Lo sapevo che quello stramboide era incasinato dentro!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Also, they could have drugged that!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
-
+[Ah, e ci potrebbero essere delle droghe lì dentro!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2h_opt1
 
-b: This is *actu*--
+b: Questo è *davv*--
 
 (#act2h)
 
 # act2h_opt2
 
-b: Also, they co--
+b: E, loro p--
 
 (#act2h)
 
 # act2h_opt3
 
-b: I *knew* th--
+b: Lo *sapevo* ch--
 
 (#act2h)
 
@@ -1430,17 +1429,17 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
-h: Delicious, *and* cheaper than therapy!
+h: Delizioso, *e* più economico della terapia!
 
-b: HUMAN PLEASE STOP
+b: UMANO TI PREGO FERMATI!
 
 h: Hehehe!
 
-h: And what are *you* gonna do about it, ^asshole^?
+h: Altrimenti *cosa* fai, ^coglione^?
 
-b: I'm so sorry, human.
+b: Scusami, umano.
 
-b: I'm going to have to use my SPECIAL ATTACK
+b: Ma dovrò usare il mio ATTACCO SPECIALE
 
 ```
 bb({body:"special_a"});
@@ -1467,9 +1466,9 @@ hong({body:"forward", mouth:"forward"});
 sfx("charging");
 ```
 
-h: What's this ^crap^?
+h: Cos'è questa ^merda^?
 
-h: You're gonna yap more stupid *words* at me to--
+h: Continuerai ad abbaiare delle *parole* per far--
 
 ```
 bb({body:"special_c"});
@@ -1505,45 +1504,45 @@ setTimeout(function(){
 
 (...2500)
 
-h: WHAT THE ^HELL^ WAS THAT
+h: COSA ^CAZZO^ ERA QUELLO
 
-b: I'm sorry. I needed to show you the consequences.
+b: Mi dispiace. Dovevo mostrarti le conseguenze.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: I COULD *SEE* MY OWN CORPSE. I COULD *FEEL* THE SENSATION OF BEING ACTUALLY DEAD.
+h: POTEVO *VEDERE* IL MIO STESSO CADAVERE. POTEVO *SENTIRE* LA SENSAZIONE DI ESSERE MORTO PER DAVVERO.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY SAID.
+h: POTEVO *VEDERE* LO SGUARDO DISGUSTATO DI TUTTI. POTEVO *SENTIRE* TUTTO CIÒ CHE DICEVANO.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
+h: POTEVO *SENTIRE* LO SCRICCHIOLARE DELLE OSSA. POTEVO *ANNUSARE* IL SANGUE NELL'ARIA.
 {{/if}}
 
-b: I'm sorry, human.
+b: Mi dispiace, umano.
 
 n: *FINISH THEM*
 
-[{FIGHT: Punch the host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[LOTTA: Dai un pugno a quella stramboide.](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Let's get out of here.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[SCAPPA: Vai via da qui.](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
 `bb({ eyes:"angry" });`
 
-b: That psychopath was taking advantage of you.
+b: Quella psicopatica si stava approfittando di te.
 
-b: They were trying to corrupt you, make you as messed up as they are!
+b: Stava cercando di corromperti, di renderti incasinato come lei.
 
 `bb({ body:"yell_angry_1" });`
 
-b: Punch that jerk! Knock their friggin' lights out!
+b: Prendila a pugni! Mandala al tappeto!
 
 `bb({ body:"final_1" });`
 
-b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THE--
+b: A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGN--
 
 `_.a2_ending = "fight";`
 
@@ -1551,15 +1550,15 @@ b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM 
 
 # act2j_flight
 
-b: I *knew* all these partygoers were deeply messed up. They all dull their pain with horrible things!
+b: Lo *sapevo* che tutti quelli che vanno a queste feste erano profondamente incasinati. Cercano di attenuare il loro dolore con delle cose orribili.
 
 `bb({ body:"yell_1" });`
 
-b: And they're tricking you into doing the same thing! They're corrupting you! We need to get out!
+b: E stavano cercando di farti fare la stessa fine! Ti stanno corrompendo! Dobbiamo andare via!
 
 `bb({ body:"final_1" });`
 
-b: GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OU--
+b: VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA--
 
 `_.a2_ending = "flight";`
 
@@ -1588,7 +1587,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: You alright, kid?
+r: Tutto bene, ragazzo?
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1620,7 +1619,7 @@ publish("act2",["dee",6]);
 publish("act2",["dum",6]);
 ```
 
-r: Y-you...
+r: S-sei...
 
 ```
 publish("act2",["party_hunter",23]);
@@ -1630,22 +1629,22 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: are *kinky*.
+r: *perverso*.
 
-r: I like that. Come to my party next weekend, cutie.
+r: Mi piace. Ti invito alla mia prossima festa, carino.
 
 ```
 publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: ok bye, ciao, adios, au revoir
+h2: ok ciao, bye bye, adios, au revoir
 
-r: The animal might have won today, but come back, and I'll mix something even stronger for you!
+r: L'animale ha vinto la battaglia oggi, ma torna e ti farò bere qualcosa di un po' più farte.
 
 h2: sayōnara, auf wiedersehen, zài jiàn, shalom
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Io e te ragazzo, e faremo vedere a quella bestia chi è il capo!
 
 (#act2k_end)
 
@@ -1653,23 +1652,23 @@ r: You and me, kid, we'll show that beast who's boss!
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok sorry i have to run
+h2: ok scusa devo andare.
 
 `publish("act2",["party_hunter",16]);`
 
-r: ^Damn^ it. The animal won today, huh?
+r: Maledizione. L'animale ha vinto oggi, eh?
 
 `publish("act2",["party_hunter",15]);`
 
-h2: no no, just, uh, gotta run a marathon. gotta go fast.
+h2: no, no. Devo fare una maratona, devo andare. E di fretta.
 
 `publish("act2",["party_hunter",19]);`
 
-r: Come to my party next weekend, cutie. I'll mix something even stronger for you.
+r: Vieni alla mia prossima festa, carino e ti farò bere qualcosa di un po' più farte.
 
-h2: ok thanks gonna run run run run run
+h2: ok grazie adesso devo correre correre correre
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Io e te ragazzo, e faremo vedere a quella bestia chi è il capo!
 
 (#act2k_end)
 
@@ -1698,7 +1697,7 @@ b: Human! Are you okay?!
 publish("act2", ["act2_end","next"]);
 ```
 
-b: Gosh, that was *close.* We really could've--
+b: Fiuu, ci siamo andati *vicino.* Avremmo potuto davvero--
 
 ```
 Game.clearText();
@@ -1716,17 +1715,17 @@ sfx("hit");
 
 (...1000)
 
-h: I'm coming back to the party next weekend.
+h: Il prossimo weekend ci ritorno a quella festa.
 
-h: The next time we fight, I'm not just going to *defeat* you...
+h: E la prossima volta che combattiamo, non mi limiterò a farti _perdere_...
 
-h: I'm going to ^fuck^ing *kill* you.
+h: Ma ti *ucciderò* brutto ^bastardo^.
 
 ```
 Game.clearText();
 publish("act2", ["act2_end","next"]);
 sfx("concrete_step1");
-````
+```
 
 (...901)
 
