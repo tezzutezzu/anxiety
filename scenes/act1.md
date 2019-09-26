@@ -785,6 +785,7 @@ bb({mouth:"normal", eyes:"normal"});
 
 [Cambia la nostra risposta! È troppo affollato!](#act1e_yes_changetono)
 
+
 {{if _.subtweet}}
 [Eh si, decisamente un subtweet su di noi.](#act1e_ignore_subtweet)
 {{/if}}
@@ -1334,6 +1335,7 @@ h: ...
 
 (...500)
 
+
 h: Non ne posso più di questo gioco.
 
 (...700)
@@ -1351,7 +1353,7 @@ h:
 {{if _.catmilk}}"i gatti non digeriscono il latte"... {{/if}}
 {{if _.pokemon}}"la ^fottuta^ parodia di una sigla"... {{/if}}
 
-h: voglio solo vivere la mia vita.
+h: voglio solo vivere la mia vita
 
 h: voglio solo liberarmi di questo... dolore.
 
