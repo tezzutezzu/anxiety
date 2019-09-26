@@ -147,6 +147,7 @@ Loader.addSounds([
 		// What's the dialogue?
 		var dialogue = Game.TEXT_SPEED<80 ? "Così  veloce" : "Così lento";
 
+
 		// Put in the text
 		var span, chr;
 		for(var i=0; i<dialogue.length; i++){
