@@ -12,22 +12,18 @@
 - ~~PROMO~~
 - Readme
 - sprites
-	- ~~about~~
-		- ~~cc0.png~~
-		- ~~replay.png~~
-		- ~~the_end.png~~
-	- ~~credits~~
-		- ~~end_message.png~~
-		- ~~screens.png~~
-		- ~~starring.png~~
-		- ~~thanks.png~~
-	- ~~intermission~~
-		- ~~youwin.png~~
-	- intro
-		- intro_logo.png *in review* (tezzutezzu)
-	- ~~ui~~
-		- ~~fear_captions.png~~
-		- ~~preloader.png~~
+    - sharing/thumb.png
+    - ~~sprites/about/cc0.png~~
+    - ~~sprites/about/replay.png~~
+    - sprites/act4/callback.png
+    - ~~sprites/credits/end_message.png~~
+    - sprites/credits/screens.png (add translators)
+    - ~~sprites/credits/starring.png~~
+    - ~~sprites/credits/thanks.png~~
+    - ~~sprites/intermission/youwin.png~~
+    - sprites/intro/intro_logo.png (add translators)
+    - ~~sprites/ui/fear_captions.png~~
+    - ~~sprites/ui/preloader.png~~
 
 
 
