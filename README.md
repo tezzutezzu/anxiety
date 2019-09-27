@@ -4,18 +4,32 @@
 # Traduzione in italiano
 **TODO**
 - ~~index~~
-- ~~act1~~
-- ~~act2~~
+- act1 > *in review*
+- act2 > *in progress*
 - act3 > *in progress*
-- act4
-- credits
-- intermission
-- PROMO
+- act4 > *in progress*
+- ~~intermission~~
+- ~~PROMO~~
 - Readme
-- UI
-- images
+- sprites
+	- about
+		- ~~cc0.png~~
+		- ~~replay.png~~
+		- ~~the_end.png~~
+	- credits
+		- ~~end_message.png~~
+		- ~~screens.png~~
+		- ~~starring.png~~
+		- ~~thanks.png~~
+	- intermission
+		- youwin.png
+	- intro
+		- intro_logo.png
+	- ui
+		- ~~fear_captions.png~~
+		- preloader.png
 
-# [Play the interactive story here!](https://ncase.me/anxiety/)
+
 
 ## Public Domain
 
