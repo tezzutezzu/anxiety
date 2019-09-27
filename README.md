@@ -4,8 +4,8 @@
 # Traduzione in italiano
 **TODO**
 - ~~index~~
-- act1 > *in review*
-- act2 > *in progress*
+- act1 > *in review* (tezzutezzu)
+- act2 > *in review* (Elsman84) 
 - act3 > *in progress*
 - act4 > *in progress*
 - ~~intermission~~
@@ -22,12 +22,12 @@
 		- ~~starring.png~~
 		- ~~thanks.png~~
 	- intermission
-		- youwin.png
+		- ~~youwin.png~~
 	- intro
-		- intro_logo.png
+		- intro_logo.png *in review* (tezzutezzu)
 	- ui
 		- ~~fear_captions.png~~
-		- preloader.png
+		- ~~preloader.png~~
 
 
 
