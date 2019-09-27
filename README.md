@@ -12,20 +12,20 @@
 - ~~PROMO~~
 - Readme
 - sprites
-	- about
+	- ~~about~~
 		- ~~cc0.png~~
 		- ~~replay.png~~
 		- ~~the_end.png~~
-	- credits
+	- ~~credits~~
 		- ~~end_message.png~~
 		- ~~screens.png~~
 		- ~~starring.png~~
 		- ~~thanks.png~~
-	- intermission
+	- ~~intermission~~
 		- ~~youwin.png~~
 	- intro
 		- intro_logo.png *in review* (tezzutezzu)
-	- ui
+	- ~~ui~~
 		- ~~fear_captions.png~~
 		- ~~preloader.png~~
 
