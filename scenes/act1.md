@@ -353,7 +353,7 @@ b: Vedi, umano? Io sono il tuo leale lupo da guardia!
 
 `bb({body:"pride_talk"});`
 
-b: Ascolta l'istinto! Le tue emozioni sono giuste!
+b: Ascolta l'istinto! Le tue emozioni hanno ragione!
 
 `bb({body:"pride"});`
 
@@ -416,7 +416,7 @@ h: Huh. C'è un post su Facebook che dice che c'è un party questo weekend.
 
 `bb({eyes:"uncertain"});`
 
-b: Ma quello stramboide fa una festa *ogni* weekend?
+b: Ma quel matto fa una festa *ogni* weekend?
 
 `bb({eyes:"uncertain_right"});`
 
@@ -447,7 +447,7 @@ b: Quindici sigarette al giorno, umano! Quindici!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Poi nessuno verrà al nostro funerale, butteranno le ceneri nell'oceano, queste verranno mangiate da una balena,
+b: Poi nessuno verrà al nostro funerale, butteranno le ceneri nell'oceano, queste poi verranno mangiate da una balena,
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -481,7 +481,7 @@ b: Solo se non ci faranno mangiare del PANE BIANCO
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: DIO. Se questo ti farà tacere, va bene.
+h: Cristo. Se questo ti farà tacere, va bene.
 
 h: Dirò di sì.
 
@@ -526,7 +526,7 @@ b: D'altronde, non possiamo far bisboccia, dobbiamo lavorare o saremo dei terrib
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: DIO. Se questo ti farà tacere, va bene.
+h: Cristo. Se questo ti farà tacere, va bene.
 
 h: Dirò di no.
 
@@ -599,13 +599,13 @@ h: Comunque. Facebook è troppo per me. Ho bisogno di qualcosa di più tranquill
 
 `hong({eyes:"neutral"});`
 
-h: Che novità su Twitter?
+h: Vediamo cosa c'è su Twitter...
 
 `bb({eyes:"look"});`
 
 [Oh no, che notizia orribile!](#act1d_news)
 
-[Oh no, ma quel tweet si riferisce forse a *noi?*](#act1d_subtweet)
+[Ehi, ma quel tweet si riferisce forse a *noi?*](#act1d_subtweet)
 
 [Ehi, una GIF di un gattino che beve il latte](#act1d_milk)
 
@@ -666,7 +666,7 @@ h: ^Sticazzi^, vediamo cosa c'è su Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: È un subtweet! Un subdolo, infido subtweet! Stanno parlando di me senza menzionarmi!
+b: È un subtweet! Un subdolo, infido subtweet! Stanno parlando di noi senza menzionarci!
 
 `hong({eyes:"annoyed"});`
 
@@ -781,9 +781,9 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Cambiare la nostra risposta? Come fanno gli idioti?!](#act1e_yes_dontchange)
+[Cambiare la nostra risposta? Come degli idioti?!](#act1e_yes_dontchange)
 
-[Cambia la nostra risposta! È troppo affollato!](#act1e_yes_changetono)
+[Cambia la nostra risposta! C'è troppa gente a quel party!](#act1e_yes_changetono)
 
 
 {{if _.subtweet}}
@@ -791,7 +791,7 @@ bb({mouth:"normal", eyes:"normal"});
 {{/if}}
 
 {{if _.badnews}}
-[Aspetta, abbiamo fatto un retweet senza controllare le fonti.](#act1e_ignore_factcheck)
+[Aspetta, ma abbiamo ritwittato senza controllare le fonti?](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
@@ -891,7 +891,7 @@ h: Forse non avrei dovuto dire di no all'invito?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Cambiare la nostra risposta? Come fanno gli idioti?!](#act1e_no_dontchange)
+[Cambiare la nostra risposta? Come degli idioti?!](#act1e_no_dontchange)
 
 [Cambia la nostra risposta! Non morire di solitudine!](#act1e_no_changetoyes)
 
@@ -900,7 +900,7 @@ h: Forse non avrei dovuto dire di no all'invito?
 {{/if}}
 
 {{if _.badnews}}
-[Aspetta, abbiamo fatto un retweet senza controllare le fonti.](#act1e_ignore_factcheck)
+[Aspetta, ma abbiamo ritwittato senza controllare le fonti?](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
@@ -1098,7 +1098,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: quindi siamo pari e patta.
+b: quindi siamo pari.
 
 (#act1f)
 
@@ -1130,7 +1130,7 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Chi se ne frega. Nuova notifica di Tinder.
+h: Uh. Nuova notifica di Tinder.
 
 `bb({eyes:"uncertain"})`
 
@@ -1169,7 +1169,7 @@ b: PERICOLO PERICOLO PERICOLO PERICOLO PERICOLO PERICOLO
 
 [Le persone ci *usano*.](#act1f_used_by_others)
 
-[Stiamo solo *usando* le persone.](#act1f_using_others)
+[*Usiamo* le persone.](#act1f_using_others)
 
 [IL TUO MATCH È UN SERIAL KILLER](#act1f_killer)
 
@@ -1278,7 +1278,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Il fatto è che siamo un verme manipolatore.
+b: Il fatto è che siamo dei vermi manipolatori.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1390,7 +1390,7 @@ h: Ci sono... altre foto di feste.
 
 `hong({mouth:"sad"});`
 
-h: Sembrano tutti così felici. Senza preoccupazioni. Senza ansia.
+h: Sembrano tutti così felici. Senza preoccupazioni. Senza ansie.
 
 `hong({mouth:"anger"});`
 
@@ -1427,11 +1427,11 @@ bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *MERDA*.
+h: VAI A FARTI
 
 `hong({body:"2_you"});`
 
-h: SEI UNA ME*RDA*.
+h: *FOT-TE-RE*.
 
 (...500)
 
