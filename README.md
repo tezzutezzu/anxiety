@@ -4,7 +4,7 @@
 # Traduzione in italiano
 **TODO**
 - ~~index~~
-- act1 > *in review* (tezzutezzu)
+- ~~act1~~
 - act2 > *in review* (Elsman84) 
 - act3 > *in progress*
 - act4 > *in progress*
