@@ -486,9 +486,9 @@ b: Legge sul Viscidume, Sezione 74.5: (1) Tutte le persone che continuano a guar
 b: "DEI GRAN PERVERTITI SCHIFOSI"
 
 ```
-_.a2_second_danger = 'law';
-_.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "the law";
+_.a2_second_danger = 'legge';
+_.a2_attack_2 = "cattivo";
+_.a2_hoodie_callback = "la legge";
 ```
 
 (#act2c)
@@ -897,7 +897,7 @@ h: C^AZZ^O C^AZZO^-C^AZZ^O _C^AAAAZZZO^_
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Evviva Umano! Sono contento che puoi sentirmi di nuovo!
+b: Evviva Umano! Sono contento che tu possa sentirmi di nuovo!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
@@ -1048,7 +1048,7 @@ b: ...
 
 [Io sono un'emozione e le emozioni hanno senso.](#act2e_valid)
 
-[Umano, siamo _entrambi_ "un pugno di sostanze chimiche."](#act2e_rational)
+[Umano, siamo _entrambi_ "un pugno di sostanze chimiche"](#act2e_rational)
 
 # act2e_hurtful
 
@@ -1079,7 +1079,7 @@ b: Le tue più recondite motivazioni sono dopamina, le tue gioie più grandi son
 
 `bb({body:"one_up"});`
 
-b: Le tue memorie sono pesi sinaptici, la tua ragione sono segnali elettrici soggetti a guasti.
+b: Le tue memorie sono pesi sinaptici, la tua ragione è un insieme di segnali elettrici soggetti a guasti.
 
 `bb({eyes:"normal", body:"normal"});`
 
@@ -1381,11 +1381,11 @@ h: Mmm, che bouquet sopraffino!
 
 h: Un forte sentore di "fatti gli affari tuoi" con un leggero retrogusto di "non voglio provare mai alcun sentimento"!
 
-b: Questo è male, umano. Davvero davvero male.
+b: Questo non va bene, umano. Non va per niente bene.
 
 [È *così* che iniziano le dipendenze.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Lo sapevo che quello stramboide era incasinato dentro!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Lo sapevo che quello stramboide era inaffidabile!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [Ah, e ci potrebbero essere delle droghe lì dentro!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1517,7 +1517,7 @@ b: Mi dispiace, umano.
 
 n: _FINISH THEM_
 
-[LOTTA: Dai un pugno a quella stramboide.](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[LOTTA: Prendi a pugni quella stramboide.](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [SCAPPA: Vai via da qui.](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1622,7 +1622,7 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: *perverso*.
+r: un *peperino*.
 
 r: Mi piace. Ti invito alla mia prossima festa, carino.
 
@@ -1710,9 +1710,9 @@ sfx("hit");
 
 h: Il prossimo weekend ci ritorno a quella festa.
 
-h: E la prossima volta che combattiamo, non mi limiterò a farti _perdere_...
+h: E la prossima volta che combattiamo, non mi limiterò a farti *perdere*...
 
-h: Ma ti *ucciderò* brutto ^bastardo^.
+h: Ma ti *ucciderò* brutto bastardo.
 
 ```
 Game.clearText();
