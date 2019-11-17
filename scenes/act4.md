@@ -1281,13 +1281,13 @@ b: Se fossimo soddisfatti della nostra vita, forse non cercheremo più di sforza
 
 h: ...
 
-h: If we even fear... "running out of fears"...
+h: Se abbiamo paura di... "esaurire le paure"...
 
-h: I don't think we're gonna run out of fears.
+h: Non penso che esauriremo mai le nostre paure.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
-b: Oh, yeah! Whew! What a relief!
+b: Eh si! Fiuu! Che sollievo!
 
 (#act4_something_else)
 
@@ -1295,53 +1295,53 @@ b: Oh, yeah! Whew! What a relief!
 
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
-b: "Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that make you feel?*"
+b: "Dottore, ho l'ansia di pagare $100 all'ora solo per sentirle dire *e questo come ti fa sentire?*"
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
-b: "Mm-hmm. And how does that make you feel?"
+b: "Mm-hmm. E questo come ti fa sentire?"
 
 ```
 bb({ body:"normal", eyes:"normal", mouth:"normal" });
 hong({ eyes:"sad" });
 ```
 
-h: Nah, that's a totally reasonable worry.
+h: Nah, è una preoccupazione totalmente comprensibile. 
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
+h: E fa davvero schifo che l'assistenza sanitaria non é disponibile a tutti.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Still, there are some cheap or free options:
+h: Beh ci sono ancora delle alternative poco costose o addirittura gratuite:
 
 `hong({ body:"chin" })`
 
-h: Support groups, online therapy, student/non-profit health centers...
+h: Gruppi di supporto, terapie online, centri di salute per studenti o no profit...
 
 `hong({ body:"hands_1" })`
 
-h: Building habits like meditation, sleeping well, chatting regularly with friends, learning new things...
+h: Coltivare abitudini come la meditazione, il dormire bene, il chiacchierare regolarmente con amici, imparare nuove cose...
 
 `hong({ body:"hands_2" })`
 
-h: Going to a library to borrow workbooks for evidence-based psychotherapies...
+h: Andare in biblioteca per prendere in prestito dei libri di psicoterapie basate su prove scientifiche. 
 
 `hong({ body:"one_up" })`
 
-h: There's a full list of resources at the end of this game!
+h: C'è un'enorme lista di risorse alla fine di questo gioco!
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Well *that* fourth wall didn't last long.
+b: Abbiamo finalmente rotto questa *quarta parete* eh?
 
 `hong({ body:"point" });`
 
-h: Some things are more important than narrative convention. Such as mental health.
+h: Ci sono cose più importanti delle convenzioni narrative, come ad esempio la salute mentale.
 
 (#act4_something_else)
 
@@ -1353,48 +1353,48 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: I mean, that's what therapists say right? Accept all your emotions, even the negative ones?
+h: Voglio dire questo è quello che i terapisti dicono, giusto? Accetta tutte le tue emozioni, anche quelle negative?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ eyes:"normal", body:"normal", mouth:"normal" });
 ```
 
-b: Wait.
+b: Aspetta.
 
-["Accept" as in *give up*?](#act4_bad_accept_give_up)
+["Accettare" vuol dire *arrendersi*?](#act4_bad_accept_give_up)
 
-["Accept" as in *approve*?](#act4_bad_accept_approve)
+["Accettare" vuol dire *approvare*?](#act4_bad_accept_approve)
 
-["Accept" as in *take literally*?](#act4_bad_accept_literally)
+["Accettare" vuol dire *prenderle alla lettera*?](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
 `bb({ eyes:"angry", body:"one_up" });`
 
-b: Do you think Martin Luther King would've said, "Shucks we can't sit in the front of the bus, let's just *accept* it?"
+b: Pensi che Martin Luter King abbia detto, "Accidenti, non possiamo sederci nel bus davanti, dovremmo *farcene una ragione*?"
 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
-b: Why does the Self-Help Industrial Complex think waving the white flag is some *profound wisdom?*
+b: Perché il Complesso Industriale dell'Auto-Aiuto pensa che sventolare bandiera bianca sia qualche *profonda saggezza?*
 
 `bb({ eyes:"annoyed", body:"normal" });`
 
-h: I think therapists mean "accept" bad things as in: acknowledging they exist and are hard to change,
+h: Penso che i terapisti intendano dire che "accettare" queste cattive emozioni equivalga a riconoscere che esistano e che siano difficili da cambiare.
 
-h: But not necessarily giving up a commitment to change.
+h: Ma non necessariamente arrendersi a una volontà di cambiamento. 
 
 `bb({ eyes:"suspect" });`
 
-b: Then therapists should say *acknowledge*, not *accept*.
+b: Allora i terapisti dovrebbero dire *riconoscere*, non *accettare*.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" is kinda confusing.
+h: Ora che ci penso "accettare" confonde un po' le idee.
 
 `bb({ eyes:"closed", mouth:"narrow" });`
 
-b: Well, I *acknowledge* that.
+b: Bene, lo *riconosco*.
 
 (#act4_something_else)
 
@@ -1402,52 +1402,52 @@ b: Well, I *acknowledge* that.
 
 `bb({ eyes:"angry" });`
 
-b: Like it's *good* that we're broken or something? No!
+b: Come se fosse una cosa *buona* essere a pezzi? No!
 
 `bb({ eyes:"angry_r", body:"one_up" });`
 
-b: All those dang Hollywood screenwriters who romanticize mental illness are full of crud!
+b: Tutti quei maledetti sceneggiatori di Hollywood che romanticizzano la malattia mentale, sono degli schifosi!
 
 `bb({ eyes:"angry", body:"two_up" });`
 
-b: Having a mental disorder *sucks!* It robs people of *lives!* Why should we "accept" that?!
+b: Avere una malettia mentale *fa schifo!* Deruba le persone delle loro *vite!* Perché dovremmo "accettarlo"?!
 
 `bb({ body:"normal" });`
 
-h: I think therapists mean "accept" our emotions as in: be patient with them.
+h: Penso che i terapisti intendano che "accettare" le nostre emozioni significa avere pazienza con loro.
 
 ```
 hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Like how struggling in quicksand makes you sink faster, and the solution is to patiently lie flat,
+h: Come agitarsi nelle sabbie mobili ti fa affondare più in fretta e la soluzione è aspettare pazientemente stendendosi sul dorso
 
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
-h: Fighting against you, my fear, lead me to jump off a roof.
+h: Mentre combattevo con te, la mia paura mi ha fatto saltare dal tetto.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Fighting against you, my fear, almost lead me to jump off a roof.
+h: Mentre combattevo con te, la mia paura mi ha quasi fatto saltare dal tetto.
 {{/if}}
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Instead, the solution is to do what we're doing now – not to fight, but to patiently be with each other.
+h: Invece la soluzione è quello che stiamo facendo ora – non combatter, ma essere pazienti con l'altro.
 
 `bb({ eyes:"annoyed" });`
 
-b: Then they should say *that* instead of some problematic word like "accept".
+b: Allora dovremmo dire *questo* invece di parole problematiche come "accettare".
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" kind of sucks.
+h: Eh si, pensandoci "accettare" fa un po' schifo.
 
 `bb({ eyes:"closed_annoyed", mouth:"narrow" });`
 
-b: I do not accept "accept".
+b: Non accetto "accettare".
 
 (#act4_something_else)
 
@@ -1455,11 +1455,11 @@ b: I do not accept "accept".
 
 `bb({ eyes:"sad", body:"one_up" });`
 
-b: But we already *know* you shouldn't take me literally!
+b: Ma sappiamo *già* che non dovremmo prenderlo alla lettera.
 
 `bb({ eyes:"sad_u", body:"two_up" });`
 
-b: The whole *problem* is that I want to help you, but I suck at using words to do so!
+b: Il *problema* è che voglio aiutarti, ma non so scegliere le parole per farlo. 
 
 `bb({ eyes:"sad", body:"normal" });`
 
