@@ -1435,7 +1435,7 @@ h: Mentre combattevo con te, la mia paura mi ha quasi fatto saltare dal tetto.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Invece la soluzione è quello che stiamo facendo ora – non combatter, ma essere pazienti con l'altro.
+h: Invece la soluzione è quello che stiamo facendo ora – non combattere, ma essere pazienti con l'altro.
 
 `bb({ eyes:"annoyed" });`
 
@@ -1463,22 +1463,22 @@ b: Il *problema* è che voglio aiutarti, ma non so scegliere le parole per farlo
 
 `bb({ eyes:"sad", body:"normal" });`
 
-h: I think therapists mean "accept" your emotions as in: "don't fight or ignore them."
+h: Penso che i terapisti dicano di "accettare" le tue emozioni nel senso di: "non combatterle o ignorarle."
 
 `hong({ eyes:"surprise", body:"one_up" });`
 
-h: To listen to you, work *with* you, but not take what you say as 100% literal truth.
+h: Ascoltare te stesso, lavorare per *te stesso*, e non prendere per verità assoluta quello che ti dici.
 
 ```
 hong({ eyes:"normal", body:"normal" });
 bb({ eyes:"annoyed", mouth:"normal" });`
 ```
 
-b: Then therapists should say *that* instead of some vague confusing word like "accept".
+b: Allora i terapisti dovrebbero dire *quello* invece che vaghe parole come "accettare".
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: I guess they suck at using words, too.
+h: Penso che non anche loro forse non siano molto bravi con le parole.
 
 (#act4_something_else)
 
@@ -1493,11 +1493,11 @@ hong({ body:"normal", mouth:"normal", eyes:"normal" });
 ```
 
 {{if _.a4_fears_discussed==1}}
-h: Anyway, anything else you wanna chat about?
+h: Comunque, c'è qualcos'altro di cui vorresti parlare?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-h: So, anything else on your heavy heart?
+h: C'è altro che ti preme?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
@@ -1505,34 +1505,34 @@ h: So, anything else on your heavy heart?
 {{/if}}
 
 {{if _.a4_talked_about_harm!=true}}
-[I'm scared we'll be harmed.](#act4_harm)
+[Ho paura di rimanere ferito.](#act4_harm)
 {{/if}}
 
 {{if _.a4_talked_about_alone!=true}}
-[I'm scared we'll be alone.](#act4_alone)
+[Ho paura di rimanere da solo.](#act4_alone)
 {{/if}}
 
 {{if _.a4_talked_about_bad!=true}}
-[I'm scared we're bad people.](#act4_bad)
+[Ho paura di essere una brutta persona.](#act4_bad)
 {{/if}}
 
-[Nah, I'm good for now.](#act4c_prelude)
+[Sto bene per ora.](#act4c_prelude)
 
 # act4_something_else_2
 
-h: Okay, I think we've talked about all our fears now.
+h: Ok, penso che abbiamo parlato di tutte le nostre paura ora.
 
-b: Yes, there are only three fears.
+b: Si, ci sono solo tre paure.
 
-h: Yup, exactly three.
+h: Si, esattamente tre.
 
-b: Convenient.
+b: Comodo.
 
 (#act4c)
 
 # act4c_prelude
 
-h: Good chat, team.
+h: Bella chiacchierata.
 
 (#act4c)
 
@@ -1553,28 +1553,28 @@ h: ...
 
 `bb({eyes:"annoyed_d"})`
 
-b: This isn't some *game*, you know.
+b: Questo non è un *gioco*, sai.
 
 `bb({eyes:"angry_d", body:"one_up"})`
 
-b: Building a healthy relationship with your emotions isn't as simple as clicking buttons on a screen.
+b: Creare una relazione sana con le tue emozioni non è semplice come cliccare dei bottoni su uno schermo.
 
 `bb({eyes:"sad", body:"normal"})`
 
-b: *Can* we really get along?
+b: *Possiamo* davvero andare d'accordo?
 
-b: *Can* we work together, as a team?
+b: *Possiamo* lavorare assieme, come una squadra?
 
 `hong({eyes:"sad", body:"one_up"})`
 
-h: Well,
+h: Beh,
 
 ```
 hong({eyes:"surprise_l"});
 bb({eyes:"normal"});
 ```
 
-a: E-excuse me...
+a: S-scusami...
 
 ```
 Game.clearText();
@@ -1592,50 +1592,50 @@ music('campus', {volume:0.5, fade:1});
 
 `publish("act4", ["alshire", 0]);`
 
-a: W-wo-would you mind if I sat with you for lunch?
+a: T-ti spiace se mi siedo con te?
 
 `publish("act4", ["alshire", 1]);`
 
 {{if _.TOP_FEAR=="harm"}}
-s: *This* is your crush? Why are they sitting alone like a psycho serial killer?
+s: *Questa* è la ragazza che ti piace? Perché è seduta da sola come un serial killer?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Asking your crush if you can sit with them? Do you know how *needy* we sound?!
+s: Non è un po' troppo invadente chiederle se puoi sederti qui?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: *This* is your crush? We interrupted their peace and quiet! We're such a burden!
+s: *Questa* è la ragazza che ti piace? Abbiamo interrotto il suo attimo di tranquillità! Siamo dei pesantoni.
 {{/if}}
 
 `publish("act4", ["alshire", 2]);`
 
-a: I- I mean- it's, it's okay if not, I just...
+a: V-voglio dire, è ok? N-non ti disturbo>
 
 `publish("act4", ["alshire", 3]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h2"`
 
-[Wait, didn't I see you at the party?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
+[Aspetta un attimo, ma non ci siamo già visti alla festa?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Yeah, of course! Come here.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Certo! Siediti pure](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
-[Sorry, I need alone time right now.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
+[Scusa, Ho bisogno di stare un attim oda sola.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
 # act4d_recognition
 
 `publish("act4", ["hong_to_alshire",2]);`
 
-h2: Yeah you were on the couch! At the first party I went to...
+h2: Si eri sul divano! Alla prima festa alla quale sono andato...
 
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
-h2: Where I had that panic attack and punched the host.
+h2: Quella dove ho avuto un attimo di panico e ho dato un pugno al padrone di casa
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
-h2: Where I had that panic attack and ran out crying.
+h2: Quella dove ho avuto un attimo di panico e sono scappato via
 {{/if}}
 
 ```
@@ -1643,18 +1643,18 @@ publish("act4", ["hong_to_alshire", 0]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Vai piano umano, forse la stiamo imbarazzando un po'.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to put you on the spot!
+h2: Scusa, non volevo metterti in imbarazzo...
 
 `publish("act4", ["hong_to_alshire",4]);`
 
-h2: Just remembering a friendly face, is all.
+h2: Mi ricordo delle facce amichevoli, ecco tutto
 
 ```
 publish("act4", ["hong_to_alshire",5]);
@@ -1662,15 +1662,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: AHHHHH I KNEW IT! THEY'RE A DANGEROUS PANIC-DRIVEN PSYCHO!
+s: AHHH LO SAPEVO! E' UNA PSICOPATICA!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: AAHHH THE FIRST IMPRESSION WE MADE WAS "WITNESSED MY TRAUMA"! THAT MEANS THEY HATE US!
+s: AAHH LO SAPEVO LA PRIMA IMPRESSIONE CHE HANNO AVUTO DI NOI E' CHE HANNO ASSISTITO ALLA MIA ESPERIENZA TRAUMATICA!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AAAHHH WE MADE SOMEONE REMEMBER A TRAUMATIC EVENT. OUR MERE PRESENCE HURTS OTHERS.
+s: AAAHHH HO FATTO RICORDARE A QUALCUNO UN EVENTO TRAUMATICO! LA NOSTRA PRESENZA FA MALE AGLI ALTRI!!
 {{/if}}
 
 (#act4e)
@@ -1682,18 +1682,18 @@ publish("act4", ["hong_to_alshire", 5]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, they seem uncomfortable.
+b: Vai piano umano, la stiamo mettendo in imbarazzo.
 
 ```
 publish("act4", ["hong_to_alshire", 6]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, no pressure of course!
+h2: Nessuna pressione, ovviamente!
 
 `publish("act4", ["hong_to_alshire", 4]);`
 
-h2: Just saying, you can sit here if you want to.
+h2: Puoi sederti qui se vuoi.
 
 ```
 publish("act4", ["hong_to_alshire", 5]);
@@ -1701,15 +1701,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: THEY'RE BEING *TOO* FRIENDLY! LIKE TED BUNDY, THE SERIAL KILLER!
+s: SONO *TROPPO* AMICHEVOLI! NON SARANNO MICA DEI SERIAL KILLER?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: THEY'RE JUST ACTING NICE! NO ONE *REALLY* WANTS TO BE CLOSE TO US!
+s: STANNO SOLO FINGENDO DI ESSERE CARINI! NESSUNO VUOLE SEDERSI CON NOI!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AHHH WE ALWAYS MAKE OTHERS FEEL AWKWARD! WE'RE A STAIN UPON THE EARTH!
+s: AHHH METTIAMO SEMPRE GLI ALTRI IN IMBARAZZO!
 {{/if}}
 
 (#act4e)
@@ -1721,18 +1721,18 @@ publish("act4", ["hong_to_alshire", 9]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Aspetto umano, forse la stiamo mettendo in imbarazzo.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to be rude!
+h2: Ah, non vorrei esser stato scortese!
 
 `publish("act4", ["hong_to_alshire", 6]);`
 
-h2: I just need some time to process my emotions. Please don't take it as a personal rejection.
+h2: Ho solo bisogno di rendermi conto delle mie emozioni. Non prenderla sul personale.
 
 ```
 publish("act4", ["hong_to_alshire", 7]);
@@ -1740,15 +1740,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: WHAT SICK, TWISTED THOUGHTS ARE THEY PROCESSING?! WHAT DARK DESIRES FILL THIS PSYCHO'S HEART?!
+s: QUALI ORRIBILI PENSIERI STARANNO MAI FACENDO?! QUALI TORBIDI DESIDERI ALIMENTANO L'ANIMO DI QUESTA PSICOLABILE?!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: WE'VE BEEN PERSONALLY REJECTED! WE'LL NEVER BE LOVED!
+s: SIAMO STATI RIFIUTATI! NESSUNO CI AMERA' MAI!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: WE INTERRUPTED THEIR EMOTIONAL PROCESSING! NOW THEY'LL BE TRAUMATIZED FOREVER AND IT'S ALL OUR FAULT!
+s: ABBIAMO INTERROTTO I LORO PENSIERI! ADESSO SARANNO TRAUMATIZZATI A VITA!
 {{/if}}
 
 (#act4e)
@@ -1760,7 +1760,7 @@ Game.WORDS_HEIGHT_BOTTOM = 195;
 publish("act4", ["alshire", 6]);
 ```
 
-s: RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN
+s: CORRI CORRI CORRI CORRI CORRI CORRI CORRI CORRI CORRI 
 
 ```
 Game.clearText();
@@ -1787,18 +1787,18 @@ Game.WORDS_HEIGHT_BOTTOM = -1; /* reset */
 
 `publish("act4-jumpcut-hong");`
 
-h: Huh. That was weird. I wonder what was going on in their head.
+h: Huh. Che strano. Mi domando cosa gli è passato per la testa.
 
 `publish("act4", ["hong_closer", 2]);`
 
-h: Anyway, you were saying?
+h: Comunque, cosa stavi dicendo?
 
 ```
 publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 6]);
 ```
 
-b: Uh, I forget? Something about teams and work?
+b: Uh, mi sono dimenticato... Qualcosa riguardo al lavoro di squadra?
 
 ```
 publish("act4", ["bb_closer", 0]);
@@ -1812,55 +1812,55 @@ publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 4]);
 ```
 
-b: They say you should "make peace" with your emotions, as if your emotions are *war criminals*.
+b: Dicono che dovresti "riappacificarti" con le tue emozioni. Come se le emozioni fossero un nemico di guerra.
 
 `publish("act4", ["bb_closer", 7]);`
 
-b: But I want us to make *more* than mere peace! I want us to be *allies!*
+b: Ma io voglio *più* che semplice pace! Io vorrei *allearmi* con loro!
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: I want to be a good guard-dog. Just like how hunger & thirst are alarms for your physical needs,
+b: Io vorrei essere un buon cane da guardia, come la fame e la sete lo sono per i tuoi bisogni fisici
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: I want to be the alarm for your *psychological* needs – your needs for safety, belonging, goodness.
+b: Io voglio essere un allarme per i tuoi bisogni *psicologici* – il tuo bisogno di sentirti sicuro, di appartenere, di sentirti una persona buona
 
 `publish("act4", ["bb_closer", 1]);`
 
-b: But... I suck at my job, so I need you to train me.
+b: Ma... non sono bravo nel mio lavoro, devi allenarmi
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: I'm not "always valid," nor "always irrational." I'm just... trying my best. So, please,
+b: Non ho sempre ragione ma neanche sempre irrazionale. Sto soltanto... facendo del mio meglio. Quindi, per piacere,
 
 `publish("act4", ["bb_closer", 30]);`
 
-b: Help me help you!
+b: Aiutami ad aiurtarti!
 
 `publish("act4", ["bb_closer", 6]);`
 
-b: Though, teaching an old dog new tricks *will* take a while. Maybe *years.*
+b: Anche se ci vorrà molto tempo a farmi imparare nuove cose. Forse *anni*.
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: And sometimes I'll relapse, I'll slip into my old habits.
+b: E alle volte ci ricascherò, ritornerò alle mie vecchie abitudini.
 
 `publish("act4", ["bb_closer", 2]);`
 
-b: I'll bark at shadows. I'll scare you with words. I might even show you some intrusive images of... things.
+b: Abbaierò alle ombre. Ti spaventerò cone le parole. A volte ti farò anche immaginare...cose.
 
 `publish("act4", ["bb_closer", 9]);`
 
-b: I'm sorry! I'm a battered shelter dog! Battered dogs poop on your bed sometimes!
+b: Scusami ma sono solo un cane abbandonato impaurito! I cani abbandonati fanno la cacca nel letto a volte!
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: But if you're patient with me... and just stay and sit with me...
+b: Ma se sei paziente con me...
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: Maybe you can tame this wolf.
+b: Riuscirai a domarmi.
 
 `publish("act4", ["bb_closer", 0]);`
 
@@ -1971,15 +1971,15 @@ publish("act4", ["hong_closer", 5]);
 ```
 
 {{if _.fifteencigs}}
-b: AAAAA YOU'RE STILL EATING ALONE FIFTEEN CIGARETTES AAAAA
+b: AAAAA STAI ANCORA MANGANDO DA SOLO AAAH QUINDICI SIGARETTE AAAAA
 {{/if}}
 
 {{if _.parasite}}
-b: AAAAA YOU'RE STILL NOT PRODUCTIVE WHILE EATING WE'RE SOCIETY-PARASITES AAAAA
+b: AAAAA NON SEI PRODUTTIVO QUANDO MANGI AAAAA PARASSITA AAAA
 {{/if}}
 s
 {{if _.whitebread}}
-b: AAAAA YOU'RE EATING MORE WHITE BREAD AAAAA
+b: AAAAA STAI ANCORA MANGIANDO PANE BIANCO AAAAA
 {{/if}}
 
 ```
