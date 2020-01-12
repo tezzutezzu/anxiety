@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: Alla salute!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -45,7 +45,7 @@ publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: Mi ricordi di quando ero giovane. Di quando la bestia tormentava anche me.
 
 ```
 publish("act3",["roofhunter",9]);
@@ -58,7 +58,7 @@ r: Sono riconoscente di poter fare lo stesso con te, aiutarti ad uccidere la bes
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: Giochiamo a "veritá o penitenza", cosa preferisci?
 
 ```
 publish("act3",["roofhunter",3]);
@@ -66,7 +66,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: PENITENZA!
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -74,7 +74,7 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: Haha! Va bene.
 
 ```
 publish("act3",["roofhunter",21]);
@@ -117,13 +117,13 @@ publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: La bestia ha iniziato a lamentersi, non é vero?
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *O nooooo! É pericoloso! Non farlo!*
 
 ```
 publish("act3",["roofhunter",22]);
@@ -136,7 +136,7 @@ r: Ed ecco perché abbiamo bisogno di sfiorare la morte! Spassatela! Carpe diem!
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: Mostra a quella bestia che non ce ne frega un  *^cazzo* dei suoi piagnistei! Salta!
 
 ```
 publish("act3",["roofhunter",11]);
@@ -159,7 +159,7 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: Scusami, credi davvero a quella commercialata del mindfulness su quanto è *buono* sentirsi uno schifo?
+r: Scusami, credi davvero a quella commercialata della "mindfulness" e su quanto fa *bene* sentirsi uno schifo?
 
 ```
 publish("act3",["roofhunter",17]);
@@ -373,7 +373,7 @@ h: Alcuni si buttano sul lavoro.
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: Altri si buttano nel sesso, nella droga o nel refreshare il feed di Facebook.
+h: Altri si buttano nel sesso, nella droga o nel aggiornare di continuo la pagina di Facebook.
 
 `hong({ body:"normal", eyes:"look_right" });`
 
@@ -464,7 +464,7 @@ h: Oh WOW, questo è il più grande ^fottuto^ *eufemismo* del secolo!
 
 `hong({ body:"yell_2" });`
 
-h: Esatto, brutto ammasso di ^merda^ sanguinolenta! Hai fatto un ^cazzo^ di casino!
+h: Esatto, brutto ammasso di ^merda^ rossa! Hai fatto un ^cazzo^ di casino!
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
@@ -561,7 +561,7 @@ bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: ASPETTA QUELLA ERA PSICOLOGIA INVERSA DOVEVI FARE IL *CONTRARIO* DI QUELLO CHE TI DIC-
+b: ASPETTA QUELLA ERA PSICOLOGIA INVERSA DOVEVI FARE IL *CONTRARIO* DI QUELLO CHE TI STAVO DICEND-
 
 (#act3_bad_3)
 

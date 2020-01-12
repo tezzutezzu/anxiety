@@ -31,7 +31,7 @@ body:not(.show_debug) .debug {
 }
 
 body.show_debug #game_container  * {
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 #section_debug_list {
@@ -605,7 +605,7 @@ DIALOGUEZ
 	color: #FFFFFF;
 	text-align: center;
 	padding: 0 10px;
-	font-size: 1.3em;
+	font-size: 0.9em;
 	margin: 25px 15px;
 	font-weight: bold;
 }

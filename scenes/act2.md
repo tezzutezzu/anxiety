@@ -529,7 +529,7 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: In realtà, sai cosa è peggio dell'essere rifiutato dagli altri? Essere popolare per _tutti_.
+b: In realtà, sai cosa è peggio dell'essere rifiutato dagli altri? Essere popolare per *tutti*.
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
@@ -829,7 +829,7 @@ b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: E se fossimo essenzialmente _marci_?
+b: E se fossimo essenzialmente *marci*?
 
 `bb({body:"one_up", eyes:"sad"})`
 
@@ -893,7 +893,7 @@ attack("20p", _.a2_attack_3);
 
 h: C^AAAAZZO^!
 
-h: C^AZZ^O C^AZZO^-C^AZZ^O _C^AAAAZZZO^_
+h: C^AZZ^O C^AZZO^-C^AZZ^O *C^AAAAZZZO^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
@@ -924,7 +924,7 @@ h: Stavo cercando di *farti morire di fame* grande sadica testa di ^cazzo^.
 
 h: Chi se ne frega. Mi concentro sul pensiero positivo.
 
-h: _Io sono amato. Io sono buono. Io sono intelligente. Io sono bello. Io sono speciale._
+h: *Io sono amato. Io sono buono. Io sono intelligente. Io sono bello. Io sono speciale.*
 
 `bb({eyes:"suspect"});`
 
@@ -1171,7 +1171,7 @@ b: Dove sto sbagliando?!
 
 `bb({body:"cry_2"});`
 
-b: Lo *so* che faccio schifo come lupo da guardia. Ma ci sto _provando_, umano!
+b: Lo *so* che faccio schifo come lupo da guardia. Ma ci sto *provando*, umano!
 
 `bb({body:"cry_3"});`
 
@@ -1179,7 +1179,7 @@ b: ...ci sto provando.
 
 `bb({body:"cry_6", mouth:"right", eyes:"cry_r_1"});`
 
-b: Non devi seguire i miei avvertimenti, o essere d'accordo con me, non devi neanche _apprezzarmi_.
+b: Non devi seguire i miei avvertimenti, o essere d'accordo con me, non devi neanche *apprezzarmi*.
 
 `bb({eyes:"cry_r_2"});`
 
@@ -1515,7 +1515,7 @@ h: POTEVO *SENTIRE* LO SCRICCHIOLARE DELLE OSSA. POTEVO *ANNUSARE* IL SANGUE NEL
 
 b: Mi dispiace, umano.
 
-n: _FINISH THEM_
+n: FINISCILO
 
 [LOTTA: Prendi a pugni quella stramboide.](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1653,7 +1653,7 @@ r: Maledizione. L'animale ha vinto oggi, eh?
 
 `publish("act2",["party_hunter",15]);`
 
-h2: no, no. Devo fare una maratona, devo andare. E di fretta.
+h2: No, no. Devo fare una maratona, devo andare. E di fretta.
 
 `publish("act2",["party_hunter",19]);`
 
@@ -1684,7 +1684,7 @@ sfx("whoosh");
 
 (...1000)
 
-b: Human! Are you okay?!
+b: Umano! Tutto bene?!
 
 ```
 publish("act2", ["act2_end","next"]);

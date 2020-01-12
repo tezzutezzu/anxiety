@@ -3,27 +3,8 @@
 
 # Traduzione in italiano
 **TODO**
-- ~~index~~
-- ~~act1~~
-- act2 > *in review* (Elsman84) 
-- act3 > *in progress*
-- act4 > *in progress*
-- ~~intermission~~
-- ~~PROMO~~
-- ~~Readme~~
-- sprites
-    - sharing/thumb.png
-    - ~~sprites/about/cc0.png~~
-    - ~~sprites/about/replay.png~~
-    - sprites/act4/callback.png
-    - ~~sprites/credits/end_message.png~~
-    - sprites/credits/screens.png (add translators)
-    - ~~sprites/credits/starring.png~~
-    - ~~sprites/credits/thanks.png~~
-    - ~~sprites/intermission/youwin.png~~
-    - sprites/intro/intro_logo.png (add translators)
-    - ~~sprites/ui/fear_captions.png~~
-    - ~~sprites/ui/preloader.png~~
+- Testare il gioco [qui](http://ansia.surge.sh)
+
 
 
 

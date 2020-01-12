@@ -31,7 +31,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n5: (game auto-saved! it's ok to quit & continue later)
+n5: (Gioco salvato! Puoi chiudere e continuare piú tardi)
 
 ```
 Game.clearAll();

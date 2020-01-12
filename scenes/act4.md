@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (Gioco salvato.)
 
 ```
 Game.clearText();
@@ -215,25 +215,25 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Quindi quale ^diavolo^ è la morale della storia?
+h: Quindi quale diavolo è la morale della storia?
 
 `hong({body:"one_up", eyes:"annoyed"})`
-  
+
 h: Che cosa abbiamo *imparato*? Io sono stato stupido, i miei "amici" mi hanno usato, e siamo quasi *morti*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Si, per non parlare delle spese mediche.](#act4a_bill)
+[Per non parlare delle spese mediche.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Si, per non parlare dei danni al fegato.](#act4a_liver)
+[Per non parlare dei danni al fegato.](#act4a_liver)
 {{/if}}
 
-[Si, quello *era* il peggiore dei casi.](#act4a_worst)
+[Eh si questo era proprio il peggiore dei casi.](#act4a_worst)
 
-[Si, avevo ragione.](#act4a_right)
+[Avevo ragione.](#act4a_right)
 
 # act4a_bill
 
@@ -334,7 +334,7 @@ b: Beh, rende tutto il resto meno preoccupante a confronto. Mi ha anche fatto ri
 
 b: Se litigare con te non ti sta bene perché non ti fa sentire protetto
 
-h: E *inoltre* non ti sta bene perché ti fa solo urlare di piu'...
+h: Ma litigiare con te non mi sta neanche bene perché ti fa solo urlare di piu'...
 
 `bb({eyes:"normal_r"})`
 
@@ -389,7 +389,7 @@ b: Sono un cane randagio malconcio.
 
 `bb({eyes:"sad"})`
 
-b: Abbiamo passato dei brutti momenti. Forse trauma o abbandono. Per questo a volte esagero e faccio:
+b: Abbiamo passato dei brutti momenti. Forseu n trauma o un abbandono. Per questo a volte esagero e faccio:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -422,7 +422,7 @@ h: Ci... ci proverò.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Un rapporto sano con le emozioni. I rapporti hanno bisogno di comunicazione. Quindi, comunichiamo.
+h: OK. Un rapporto sano con le emozioni. I rapporti hanno bisogno di comunicazione. Quindi, comunichiamo.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
@@ -501,7 +501,7 @@ bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: Potremmo imparare auto-difesa? Unirci ad un gruppo che si protegge a vicenda? Migliorare la nostra salute e limiti?
+h: Potremmo imparare l'auto-difesa? Unirci ad un gruppo che si protegge a vicenda? Migliorare la nostra salute e limiti?
 
 ```
 bb({ eyes:"annoyed_r" });
@@ -704,7 +704,7 @@ h: Lavorando e parlando insieme, faremo dei piani per trovare una soluzione.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. Ma io non sono così bravo a pianificare, quello dovrai farlo tu
+b: OK. Ma io non sono così bravo a pianificare, quello dovrai farlo tu
 
 (#act4_something_else)
 
@@ -763,7 +763,7 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Aspe', niente discussione su come mi sento? Solo... "Grazie"?
+b: Aspetta, nan hai nessun problema su quello che ti ho detto? Solo... "Grazie"?
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
@@ -784,7 +784,7 @@ b: Non mi hai mai *ringraziato* prima.
 
 `hong({ mouth:"smile" });`
 
-h: Aw lupone fifone.
+h: Ooh che lupone fifone.
 
 (#act4_something_else)
 
@@ -825,7 +825,7 @@ h: Anche se il tuo blaterare mi spaventa, stai solo cercando di proteggermi {{_.
 
 `bb({ eyes:"smile_r" });`
 
-b: Okay, se continui ad adularmi cosí, l'internet si fará delle strane idee su noi due.
+b: OK, se continui ad adularmi cosí, l'internet si fará delle strane idee su noi due.
 
 ```
 bb({ eyes:"smile" });
@@ -1084,7 +1084,7 @@ hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: É per noi!
+h: Lo é per noi!
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
@@ -1102,7 +1102,7 @@ b: *"Come stai?"*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
-h: *"Non molto!"*
+h: *"Tutto bene!"*
 
 (#act4_something_else)
 
@@ -1147,11 +1147,11 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: Voglio difendere le tue necessità morali, la tua volontà di voler diventare una persona migliore,
+b: Voglio difendere le tue necessità morali, la tua volontà di voler diventare una persona migliore.
 
 `bb({ eyes:"sad_d" })`
 
-b: Ma sembra come se sotto sotto siamo fondalmente...rotti.
+b: Ma sembra come se sotto sotto fossimo fondamentalmente...rotti.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
@@ -1183,7 +1183,7 @@ b: Altri pensieri, umano?
 
 [Ok, siamo rotti. Accettiamolo.](#act4_bad_accept)
 
-[Grazie.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[Grazie.](#act4_thanks) `_.thanks_for = "la mia integritá";`
 
 # act4_bad_fix
 
@@ -1610,7 +1610,7 @@ s: *Questa* è la ragazza che ti piace? Abbiamo interrotto il suo attimo di tran
 
 `publish("act4", ["alshire", 2]);`
 
-a: V-voglio dire, è ok? N-non ti disturbo>
+a: V-voglio dire, è ok? N-non ti disturbo?
 
 `publish("act4", ["alshire", 3]);`
 
@@ -1631,11 +1631,11 @@ h2: Si eri sul divano! Alla prima festa alla quale sono andato...
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
-h2: Quella dove ho avuto un attimo di panico e ho dato un pugno al padrone di casa
+h2: Quella dove ho avuto un attacco di panico e ho dato un pugno al padrone di casa
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
-h2: Quella dove ho avuto un attimo di panico e sono scappato via
+h2: Quella dove ho avuto un attacco di panico e sono scappato via
 {{/if}}
 
 ```
@@ -1643,7 +1643,7 @@ publish("act4", ["hong_to_alshire", 0]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Vai piano umano, forse la stiamo imbarazzando un po'.
+b: Vai piano umano, forse la stiamo impaurendo un po'.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
@@ -1666,7 +1666,7 @@ s: AHHH LO SAPEVO! E' UNA PSICOPATICA!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: AAHH LO SAPEVO LA PRIMA IMPRESSIONE CHE HANNO AVUTO DI NOI E' CHE HANNO ASSISTITO ALLA MIA ESPERIENZA TRAUMATICA!
+s: AAHH LO SAPEVO LA PRIMA IMPRESSIONE CHE HANNO AVUTO DI NOI É CHE HANNO ASSISTITO ALLA NOSTRA ESPERIENZA TRAUMATICA!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
@@ -1787,7 +1787,7 @@ Game.WORDS_HEIGHT_BOTTOM = -1; /* reset */
 
 `publish("act4-jumpcut-hong");`
 
-h: Huh. Che strano. Mi domando cosa gli è passato per la testa.
+h: Huh. Che strano. Mi domando cosa le sia passato per la testa.
 
 `publish("act4", ["hong_closer", 2]);`
 
@@ -1816,7 +1816,7 @@ b: Dicono che dovresti "riappacificarti" con le tue emozioni. Come se le emozion
 
 `publish("act4", ["bb_closer", 7]);`
 
-b: Ma io voglio *più* che semplice pace! Io vorrei *allearmi* con loro!
+b: Ma io voglio *più* che una semplice pace! Io vorrei *allearmi* con loro!
 
 `publish("act4", ["bb_closer", 3]);`
 
@@ -1848,7 +1848,7 @@ b: E alle volte ci ricascherò, ritornerò alle mie vecchie abitudini.
 
 `publish("act4", ["bb_closer", 2]);`
 
-b: Abbaierò alle ombre. Ti spaventerò cone le parole. A volte ti farò anche immaginare...cose.
+b: Abbaierò alle ombre. Ti spaventerò con le parole. A volte ti farò anche immaginare...cose.
 
 `publish("act4", ["bb_closer", 9]);`
 
@@ -1870,11 +1870,11 @@ b: Riuscirai a domarmi.
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Good dog.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
+[Bravo cane.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "b"`
 
-[Good human.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
+[Bravo umano.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
 
 # act4f-pat-hong
 
@@ -1977,7 +1977,7 @@ b: AAAAA STAI ANCORA MANGANDO DA SOLO AAAH QUINDICI SIGARETTE AAAAA
 {{if _.parasite}}
 b: AAAAA NON SEI PRODUTTIVO QUANDO MANGI AAAAA PARASSITA AAAA
 {{/if}}
-s
+
 {{if _.whitebread}}
 b: AAAAA STAI ANCORA MANGIANDO PANE BIANCO AAAAA
 {{/if}}
