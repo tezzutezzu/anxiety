@@ -680,7 +680,7 @@ b: E poi dovremmo sterilizzare i droni per eliminare i germi della SINDROME DEL 
 
 `_.a2_attack_3 = "alone";`
 
-`_.a2_hoodie_callback = "a quarantine";`
+`_.a2_hoodie_callback = "una quarantena";`
 
 (#act2d)
 
@@ -719,7 +719,7 @@ b: perché sono dei GRAN VISCIDI PERVERTITI
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the law";`
+`_.a2_hoodie_callback = "legge";`
 
 (#act2d)
 
@@ -743,7 +743,7 @@ b: BAM, DISTRUGGI IL SISTEMA SANITARIO NAZIONALE E MILIONI DI PERSONE MUOIONO
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the butterfly effect";`
+`_.a2_hoodie_callback = "effetto farfalla";`
 
 (#act2d)
 
@@ -763,7 +763,7 @@ b: Poi ti MORDERANNO e ti trasformeranno in uno MACHO SENZACERVELLO e/o una CAGN
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombies";`
+`_.a2_hoodie_callback = "zombie";`
 
 (#act2d)
 
@@ -775,11 +775,11 @@ b: I NAZI SONO RITORNATI A MARCIARE SULLE STRADE
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Dicendo _meno male che quelle 'brave persone' scansafatiche si stanno 'rilassando' e 'prendendo cura di sé'!_
+b: Dicendo *meno male che quelle 'brave persone' scansafatiche si stanno 'rilassando' e 'prendendo cura di sé'!*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: _Ora i nostri piani possono proseguire, appena in tempo!_
+b: *Ora i nostri piani possono proseguire, appena in tempo!*
 
 `_.a2_attack_3 = "bad";`
 
@@ -803,7 +803,7 @@ b: NON RIUSCIREMMO NEANCHE A VEDERE LA MORTE AVVICINARSI. SEMPLICEMENTE CESSEREM
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "carbon monoxide";`
+`_.a2_hoodie_callback = "monossido di carbonio";`
 
 (#act2d)
 
@@ -851,7 +851,7 @@ b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Non sono irrazionale. La gente droga i drink _per davvero_. Questa è una cosa che succede.
+b: Non sono irrazionale. La gente droga i drink *per davvero*. Questa è una cosa che succede.
 
 `bb({eyes:"suspect"})`
 
@@ -863,7 +863,7 @@ b: AHHH STIAMO MORENDO! MORENDO MORENDO MORENDO MOREN--
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "punch bowls";`
+`_.a2_hoodie_callback = "punch";`
 
 (#act2d)
 
@@ -930,7 +930,7 @@ h: *Io sono amato. Io sono buono. Io sono intelligente. Io sono bello. Io sono s
 
 [Accidenti, che narcisismo!](#act2d_narcissist)
 
-[Sai che il pensiero positivo è stato _confutato?_](#act2d_disproven)
+[Sai che il pensiero positivo è stato *confutato?*](#act2d_disproven)
 
 [Wow. Per piacere non attribuire assurde storie folcloristiche alle popolazioni indigene](#act2d_racist)
 
@@ -950,7 +950,7 @@ b: Risultato: se soffri di bassa autostima, ripeterti questo tipo di affermazion
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Controllalo pure so Google Scholar, umano
+b: Wood 2009, Psychological Science. Controllalo pure su Google Scholar, umano
 
 `bb({body:"scream_b_1"})`
 
@@ -1030,7 +1030,7 @@ h: Tutti sanno che le emozioni sono irrazionali. Specialmente la paura.
 
 `hong({body:"facepalm_2"})`
 
-h: Sei un inutile residuo del processo evolutivo. Come la mia appendice, o il mio dente del giodizio!
+h: Sei un inutile residuo del processo evolutivo. Come la mia appendice, o il mio dente del giudizio!
 
 `hong({body:"yell", mouth:"yell"})`
 
@@ -1054,7 +1054,7 @@ b: ...
 
 `bb({body:"chest"})`
 
-b: Io sono *parte* di te, sai? Quando dici questo, sta in realtà facendo male a te stesso.
+b: Io sono *parte* di te, sai? Quando dici questo, stai in realtà facendo male a te stesso.
 
 `bb({body:"scream_a_1"})`
 
@@ -1187,7 +1187,7 @@ b: Tutto quello che voglio...è che tu sia paziente con me.
 
 `bb({eyes:"cry_r_3"});`
 
-b: Vuoi solo che tu ti sieda con me per un po', invece di guardare dall'altro lato e--
+b: Vorrei solo che tu ti sieda con me per un po', invece di guardare dall'altro lato e--
 
 ```
 bb({eyes:"cry_r_4"});
