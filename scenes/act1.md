@@ -359,7 +359,7 @@ b: Ascolta l'istinto! Le tue emozioni hanno ragione!
 
 n: FAI ARRIVARE A ZERO LA BARRA DI ENERGIA DEL TUO UMANO
 
-n: PER PROTEGGERLO DAI SUOI BISOGNI FISICI + SOCIALI + MORALI, PUOI USARE:
+n: PER PROTEGGERE I SUOI BISOGNI FISICI + SOCIALI + MORALI, PUOI USARE:
 
 n: PAURA DI *ESSERE FERITI* #harm#
 
@@ -1382,7 +1382,7 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Ultima app. Instagram. Vediamo cosa sai fare.
+h: Ultima app. Instagram. Vediamo che si dice.
 
 `hong({eyes:"sad"});`
 

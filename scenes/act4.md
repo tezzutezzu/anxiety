@@ -414,7 +414,7 @@ b: Ma non *voglio* essere un cane codardo! Voglio proteggerti! Voglio essere un 
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Umano... mi aiutarai ad addomesticare questo lupo?
+b: Umano... mi aiuterai ad addomesticare questo lupo?
 
 `hong({eyes:"sad"})`
 
@@ -1620,13 +1620,13 @@ a: V-voglio dire, è ok? N-non ti disturbo?
 
 [Certo! Siediti pure](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
-[Scusa, Ho bisogno di stare un attim oda sola.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
+[Scusa, Ho bisogno di stare un attimo da sola.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
 # act4d_recognition
 
 `publish("act4", ["hong_to_alshire",2]);`
 
-h2: Si eri sul divano! Alla prima festa alla quale sono andato...
+h2: Sì, eri sul divano! Alla prima festa alla quale sono andato...
 
 `publish("act4", ["hong_to_alshire",10]);`
 
