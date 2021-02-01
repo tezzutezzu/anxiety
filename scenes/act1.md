@@ -112,7 +112,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Una lurido-che?
+h: Una dissonaza lurido-che?
 
 `bb({eyes:"normal"});`
 
@@ -128,7 +128,7 @@ b: Mostrando dunque una contraddizione tra il messaggio del gioco e le sue mecca
 
 `bb({eyes:"fear"});`
 
-b: Sbrogliando quindi la trama di questo universo narrativo,
+b: Sciupando quindi la trama di questo universo narrativo,
 
 `bb({body:"fear"});`
 
@@ -339,7 +339,7 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: HAI USATO LA *PAURA DI ESSERE FERITI*
+n: HAI USATO LA *PAURA DI FARSI MALE*
 
 (#act1b)
 
@@ -349,7 +349,7 @@ n: È SUPER EFFICACE
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Vedi, umano? Io sono il tuo leale lupo da guardia!
+b: Vedi, umano? Io sono il tuo fedele lupo da guardia!
 
 `bb({body:"pride_talk"});`
 
@@ -361,7 +361,7 @@ n: FAI ARRIVARE A ZERO LA BARRA DI ENERGIA DEL TUO UMANO
 
 n: PER PROTEGGERE I SUOI BISOGNI FISICI + SOCIALI + MORALI, PUOI USARE:
 
-n: PAURA DI *ESSERE FERITI* #harm#
+n: PAURA DI *FARSI MALE* #harm#
 
 n: PAURA DI *NON ESSERE AMATI* #alone#
 
@@ -369,7 +369,7 @@ n: PAURA DI ESSERE *CATTIVE PERSONE* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (CONSIGLIO: FA' LE SCELTE CHE COLPISCONO LE TUE PIÙ INTIME E OSCURE PAURE!)
+n4: (CONSIGLIO: FA' LE SCELTE CHE COLPISCONO LE TUE PIÙ INTIME E OSCURE PAURE!~)
 
 h: ...
 
@@ -657,7 +657,7 @@ h: Ok. Lo faccio, ma per piacere calmati!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: ^Sticazzi^, vediamo cosa c'è su Snapchat.
+h: Al diavolo, vediamo cosa c'è su Snapchat.
 
 (#act1e)
 
@@ -688,13 +688,13 @@ h: Io non--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: ma *se*
+b: ma *se fosse*
 
 h: S--
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *se*
+b: *se fosse*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -812,7 +812,7 @@ b: QUINDICI. SIGARETTE.
 {{/if}}
 
 {{if _.whalepoop}}
-b: CACCA. DI BALENA.
+b: CACCA. DI. BALENA.
 {{/if}}
 
 ```
@@ -977,7 +977,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: Ci smaschereranno, ci toglieranno l'amicizia e ci legheranno ad un cavallo per trascinarci lungo la superstrada informatica!
+b: Ci smaschereranno, ci toglieranno l'amicizia e ci legheranno ad un cavallo per trascinarci lungo l'autostrada informatica!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1404,7 +1404,7 @@ b: A proposito di feste, riguardo l'invito per questo weekend. Questa è la mia 
 
 [Dovremmo andarci.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Non dovremmo andarci.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[Dovremmo non andarci.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1431,7 +1431,7 @@ h: VAI A FARTI
 
 `hong({body:"2_you"});`
 
-h: *FOT-TE-RE*.
+h: *^FOT-TE-RE^*.
 
 (...500)
 
@@ -1441,7 +1441,7 @@ b: c-
 
 `bb({eyes:"wat_2"});`
 
-b: che?
+b: cosa?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
