@@ -436,7 +436,7 @@ h: Caro lupo interiore...*Tu* come stai?
 
 n2: NUMERO DI PAURE USATE:
 
-n2: *FERITO* {{_.attack_harm_total}}, *NON AMATO* {{_.attack_alone_total}}, *CATTIVO* {{_.attack_bad_total}}
+n2: *FARSI MALE* {{_.attack_harm_total}}, *NON AMATO* {{_.attack_alone_total}}, *CATTIVO* {{_.attack_bad_total}}
 
 n2: DI QUALE PAURA VUOI PARLARE PRIMA? (POSSIAMO PARLARE DELLE ALTRE DOPO)
 
@@ -447,7 +447,7 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[Ho paura di essere ferito.](#act4_harm)
+[Ho paura di farmi male.](#act4_harm)
 
 [Ho paura di rimanere da solo.](#act4_alone)
 
@@ -1505,7 +1505,7 @@ h: C'è altro che ti preme?
 {{/if}}
 
 {{if _.a4_talked_about_harm!=true}}
-[Ho paura di rimanere ferito.](#act4_harm)
+[Ho paura di farmi male.](#act4_harm)
 {{/if}}
 
 {{if _.a4_talked_about_alone!=true}}
