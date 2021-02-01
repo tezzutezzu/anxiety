@@ -177,7 +177,7 @@ r: Come fanno quegli pseudo-buddisti della Silicon Valley a non capire questa ^s
 publish("act3",["roofhunter",6]);
 ```
 
-r: Tesoro, so che *tu* sai che quell'animale *ferisce* quelli come noi. *Tortura* quelli come noi.
+r: Tesoro, so che *tu* sai che quell'animale *fa del male* a quelli come noi. *Tortura* quelli come noi.
 
 ```
 publish("act3",["roofhunter",19]);
@@ -769,7 +769,7 @@ b: Mi dispiace.
 
 `bb({eyes:"sorry_down"});`
 
-b: Provare a proteggerti era un'ossessione tale che non ho mai frenato per riflettere sul fatto che ero *io* a ferirti.
+b: Provare a proteggerti era un'ossessione tale che non ho mai frenato per riflettere sul fatto che ero *io* a farti del male.
 
 `bb({eyes:"sorry_up"});`
 
