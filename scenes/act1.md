@@ -32,7 +32,7 @@ n: IL TUO COMPITO È PROTEGGERE IL TUO UMANO DAL *PERICOLO*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: INFATTI LO STAI METTENDO IN *PERICOLO* GIOCANDO A QUESTO GIOCO PROPRIO ORA
+n: IN REALTÀ LO STAI METTENDO IN *PERICOLO* PROPRIO GIOCANDO A QUESTO GIOCO.
 
 n: PRESTO, AVVERTILO!
 
@@ -63,7 +63,7 @@ b: Ci farà rannicchiare e piangere!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: Ci farà uccidere il tuo smartphone per averti provocato un attacco di panico!
+b: Ci farà distruggere il tuo smartphone in preda a un attacco di panico!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
@@ -79,12 +79,12 @@ h: Beh almeno potremmo evitare di saltare questa vol--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: CI FARÁ SALTARE DAL TETTO.
+b: CI FARÁ SALTARE GIÙ DAL TETTO.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: CI SUCCEDERANNO TUTTE QUESTE COSE TERRIBILI, E POI SAREMO--
+b: CI ACCADRANNO TUTTE QUESTE COSE TERRIBILI, E POI--
 
 (#act1_replay_end)
 
@@ -116,11 +116,11 @@ h: Una dissonaza lurido-che?
 
 `bb({eyes:"normal"});`
 
-b: L'arco narrativo era su come puoi *SCEGLIERE* di instaurare una sana collaborazione con la tua paura,
+b: L'arco narrativo parla di come si possa *SCEGLIERE* di instaurare una sana collaborazione con la propria paura,
 
 `bb({eyes:"normal_right"});`
 
-b: Ma rigiocando il gioco avrai la stessa storia, il che implica che le tue *SCELTE* non contano,
+b: Ma rigiocando il gioco la storia è la stessa, quindi le tue *SCELTE* non contano,
 
 `bb({eyes:"narrow_eyebrow"});`
 
@@ -170,7 +170,7 @@ h: OK rientriamo nel personaggio.
 Game.clearText();
 ```
 
-n4: (FAI ENTRARE LA _TUA_ ANSIA BLAH BLAH BLAH SIMILE ALLE _TUE_ PAURE BLAH BLAH SAI GIÀ COME FUNZIONA)
+n4: (LASCIA CHE LA _TUA_ ANSIA BLA BLA BLA RISPECCHI LE _TUE_ PAURE BLA BLA SAI GIÀ COME FUNZIONA)
 
 ```
 sfx("squeak");
@@ -208,13 +208,13 @@ b: Umano! Ascolta, siamo in pericolo! Il pericolo è...
 
 `bb({body:"squeeze"})`
 
-n4: (LASCIA CHE LA _TUA_ ANSIA GIOCHI CON TE! SCEGLI CIÒ CHE LA _TUA_ PAURA TI DICE)
+n4: (LASCIA CHE LA _TUA_ ANSIA GIOCHI CON TE! SCEGLI CIÒ CHE PIÙ SI AVVICINA ALLA _TUA_ PAURA)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[Stiamo pranzando in solitudine! Di nuovo!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Stiamo pranzando da soli! Di nuovo!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
 [Star qui a mangiare non è produttivo!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Ma lo sai che la solitudine è associata a una morte prematura tanto quanto fumare 15 sigarette al giorno?-
+b: Lo sai che la solitudine è associata alla morte prematura tanto quanto fumare 15 sigarette al giorno?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, grazie per aver citato le fonti ma--
+h: Uhm, grazie per aver citato le fonti ma--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Il che vuol dire che se non facciamo qualcosa con qualcuno *proprio adesso* finiremo per-
+b: Il che vuol dire che se non usciamo con qualcuno *adesso* finiremo per-
 
 `bb({body:"panic"})`
 
-b: MORIIIIIREEEEEEEEEEEE
+b: MORIREEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -271,20 +271,20 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Tira fuori il tuo laptop e lavora, ora!
+b: Tira fuori il portatile e mettiti al lavoro, subito!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, Preferirei non riempire di briciole la mia tastier--
+h: Uhm, vorrei evitare di sbriciolare sulla tastier--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Se non contribuiamo alla società allora siamo dei parassiti della società!
+b: Se non contribuiamo alla società allora siamo dei parassiti!
 
-b: La società andrà dal dottore delle società per farsi dare delle medicine che uccidano i parassiti della società e noi finiremo per--
+b: La società andrà dal dottore delle società per farsi prescrivere medicine anti-parassiti della società e noi finiremo per--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: HAI USATO LA *PAURA DI DIVENTARE CATTIVE PERSONE*
+n: HAI USATO LA *PAURA DI ESSERE UNA CATTIVA PERSONA*
 
 (#act1b)
 
@@ -315,18 +315,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Ma questo è scientificamente provat--
+h: Ma non è scientificamente provat--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Il grano raffinato farà impennare la nostra glicemia, poi dovranno amputare tutti i nostri arti e poi finiremo per--
+b: Il grano raffinato farà schizzare la nostra glicemia alle stelle e ci amputeranno tutti gli arti e poi finiremo per--
 
 `bb({body:"panic"})`
 
-b: MORIREEEEEEEE
+b: MORIREEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,7 +339,7 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: HAI USATO LA *PAURA DI FARSI MALE*
+n: HAI USATO LA *PAURA DI FARSI DEL MALE*
 
 (#act1b)
 
@@ -349,27 +349,27 @@ n: È SUPER EFFICACE
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Vedi, umano? Io sono il tuo fedele lupo da guardia!
+b: Vedi, umano? Io sono il tuo fedele lupo guardiano!
 
 `bb({body:"pride_talk"});`
 
-b: Ascolta l'istinto! Le tue emozioni hanno ragione!
+b: Fidati dell'istinto! Le tue emozioni sono legittime!
 
 `bb({body:"pride"});`
 
-n: FAI ARRIVARE A ZERO LA BARRA DI ENERGIA DEL TUO UMANO
+n: PORTA L'ENERGIA DEL TUO UMANO A ZERO
 
 n: PER PROTEGGERE I SUOI BISOGNI FISICI + SOCIALI + MORALI, PUOI USARE:
 
-n: PAURA DI *FARSI MALE* #harm#
+n: PAURA DI *FARSI DEL MALE* #harm#
 
 n: PAURA DI *NON ESSERE AMATI* #alone#
 
-n: PAURA DI ESSERE *CATTIVE PERSONE* #bad#
+n: PAURA DI ESSERE *UNA CATTIVA PERSONA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (CONSIGLIO: FA' LE SCELTE CHE COLPISCONO LE TUE PIÙ INTIME E OSCURE PAURE!~)
+n4: (CONSIGLIO: SCEGLI LE RISPOSTE IN BASE ALLE TUE PIÙ INTIME E OSCURE PAURE!~)
 
 h: ...
 
@@ -383,7 +383,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: sì, forse è arrivato il momento di controllare il telefono.
+h: sai, forse è ora di controllare il telefono.
 
 ```
 sfx("rustle2");
@@ -392,7 +392,7 @@ hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 
 n: PROTEGGI IL TUO UMANO
 
-n: DAL MONDO. DALLE ALTRE PERSONE. DA SÉ STESSO.
+n: DAL MONDO. DALLE ALTRE PERSONE. DA SE STESSO.
 
 n: BUONA FORTUNA
 
