@@ -408,19 +408,19 @@ n: BUONA FORTUNA
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: PRIMO ROUND: *LOTTA!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. C'è un post su Facebook che dice che c'è un party questo weekend.
+h: Oh. Facebook dice che ci sarà un party questo fine settimana.
 
 `bb({eyes:"uncertain"});`
 
-b: Ma quel matto fa una festa *ogni* weekend?
+b: Ma quello svitato fa una festa *ogni* weekend?
 
 `bb({eyes:"uncertain_right"});`
 
-b: Chissà che vuoto interiore sta cercando di colmare? Dev'esserci un vero casino in quella testa!
+b: Quale vuoto interiore starà cercando di colmare? È messo proprio male!
 
 `hong({eyes:"surprise"});`
 
@@ -428,9 +428,9 @@ h: Tra l'altro, ho ricevuto un invito?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Bene!
+b: Oh bene!
 
-[Di' di sì o moriremo dalla solitudine](#act1c_loner)
+[Accetta o moriremo di solitudine](#act1c_loner)
 
 [Di' di no, quella festa è piena di droga!](#act1c_drugs)
 
@@ -447,11 +447,11 @@ b: Quindici sigarette al giorno, umano! Quindici!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Poi nessuno verrà al nostro funerale, butteranno le ceneri nell'oceano, queste poi verranno mangiate da una balena,
+b: Poi nessuno verrà al nostro funerale, getteranno le ceneri nell'oceano, verremo mangiati da una balena,
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: e diventeremo CACCA DI BALENA!
+b: diventeremo CACCA DI BALENA!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -468,20 +468,20 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: Quindi sì, dovremmo andare a quella festa!
+b: Perciò sì, dovremmo andare a quella festa!
 {{/if}}
 
 {{if _.parasite}}
-b: Porta anche il laptop così possiamo lavorare, e non essere dei parassiti della società.
+b: Prendi anche il portatile così possiamo lavorare, invece di fare i parassiti della società.
 {{/if}}
 
 {{if _.whitebread}}
-b: Solo se non ci faranno mangiare del PANE BIANCO
+b: Solo se non servono il PANE BIANCO
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Cristo. Se questo ti farà tacere, va bene.
+h: CRISTO. Se ti farà stare zitto, allora va bene.
 
 h: Dirò di sì.
 
@@ -506,7 +506,7 @@ b: o peggio... PANE BIANCO
 {{/if}}
 
 {{if _.whitebread}}
-b: Faremo un'overdose di metanfetamina e pane bianco così enorme che non riusciranno a mettere il nostro cadavere ciccione nel forno crematorio!
+b: Saremo talmente pieni di meth e pane bianco che non riusciranno nemmeno a farci entrare nel forno per la cremazione!
 {{/if}}
 
 {{if !_.whitebread}}
@@ -521,12 +521,12 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: D'altronde, non possiamo far bisboccia, dobbiamo lavorare o saremo dei terribili parassiti della società!
+b: E poi non possiamo andare alle feste, se non lavoriamo siamo degli schifosi parassiti!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Cristo. Se questo ti farà tacere, va bene.
+h: CRISTO. Se ti farà stare zitto, allora va bene.
 
 h: Dirò di no.
 
@@ -541,15 +541,15 @@ h: Dirò di no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: Tutto quello che facciamo è piagnucolare su come la solitudine sia terribile quanto fumare 15 sigarette al giorno.
+b: Non facciamo che piangere perché la solitudine fa male quanto fumare 15 sigarette al giorno.
 {{/if}}
 
 {{if _.parasite}}
-b: Tutto quello che facciamo alle feste è preoccuparci del fatto che dovremmo essere più produttivi.
+b: Alle feste riusciamo a pensare solo a quanto dovremmo essere produttivi.
 {{/if}}
 
 {{if _.whitebread}}
-b: Tutto quello che facciamo è preoccuparci di come la nostra cattiva dieta ci farà morire.
+b: Non facciamo che preoccuparci di come la nostra dieta malsana ci ucciderà.
 {{/if}}
 
 ```
@@ -563,13 +563,13 @@ h: eh, chissà perché.
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: Quindi se andiamo li facciamo stare male, ma se rifiutiamo l'invito li facciamo stare male comunque!
+b: Quindi se andiamo li metteremo a disagio, se invece non andiamo ci rimarranno male!
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: NON FACCIAMO CHE FAR STARE MALE LE PERSONE: DOVREMMO ESSERE NOI A STARE MALE
+b: RIUSCIAMO SOLO A FAR STARE MALE GLI ALTRI: CI MERITIAMO DI STARE MALE
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -580,7 +580,7 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. Se questo ti farà tacere, va bene.
+h: Uffa. Se ti farà stare zitto, allora va bene.
 
 h: Ignorerò l'invito.
 
