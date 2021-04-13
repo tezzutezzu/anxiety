@@ -727,7 +727,7 @@ h: VA BENE, provo Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Ehi, che carino! Retwittato, penso che--
+h: Che carino! Retwittato. Penso che--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -861,7 +861,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: DI' DI NO DI' DI NO DI' DI NO DI' DI NO DI' DI NO DI' DI NO DI' DI N-
+b: DECLINA DECLINA DECLINA DECLINA DECLINA DECLINA DECLINA DE-
 
 
 ```
@@ -877,7 +877,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Taci, risponderò di no! Dio santo.
+h: Ok ok, declinerò! Dio santo.
 
 (#act1f)
 
@@ -959,7 +959,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Taci, taci! Risponderò di sì! Dio santo!
+h: Ok, ok! Risponderò di sì! Dio santo!
 
 (#act1f)
 
@@ -1296,19 +1296,19 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: Ti intrappoleranno in un pozzo e ti ingozzeranno di pane bianco per ingrassarti così potranno indossare la tua pelle come un vestito!
+b: Ti intrappoleranno in un pozzo per ingozzarti di pane bianco e ingrassarti così potranno indossare la tua pelle come un vestito!
 {{/if}}
 
 {{if _.parasite}}
-b: Ti randelleranno con la tua tabella di marcia e ti diranno "AVRESTI DOVUTO PRODURRE DI PIÙ, PARASSITA"
+b: Ti insegneranno la tecnica del pomodoro a suon di randellate e di "AVRESTI DOVUTO PRODURRE DI PIÙ, PARASSITA"
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: Ti faranno a brandelli, faranno coriandoli della tua carne, trasformeranno le tue viscere in stelle filanti, e faranno sangria col tuo sangue.
+b: Ridurranno la tua carne in macabri coriandoli, le tue viscere in stelle filanti e col tuo sangue faranno una sangria!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: Come ti suona QUESTO come invito ad una festa?!
+b: Come ti sembra QUESTO come invito a una festa?!
 {{/if}}
 
 ```
@@ -1369,7 +1369,7 @@ b: Andrà tutto bene.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Come tuo fedele lupo da guardia, sarò sempre in allerta, e farò del mio meglio per tenerti al sicuro.
+b: Come tuo fedele lupo guardiano sarò sempre in allerta, farò del mio meglio per tenerti al sicuro.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
@@ -1382,7 +1382,7 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Ultima app. Instagram. Vediamo che si dice.
+h: Ultima app. Instagram. Vediamo cosa c'è di nuovo.
 
 `hong({eyes:"sad"});`
 
@@ -1398,13 +1398,13 @@ h: Dio, perché non posso essere come loro? Perché non posso essere *normale?*
 
 `bb({eyes:"normal_right"});`
 
-b: A proposito di feste, riguardo l'invito per questo weekend. Questa è la mia decisione FINALE:
+b: A proposito di quell'invito, questo fine settimana. La mia decisione DEFINITIVA:
 
 `bb({eyes:"normal"});`
 
 [Dovremmo andarci.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Dovremmo non andarci.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[Dovremmo evitare.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1445,14 +1445,14 @@ b: cosa?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: Io ci VADO a quella festa,
+h: Io CI VADO a quella festa,
 
 {{if _.act1g=="go"}}
-h: NON perché tu vuoi che io ci vada, ma perché lo voglio *IO*.
+h: E NON perché lo vuoi tu, ma perché lo voglio *IO*.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Proprio perché TU vuoi che io non vada.
+h: Ci vado proprio PERCHÈ tu non vuoi.
 {{/if}}
 
 ```
@@ -1505,11 +1505,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH MORIREMO](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AAAAH MORIREMO](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH TUTTI CI ODIANO](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AAAAH TUTTI CI ODIANO](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH SIAMO PERSONE ORRIBILI](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AAAAH SIAMO PERSONE ORRIBILI](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1518,7 +1518,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH MORIREMO AAAAAAHHHHHHH
+b: AAAAH MORIREMO AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1536,7 +1536,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH TUTTI CI ODIANO AAAAAAHHHHHHH
+b: AAAAH TUTTI CI ODIANO AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1554,7 +1554,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH SIAMO PERSONE ORRIBILI AAAAAAHHHHHHH
+b: AAAAH SIAMO PERSONE ORRIBILI AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1578,11 +1578,11 @@ n: CONGRATULAZIONI
 
 n: HAI PROTETTO I BISOGNI FISICI + SOCIALI + MORALI DEL TUO UMANO
 
-n: GUARDA COM'È RICONOSCENTE!
+n: MA COME, GUARDA COM'È RICONOSCENTE!
 
 (...500)
 
-n: ORA CHE LA SUA ENERGIA È A ZERO, PUOI CONTROLLARE LE SUE AZIONI DIRETTAMENTE
+n: ORA CHE L'ENERGIA È A ZERO PUOI CONTROLLARE LE SUE AZIONI
 
 `bb({mouth:"smile", eyes:"normal"});`
 
@@ -1592,19 +1592,19 @@ n: SCEGLI LA TUA MOSSA FINALE
 
 n: *COLPO DI GRAZIA*
 
-[LOTTA: Punisci il tuo insopportabile telefono!](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[LOTTA: Prenditela con il tuo schifoso telefono!](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[SCAPPA: Rannicchiati in un angolino e piangi!](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[SCAPPA: Rannicchiati e piangi!](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Il tuo telefono ti ha provocato un attacco di panico!
+b: Il telefono stava per provocarti un attacco di panico!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg e compagnia stanno compromettendo la tua salute mentale per i soldi di qualche finanziatore capitalista!
+b: Zuckerberg & Co manipolano la tua sanità mentale per avere i soldi di qualche capitalista!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1612,7 +1612,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punisci il tuo telefono! Distruggilo! Uccidilo!
+b: Rompi il telefono! Distruggilo! Disintegralo!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1621,7 +1621,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDILO UCCIDI--
+b: ROMPILO ROMPILO ROMPILO ROMPILO ROMPILO ROMPILO ROMPILO ROMPILO ROMPILO ROMPILO ROMPILO ROMP--
 
 (#act1j)
 
@@ -1637,7 +1637,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Fai come l'armadillo! Rannicchiati in posizione di auto-difesa!
+b: Fai come l'armadillo! Rannicchiati in posizione di difesa!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
