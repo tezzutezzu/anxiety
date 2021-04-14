@@ -22,7 +22,7 @@
 publish("act2",["dee",3]);
 ```
 
-s: Ma hai *letto* quella notizia riguardo quella cosa orribile successa da qualche parte?
+s: Ma hai *letto* la "notizia" di quella cosa orribile che è successa?
 
 ```
 publish("act2",["dee",2]);
@@ -37,7 +37,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Dio odio le news. Tutto senzionalismo e titoloni acchiappa click.
+a: Dio, odio le news. Tutto senzionalismo e titoloni acchiappa click.
 
 ```
 publish("act2",["dum",2]);
@@ -52,13 +52,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Vero, ma sono solo alla ricerca di incentivi. Il *vero* problema sono le persone che ci cliccano su quei titoli.
+s: Hai ragione, però lo fanno per ottenere incentivi. Il *vero* problema è chi clicca su quei titoli.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Chi spargerebbe mai una notizia del genere e far star male tutti i propri amici?
+s: Chi retwitterebbe mai una notizia così orribile? Tutti ci rimarrebbero male.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -66,7 +66,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh... vero, no?
+a: Ugh, infatti.
 
 (#act2-preamble-end)
 
@@ -76,14 +76,14 @@ a: Ugh... vero, no?
 publish("act2",["dee",3]);
 ```
 
-s: Ma hai *letto* quella notizia che si sta spargendo?
+s: Hai *visto* quanti stanno condividendo quella "notizia"?
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: c-ciao...
+h2: C-ciao...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -91,7 +91,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Si, completamente falsa. Mi domando come fa la gente a crederci e a condividerla...
+a: Si, è una bufala. Come fanno a crederci e a condividerla?
 
 ```
 publish("act2",["dum",2]);
@@ -106,7 +106,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Sul serio. Dai, ci sei? Ameno fare qualche ricerca per verificarla?
+s: Sul serio. Cioè, quanto ci vuole ad aprire Google e verificare?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -114,7 +114,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, vero?
+a: Ugh, infatti.
 
 (#act2-preamble-end)
 
@@ -124,14 +124,14 @@ a: Ugh, vero?
 publish("act2",["dee",3]);
 ```
 
-s: Come stavo dicendo, l'Impianto Industriale Memetico sfrutta i gatti.
+s: Dicevo, l'Industria dei Meme sfrutta i gatti.
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: c-ciao...
+h2: C-ciao...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -154,13 +154,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Beh, ho visto qualcuno ritwittare una GIF di un gatto che beveva latte ieri.
+s: Beh, ieri ho visto qualcuno retwittare la GIF di un gatto che beve il latte.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: I gatti non digeriscono quella ^merda^ di latte! Chi ritwitterebbe un tale *abuso* sugli animali?
+s: I gatti non digeriscono quella ^merda^! Chi retwitterebbe un tale *abuso* sugli animali?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -168,7 +168,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, vero no?
+a: Ugh, infatti.
 
 (#act2-preamble-end)
 
@@ -185,7 +185,7 @@ publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: c-ciao...
+h2: C-ciao...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -193,7 +193,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Anche se avete avuto entrambi un match su Tinder?
+a: Anche se avete avuto il match su Tinder?
 
 ```
 publish("act2",["dum",0]);
@@ -225,7 +225,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Eh si! Non so, magari pensavano fossi un *serial killer* o qualcosa del genere. Che paranoici.
+s: Sì, non capisco! Avrà pensato che fossi un *serial killer* o qualcosa del genere. Che paranoici.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -233,7 +233,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, vero no?
+a: Ugh, infatti.
 
 (#act2-preamble-end)
 
@@ -244,9 +244,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Ma che ne so, forse pensano che rimorchiare qualcuno non possa riempire il vuoto nel loro cuore?
+s: Esatto! Forse pensano che non sia il modo giusto per riempire i loro vuoti.
 
-s: Finiscila di fare il santarellino! Apri la mente...e poi apri le cosce!
+s: Uff, quanto sei moralista! Apri la mente e poi le gambe!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -254,7 +254,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, vero no?
+a: Ugh, infatti.
 
 (#act2-preamble-end)
 
@@ -265,7 +265,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Boh! Non era così figo poi, ma sarebbe stata una bella preda!
+s: Sì, non capisco! Non era così sexy, ma non era neanche male!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -293,11 +293,11 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: ROUND TWO: _FIGHT!_
+n: SECONDO ROUND: _LOTTA!_
 
 [Oh no, tutti ci odiano!](#act2a_social)
 
-[Stavi *fissando* la rossa?](#act2a_perv)
+[Stavi *sbavando* su quella chioma?](#act2a_perv)
 
 [Dai, parliamo del significato della vita.](#act2a_meaning)
 
@@ -305,15 +305,14 @@ n: ROUND TWO: _FIGHT!_
 
 `bb({eyes:"sad"})`
 
-b: Stiamo affliggendo tutti con la nostra seriosità!
+b: Con quel muso lungo stiamo facendo deprimere tutti quanti!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Stiamo ammazzando l'atmosfera! Siamo degli assassini di atmosfere di primo grado!
-
+b: Stiamo uccidendo l'atmosfera! Emaniamo vibrazioni omicide!
 `bb({eyes:"normal", body:"normal"})`
 
-b: Umano, dobbiamo andarcene, *ora*. Prima che--
+b: Umano, dobbiamo andarcene *adesso*, prima che--
 
 ```
 _.a2_first_danger = 'social';
@@ -326,15 +325,15 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: È molto più attraente di noi, che significa che se solo la *guardiamo* poi---
+b: È molto più attraente di noi, se anche solo la *guardiamo* poi---
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: SIAMO DEI VISCIDONI
+b: SIAMO DEI PERVERTITI
 
 `bb({body:"normal"})`
 
-b: Siamo dei vermi, dei viscidi, dei terribili, luridi schifosissimi perv--
+b: Siamo dei vermi, viscidi, luridi schifosissimi perv--
 
 ```
 _.a2_first_danger = 'perv';
