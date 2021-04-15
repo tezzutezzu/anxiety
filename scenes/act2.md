@@ -310,6 +310,7 @@ b: Con quel muso lungo stiamo facendo deprimere tutti quanti!
 `bb({eyes:"shock", body:"two_up"})`
 
 b: Stiamo uccidendo l'atmosfera! Emaniamo vibrazioni omicide!
+
 `bb({eyes:"normal", body:"normal"})`
 
 b: Umano, dobbiamo andarcene *adesso*, prima che--
@@ -387,7 +388,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... mi puoi sentire, umano?
+b: Ehi... mi senti?
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -613,7 +614,7 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh finalmente, sembra che tu possa sentirmi di nuovo!
+b: Oh, finalmente riesci a sentirmi!
 
 `bb({eyes:"closed", body:"point"})`
 
