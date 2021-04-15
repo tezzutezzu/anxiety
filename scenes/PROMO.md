@@ -20,7 +20,7 @@ n3: Ok, prima di cominciare, come ti piacerebbe leggere?
 
 # intro-start-2
 
-n3: Bene, cominciamo la nostra storia...
+n3: Bene, cominciamo...
 
 ```
 publish("hide_tabs");
@@ -51,7 +51,7 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: E QUESTA È L'ANSIA DELL'UMANO
+n: E QUESTA È LA SUA ANSIA
 
 n: _TU_ SEI L'ANSIA
 
@@ -66,7 +66,7 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Lalala, no. Non ti sento. Dò un'occhiata al mio telefono.
+h: Lalala, non ti sento. Do un'occhiata al mio telefono.
 
 ```
 sfx("rustle2");
@@ -77,34 +77,34 @@ n: IL TUO COMPITO È PROTEGGERE IL TUO UMANO DAL *PERICOLO*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Oh no! Stai buttando la tua vita su Twitter! Di nuovo!
+b: Oh no! Stai sprecando la tua vita su Twitter! Di nuovo!
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Già, chissà perché semplicemente non mi siedo e asolto i miei pensieri più spesso.
+h: Già, chissà perché non mi fermo mai ad ascoltare i miei pensieri.
 
 `hong({eyes:"neutral"});`
 
-n: PRESO, AVVERTILO DI UN *PERICOLO!*
+n: PRESTO, AVVERTILO DEL *PERICOLO!*
 
 ```
 bb({eyes:"look"});
 ```
 
-[Oh no di nuovo quella new orribil!](#act1d_news)
+[Oh no, guarda che notizia orribile!](#act1d_news)
 
-[Oh no, ma quel tweet sta parlando di noi?](#act1d_subtweet)
+[Oh no, quel tweet è riferito a noi?](#act1d_subtweet)
 
-[Eh!i, una gif di un gattino che beve il latte](#act1d_milk)
+[Oh, la GIF di un gattino che beve il latte](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Hehe è così carin-- 
+h: Oh ma che carin-- 
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: I GATTI NON DIGERISCONO IL LATTE E SIAMO DELLE PERSONE ORRIBILI PER GODERE DEGLI ABUSI SUGLI ANIMALI
+b: I GATTI NON DIGERISCONO IL LATTE E SIAMO ORRIBILI SE GODIAMO DEGLI ABUSI SUGLI ANIMALI
 
 (...200)
 
