@@ -186,7 +186,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Grandioso, riecco il mio lupo. Faaaaantastico.
+h: Grandioso, riecco il mio lupo. Peeerfetto.
 
 `hong({eyes:"0_neutral"})`
 
