@@ -383,7 +383,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: Sai, forse è ora di controllare il telefono.
+h: Ora controllo il telefono.
 
 ```
 sfx("rustle2");
