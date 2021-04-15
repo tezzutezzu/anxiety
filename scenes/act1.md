@@ -432,7 +432,7 @@ b: Oh bene!
 
 [Accetta o moriremo di solitudine](#act1c_loner)
 
-[Di' di no, quella festa è piena di droga!](#act1c_drugs)
+[Rifiuta, quella festa è piena di droga!](#act1c_drugs)
 
 [Ignoralo, noi rendiamo tristi le feste.](#act1c_sad)
 
@@ -1075,9 +1075,9 @@ h: Forse non avrei dovuto ignorare l'invito.
 
 [Continua a ignorarlo, siamo pur sempre guastafeste.](#act1e_ignore_continue)
 
-[Ripensandoci, di' di sì.](#act1e_ignore_changetoyes)
+[Ripensandoci, accettiamo.](#act1e_ignore_changetoyes)
 
-[Ripensandoci, di' di no.](#act1e_ignore_changetono)
+[Ripensandoci, rifiutiamo.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
