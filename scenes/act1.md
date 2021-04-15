@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: HAI USATO LA *PAURA DI ESSERE UNA CATTIVA PERSONA*
+n: HAI USATO LA *PAURA DI ESSERE UNA BRUTTA PERSONA*
 
 (#act1b)
 
@@ -365,7 +365,7 @@ n: PAURA DI *FARSI DEL MALE* #harm#
 
 n: PAURA DI *NON ESSERE AMATI* #alone#
 
-n: PAURA DI ESSERE *UNA CATTIVA PERSONA* #bad#
+n: PAURA DI ESSERE *UNA BRUTTA PERSONA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
@@ -412,7 +412,7 @@ n: PRIMO ROUND: *LOTTA!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Oh. Facebook dice che ci sarà un party questo fine settimana.
+h: Oh. Facebook dice che ci sarà una festa questo fine settimana.
 
 `bb({eyes:"uncertain"});`
 
@@ -432,7 +432,7 @@ b: Oh bene!
 
 [Accetta o moriremo di solitudine](#act1c_loner)
 
-[Di' di no, quella festa è piena di droga!](#act1c_drugs)
+[Rifiuta, quella festa è piena di droga!](#act1c_drugs)
 
 [Ignoralo, noi rendiamo tristi le feste.](#act1c_sad)
 
@@ -483,7 +483,7 @@ b: Solo se non servono il PANE BIANCO
 
 h: CRISTO. Se ti farà stare zitto, allora va bene.
 
-h: Dirò di sì.
+h: Accetterò l'invito.
 
 {{if _.whalepoop}}
 b: Cacca di balena, umano! Cacca di balena!
@@ -528,7 +528,7 @@ b: E poi non possiamo andare alle feste, se non lavoriamo siamo degli schifosi p
 
 h: CRISTO. Se ti farà stare zitto, allora va bene.
 
-h: Dirò di no.
+h: Rifiuterò.
 
 `_.partyinvite="no"`
 
@@ -827,7 +827,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Taci, taci! Risponderò di sì.
+h: Taci, taci! Accetterò l'invito.
 
 (#act1f)
 
@@ -885,9 +885,9 @@ h: Ok ok, declinerò! Dio santo.
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... sembra molto divertente
+h: Uhm... sembra molto divertente
 
-h: Forse non avrei dovuto dire di no all'invito? 
+h: Forse non avrei dovuto rifiutare l'invito... 
 
 `bb({mouth:"normal", eyes:"normal"});`
 
@@ -929,7 +929,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Taci, taci! Lascio il no!
+h: Mio Dio, taci! Non ci andiamo!
 
 (#act1f)
 
@@ -959,7 +959,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Ok, ok! Risponderò di sì! Dio santo!
+h: Ok, ok! Accetterò l'invito! Dio santo!
 
 (#act1f)
 
@@ -1075,9 +1075,9 @@ h: Forse non avrei dovuto ignorare l'invito.
 
 [Continua a ignorarlo, siamo pur sempre guastafeste.](#act1e_ignore_continue)
 
-[Ripensandoci, di' di sì.](#act1e_ignore_changetoyes)
+[Ripensandoci, accettiamo.](#act1e_ignore_changetoyes)
 
-[Ripensandoci, di' di no.](#act1e_ignore_changetono)
+[Ripensandoci, rifiutiamo.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
@@ -1149,7 +1149,7 @@ hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, ho un match! Interessante!
+h: Oh, un nuovo match! Interessante!
 
 ```
 bb({eyes:"narrow_eyebrow"});
