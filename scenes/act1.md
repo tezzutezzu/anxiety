@@ -416,7 +416,7 @@ h: Oh, Facebook dice che ci sarà una festa questo fine settimana.
 
 `bb({eyes:"uncertain"});`
 
-b: Ma quello svitato fa una festa *ogni* weekend?
+b: Ma quello svitato fa una festa *ogni* settimana?
 
 `bb({eyes:"uncertain_right"});`
 
