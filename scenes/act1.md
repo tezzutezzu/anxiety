@@ -412,7 +412,7 @@ n: PRIMO ROUND: *LOTTA!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Oh. Facebook dice che ci sarà un party questo fine settimana.
+h: Oh. Facebook dice che ci sarà una festa questo fine settimana.
 
 `bb({eyes:"uncertain"});`
 
