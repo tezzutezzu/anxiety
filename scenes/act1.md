@@ -929,7 +929,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Taci, taci! Lascio il no!
+h: Mio Dio, taci! Non ci andiamo!
 
 (#act1f)
 
