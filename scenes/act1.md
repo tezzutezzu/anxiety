@@ -483,7 +483,7 @@ b: Solo se non servono il PANE BIANCO
 
 h: CRISTO. Se ti farà stare zitto, allora va bene.
 
-h: Dirò di sì.
+h: Accetterò l'invito.
 
 {{if _.whalepoop}}
 b: Cacca di balena, umano! Cacca di balena!
@@ -528,7 +528,7 @@ b: E poi non possiamo andare alle feste, se non lavoriamo siamo degli schifosi p
 
 h: CRISTO. Se ti farà stare zitto, allora va bene.
 
-h: Dirò di no.
+h: Rifiuterò.
 
 `_.partyinvite="no"`
 
@@ -827,7 +827,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Taci, taci! Risponderò di sì.
+h: Taci, taci! Accetterò l'invito.
 
 (#act1f)
 
@@ -885,9 +885,9 @@ h: Ok ok, declinerò! Dio santo.
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... sembra molto divertente
+h: Uhm... sembra molto divertente
 
-h: Forse non avrei dovuto dire di no all'invito? 
+h: Forse non avrei dovuto rifiutare l'invito... 
 
 `bb({mouth:"normal", eyes:"normal"});`
 
@@ -959,7 +959,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Ok, ok! Risponderò di sì! Dio santo!
+h: Ok, ok! Accetterò l'invito! Dio santo!
 
 (#act1f)
 
@@ -1149,7 +1149,7 @@ hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, ho un match! Interessante!
+h: Oh, un nuovo match! Interessante!
 
 ```
 bb({eyes:"narrow_eyebrow"});
