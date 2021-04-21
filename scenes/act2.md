@@ -244,7 +244,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Esatto! Forse pensano che non sia il modo giusto per riempire i loro vuoti.
+s: Esatto! Pensano che non sia un buon modo per colmare le loro mancanze.
 
 s: Uff, quanto sei moralista! Apri la mente e poi le gambe!
 
@@ -351,11 +351,11 @@ b: Alla fine, possiamo davvero dire *cosa* importa davvero?
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribuire all'umanità? Tutte le grandi opere deperiscono allo stesso modo di Osimandia. L'amore? Sarà sfaldato dalla morte.
+b: Contribuire all'umanità? Tutte le grandi opere deperiscono, anche se sei Ramses II. L'amore? Verrà sempre spezzato dalla morte.
 
 `bb({eyes:"sad_r"})`
 
-b: E quanta morte c'è attorno a noi! *Noi* moriremo. *Tutti* i nostri cari moriranno.
+b: Siamo circondati dalla morte! *Noi* moriremo, *tutti* i nostri cari moriranno.
 
 `bb({eyes:"shock", body:"two_up"})`
 
@@ -363,15 +363,15 @@ b: Cavolo, secondo la Seconda Legge della Termodinamica persino il nostro *unive
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "la morte ci fa apprezzare la vita"? È come dire che la schiavitù è buona perché ci fa apprezzare la libertà!
+b: "La morte ti fa apprezzare la vita"? È come dire che la schiavitù ci permette di apprezzare la libertà!
 
 `bb({body:"one_up"})`
 
-b: Oh, "sei tu che devi creare il significato della tua vita"? Questo è proprio quello che i complottari e i cospirazionisti fanno!
+b: "Devi capire qual è il tuo scopo in questa vita"? È esattamente quello che fanno complottari e cospirazionisti!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: La vita non ha senso, la morte non ha senso, persino il *senso* non ha senso! Cosa dovrebbe fare un mortale--
+b: La vita non ha senso, la morte non ha senso, nemmeno il *senso* ha un senso! Cosa dovrebbe fare una person--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -402,7 +402,7 @@ b: *GASP*
 
 b: DEVO AVVERTIRTI CHE...
 
-[C'è *ancora* pericolo!](#act2b_louder)
+[Sei *ancora* in pericolo!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
 [C'è un *altro* pericolo sociale!](#act2b_different_social)
@@ -436,12 +436,11 @@ b: DEVO AVVERTIRTI CHE...
 
 b: LE EMOZIONI SONO CONTAGIOSE! SE NON TE NE VAI INFETTERAI TUTTI CON LA TUA MALATTIA MENTALE!
 
-b: Creerai un'epidemia fatale della SINDROME DEL TRISTONE
+b: Creerai un'epidemia fatale di SINDROME DA MUSO LUNGO
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: Dobbiamo andare in quarantena per sempre in una piccola stanza con Netflix e consegne di cibo a domicilio!
-
+b: Dobbiamo andarcene e rinchiuderci per sempre in una stanza solo con Netflix e cibo a domicilio!
 ```
 _.a2_second_danger = "netflix";
 _.a2_attack_2 = "solitudine";
@@ -454,7 +453,7 @@ _.a2_hoodie_callback = "quarantena";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: NON FARE IL VISCIDO, È CONTRO LA LEGGE!
+b: NON FARE IL PERVERTITO, È CONTRO LA LEGGE!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -479,11 +478,11 @@ sfx("gravel");
 
 (...501)
 
-b: Legge sul Viscidume, Sezione 74.5: (1) Tutte le persone che continuano a guardare (a) quelle spalle muscolose (b) quel culetto delizioso (2) saranno tacciate di essere
+b: Legge sulla Perversione, Sezione 74.5: (1) Chiunque si fissi su (a) quelle spalle muscolose (b) quel culetto rotondo (2) sarà tacciato di essere
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "DEI GRAN PERVERTITI SCHIFOSI"
+b: "UN GRAN PERVERTITO SCHIFOSO"
 
 ```
 _.a2_second_danger = 'legge';
@@ -497,23 +496,23 @@ _.a2_hoodie_callback = "la legge";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Veramente, anche se hai un nobile scopo nella tua vita, puoi *comunque* continuare a incasinare tutto!
+b: In realtà, anche se trovassi uno scopo nobile nella vita, rischieresti *comunque* di mandare tutto a quel paese!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel voleva la pace nel mondo e che i popoli si capissero l'un l'altro. Quindi decise di facilitare le persone a viaggiare
+b: Alfred Nobel voleva la pace e la comprensione tra popoli, quindi decise di rendere più semplice viaggiare.
 
 `bb({eyes:"normal_r"})`
 
-b: Quindi aveva bisogno di creare in modo poco costoso le gallerie per i treni. Quindi ha inventato una cosa chiamata "dinamite"....
+b: Gli serviva qualcosa di economico per creare delle gallerie, perciò ha inventato la dinamite...
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: che fu usata nella prima Guerra Mondiale per UCCIDERE MILIONI DI PERSONE
+b: ... che venne usata nella prima Guerra Mondiale per UCCIDERE MILIONI DI PERSONE
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: È L'EFFETTO FARFALLA, UMANO! QUANTE PERSONE STAI INVOLONTARIAMENTE UCCIDENDO ORA?
+b: È L'EFFETTO FARFALLA, UMANO! QUANTE PERSONE STAI UCCIDENDO PROPRIO ORA, SENZA SAPERLO?!
 
 ```
 _.a2_escond_danger = 'butterfly';
@@ -529,15 +528,15 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: In realtà, sai cosa è peggio dell'essere rifiutato dagli altri? Essere popolare per *tutti*.
+b: In realtà, sai cosa è peggio di non piacere a nessuno? Piacere a *tutti*.
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: Ovvero, diventare uno di *questi* animali da festa sempre alla ricerca del piacere.
+b: Diventare uno di *questi* animali da festa sempre alla ricerca del piacere.
 
 `bb({body:"normal", mouth:"small"})`
 
-b: Una vita superficiale con amici superficiali che hanno ti conoscono solo in modo superficiale!
+b: Una vita superficiale con amici superficiali che non ti conoscono veramente!
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
@@ -557,11 +556,11 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: La gente sta morendo di fame *in questo momento* e noi semplicemente, facciamo festa!
+b: La gente muore di fame *in ogni momento* mentre noi pensiamo a divertirci!
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: Un saggio una volta disse: "l'unica cosa necessaria affinché il male trionfi è che la gente comune non faccia nulla."
+b: Un saggio una volta disse: "l'unica cosa necessaria affinché il male trionfi è che la gente comune non faccia nulla".
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
@@ -569,7 +568,7 @@ b: NON STIAMO FACENDO NULLA
 
 `bb({mouth:"small"})`
 
-b: FACENDO FESTA, STIAMO AIUTANDO _HITLER_.
+b: IN QUESTO MODO STIAMO AIUTANDO _HITLER_.
 
 ```
 _.a2_second_danger = 'hitler';
@@ -585,7 +584,7 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: Pensi che sei al sicuro solo perché hai tolto le batterie al rilevatore di monossido di carbonio?
+b: Pensi di essere al sicuro solo perché hai tolto le batterie al rilevatore di monossido di carbonio?
 
 `bb({eyes:"suspect_r"})`
 
@@ -621,7 +620,7 @@ b: Oh, finalmente riesci a sentirmi!
 b: DEVO AVVERTIRTI CHE
 
 {{if _.a2_first_choice=="louder"}}
-[C'è *ancora* pericolo!](#act2c_louder)
+[C'è *ancora* più pericolo!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
@@ -668,15 +667,15 @@ b: DEVO AVVERTIRTI CHE
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: In realtà, Netflix e consegne a domicilio non è abbastanza! Infetteremo anche i ragazzi delle consegne!
+b: In realtà, Netflix e consegne a domicilio non sono sufficienti! Contageremmo anche i ragazzi delle consegne!
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: Dobbiamo trasferirci in qualche eremo e farci consegnare il cibo coi droni!
+b: Dobbiamo trasferirci in qualche eremo e farci consegnare il cibo con i droni!
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: E poi dovremmo sterilizzare i droni per eliminare i germi della SINDROME DEL TRISTONE
+b: E poi dovremmo sterilizzare il drone per eliminare i germi della SINDROME DEL MUSO LUNGO
 
 `_.a2_attack_3 = "alone";`
 
@@ -709,13 +708,13 @@ sfx("gravel");
 
 (...501)
 
-b: Il GRAN VISCIDO PERVERTITO sarà condannato a 72 ore di gogna
+b: Quello SCHIFOSO PERVERTITO dev'essere condannato a 72 ore di gogna pubblica
 
-b: (a meno che le gogne non lo eccitino)
+b: (a meno che questo non gli piaccia)
 
 `bb({body:"scream_a_1"})`
 
-b: perché sono dei GRAN VISCIDI PERVERTITI
+b: per essere così SCHIFOSO
 
 `_.a2_attack_3 = "bad";`
 
@@ -727,7 +726,7 @@ b: perché sono dei GRAN VISCIDI PERVERTITI
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: EFFETTO FARFALLA! Stai usando dei bicchieri di plastica non bio-degradabili?
+b: EFFETTO FARFALLA! Stai usando un bicchiere di plastica non bio-degradabile?
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
@@ -735,11 +734,11 @@ b: BAM, PERCOLATI TOSSICI DALLA DISCARICA UCCIDONO UN BAMBINO
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: Stai sudando e ti sta scoppiando il cuore?
+b: Stai sudando? Il cuore ti va a mille?
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, DISTRUGGI IL SISTEMA SANITARIO NAZIONALE E MILIONI DI PERSONE MUOIONO
+b: BAM, DISTRUGGI IL SISTEMA SANITARIO E MILIONI DI PERSONE MUOIONO
 
 `_.a2_attack_3 = "bad";`
 
@@ -751,15 +750,15 @@ b: BAM, DISTRUGGI IL SISTEMA SANITARIO NAZIONALE E MILIONI DI PERSONE MUOIONO
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: Questi zombi ricerca-piacere barcolleranno verso di te borbottando,
+b: Questi zombie-mangia-piacere verranno da te borbottando:
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: METTI UN MI PIAAACEEE, METTI UN MI PIAAACEEE
+b: METTI UN LIIIKE. METTI UN LIIIIIKE.
 
 `bb({body:"scream_a_1"})`
 
-b: Poi ti MORDERANNO e ti trasformeranno in uno MACHO SENZACERVELLO e/o una CAGNA SVAMPITA
+b: Poi ti MORDERANNO e ti trasformeranno in uno MACHO SENZA CERVELLO e/o in una CAGNA SVAMPITA!
 
 `_.a2_attack_3 = "bad";`
 
