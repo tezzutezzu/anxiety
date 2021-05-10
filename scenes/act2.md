@@ -726,7 +726,7 @@ b: per essere così SCHIFOSO
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: EFFETTO FARFALLA! Stai usando un bicchiere di plastica non bio-degradabile?
+b: EFFETTO FARFALLA! Stai usando un bicchiere in plastica non bio-degradabile?
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
@@ -758,7 +758,7 @@ b: METTI UN LIIIKE. METTI UN LIIIIIKE.
 
 `bb({body:"scream_a_1"})`
 
-b: Poi ti MORDERANNO e ti trasformeranno in uno MACHO SENZA CERVELLO e/o in una CAGNA SVAMPITA!
+b: Poi ti MORDERANNO e ti trasformeranno in un MACHO SENZA CERVELLO e/o in una CAGNA SVAMPITA!
 
 `_.a2_attack_3 = "bad";`
 
@@ -790,11 +790,11 @@ b: *Ora i nostri piani possono proseguire, appena in tempo!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: A pensarci, sappiamo se *questo palazzo* ha un rilevatore di monossido di carbonio
+b: A pensarci bene: *questo edificio* dispone di un rilevatore di monossido di carbonio?!
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: E se ci stessero avvelenando _IN QUESTO MOMENTO_?
+b: E se ci stessero avvelenando _PROPRIO ADESSO_?
 
 `bb({body:"scream_a_1"})`
 
@@ -810,15 +810,15 @@ b: NON RIUSCIREMMO NEANCHE A VEDERE LA MORTE AVVICINARSI. SEMPLICEMENTE CESSEREM
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: E se fossimo essenzialmente *incapaci* di essere amati, o di amare?
+b: E se nel profondo non fossimo *non adatti* ad essere amati, o ad amare?
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: E se qualcosa si fosse rotto irreversibilmente tanto tempo fa dentro di noi? O magari non è mai esistito?
+b: E se qualcosa si fosse rotto irrimediabilmente tanto tempo fa dentro di noi? O magari non è mai esistito?
 
 `bb({body:"scream_a_1"})`
 
-b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI!
+b: AAH SIAMO DIFETTOSI! ROTTI, ROTTI, ROTTI, ROTTI-
 
 `_.a2_attack_3 = "alone";`
 
@@ -828,11 +828,11 @@ b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: E se fossimo essenzialmente *marci*?
+b: E se fossimo *marci dentro*?
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Gli altri almeno hanno una predisposizione a fare del bene, noi quando facciamo del "bene" solo perché ci vergognamo o ci sentiamo in colpa.
+b: Gli altri hanno una predisposizione a fare del bene, noi lo facciamo solo se spinti dalla vergogna o dal senso di colpa.
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
@@ -840,7 +840,7 @@ b: E se fosse nella nostra natura ferire gli altri? E se non potessimo essere *n
 
 `bb({body:"scream_a_1"})`
 
-b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI!
+b: AAH SIAMO DIFETTOSI! ROTTI, ROTTI, ROTTI, ROTTI-
 
 `_.a2_attack_3 = "bad";`
 
@@ -850,15 +850,15 @@ b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Non sono irrazionale. La gente droga i drink *per davvero*. Questa è una cosa che succede.
+b: Non sono irrazionale. La gente droga *davvero* i drink. Succede veramente.
 
 `bb({eyes:"suspect"})`
 
-b: Umano, ti fa male la testa? Ti senti le gambe molli? Penso che stiamo morendo.
+b: Umano, ti fa male la testa? Ti senti le gambe molli? Forse stiamo morendo.
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH STIAMO MORENDO! MORENDO MORENDO MORENDO MOREN--
+b: AAAH STIAMO MORENDO! MORENDO MORENDO MORENDO MOREN--
 
 `_.a2_attack_3 = "harm";`
 
@@ -896,7 +896,7 @@ h: C^AZZ^O C^AZZO^-C^AZZ^O *C^AAAAZZZO^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Evviva Umano! Sono contento che tu possa sentirmi di nuovo!
+b: Evviva, Umano! Sono contento che tu possa sentirmi di nuovo!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
@@ -931,17 +931,17 @@ h: *Io sono amato. Io sono buono. Io sono intelligente. Io sono bello. Io sono s
 
 [Sai che il pensiero positivo è stato *confutato?*](#act2d_disproven)
 
-[Wow. Per piacere non attribuire assurde storie folcloristiche alle popolazioni indigene](#act2d_racist)
+[Wow. Non attribuiamo storie assurde alle popolazioni indigene](#act2d_racist)
 
 # act2d_disproven
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Anzi, addirittura *è nocivo* per le persone con bassa autostima!
+b: Anzi, addirittura *è nocivo* per chi ha bassa autostima!
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: È stato stabilito da uno studio scientifico serio, nell'esperimento lo sperimentatore non era al corrente a quale gruppo appartenevano gli esaminati.
+b: La ricerca era ben progettata, lo sperimentatore non era al corrente di chi apparteneva a quale gruppo.
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
@@ -949,7 +949,7 @@ b: Risultato: se soffri di bassa autostima, ripeterti questo tipo di affermazion
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Controllalo pure su Google Scholar, umano
+b: Wood 2009, Psychological Science. Controllalo pure su Google Scholar, Umano.
 
 `bb({body:"scream_b_1"})`
 
@@ -969,19 +969,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: *Devi* umilmente constatare le tue limitazioni se vorrai crescere come persona!
+b: *Devi* iniziare a guardare con umiltà i tuoi difetti per crescere come persona!
 
 `bb({body:"two_up", eyes:"suspect"})`
 
-b: Non puoi semplicemente spruzzare del deodorante in una stanza ammuffita! Coprire i tuoi difetti, a lungo andare, renderà le cose peggiori.
+b: Non basta spruzzare del deodorante in una stanza ammuffita! Coprire i tuoi difetti, a lungo andare, ti rende peggiore.
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
-b: Per fortuna, io, come tuo lupo da guardia, posso avvertirti dei tuoi difetti. E ora--
+b: Per fortuna, io, come tuo lupo guardiano, posso avvertirti dei tuoi difetti. E ora--
 
 `bb({body:"scream_b_1"})`
 
-b: TUTTO. TUTTO É SBAGLIATO.
+b: TUTTO. É TUTTO SBAGLIATO.
 
 ```
 hong({body:"attacked"});
@@ -997,7 +997,7 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: I nativi Americani sono delle *persone*, non dei *selvaggi buoni* che puoi buttare in una conversazione per rendere il tuo consiglio da Bacio Perugina più _esotico_.
+b: I nativi Americani sono delle *persone*, non dei *saggi popoli* a cui attribuire frasi per rendere più _esotici_ i tuoi biscotti della fortuna.
 
 `bb({eyes:"suspect_r"})`
 
@@ -1023,7 +1023,7 @@ h: ^PORCA MISERIA^
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: Sai cosa? *TU* sei irrazionale.
+h: Sai cosa? Sei *irrazionale*.
 
 h: Tutti sanno che le emozioni sono irrazionali. Specialmente la paura.
 
@@ -1033,7 +1033,7 @@ h: Sei un inutile residuo del processo evolutivo. Come la mia appendice, o il mi
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: ^Cazzo^, persino questa metafora del lupo da guardia è una stupidaggine! Sei soltanto un pugno di sostanze neuro-chimiche all'interno del mio cervello.
+h: ^Cazzo^, questa metafora del lupo guardiano è una stupidaggine! Sei soltanto un pugno di sostanze neuro-chimiche del mio cervello.
 
 `hong({body:"cross", mouth:"cross"})`
 
@@ -1043,21 +1043,21 @@ h: Quindi perché dovrei dare ascolto a un irrazionale, inesistente pezzo di ^me
 
 b: ...
 
-[Umano, mi stai facendo davvero del male.](#act2e_hurtful)
+[Umano, questo fa davvero male.](#act2e_hurtful)
 
-[Io sono un'emozione e le emozioni hanno senso.](#act2e_valid)
+[Io sono un'emozione. Le emozioni sono legittime.](#act2e_valid)
 
-[Umano, siamo *entrambi* "un pugno di sostanze chimiche"](#act2e_rational)
+[Umano, siamo fatti *entrambi* di "sostanze chimiche".](#act2e_rational)
 
 # act2e_hurtful
 
 `bb({body:"chest"})`
 
-b: Io sono *parte* di te, sai? Quando dici questo, stai in realtà facendo male a te stesso.
+b: Io sono *parte* di te, sai? Quando dici questo ferisci te stesso, in realtà.
 
 `bb({body:"scream_a_1"})`
 
-b: Perché ti fai del male, umano? SMETTI DI FARTI DEL MALE
+b: Perché ti fai del male, Umano? SMETTI DI FARTI DEL MALE
 
 ```
 music(null);
@@ -1082,15 +1082,15 @@ b: Le tue memorie sono pesi sinaptici, la tua ragione è un insieme di segnali e
 
 `bb({eyes:"normal", body:"normal"});`
 
-b: Quindi se l'essere "solo sostanze chimiche" significa essere irrazionale...beh allora questo significa che *irrazionale* lo sei anche tu!
+b: Quindi se essere solo "sostanze chimiche" rende *me* irrazionale... significa che *tu* sei irrazionale!
 
 `bb({body:"two_up", eyes:"shock"});`
 
-b: E se siamo entrambi _irrazionali_, allora non riusciremo *mai* a capire come fare ad essere soddisfatti e felici!
+b: E se siamo *entrambi* irrazionali, allora non riusciremo *mai* a capire come essere felici e soddisfatti!
 
 `bb({body:"scream_a_1"})`
 
-b: AAH NON STIAMO BENE! STIAMO A PEZZI, A PEZZI, A PEZZI!
+b: AAH SIAMO DIFETTOSI! ROTTI, ROTTI, ROTTI, ROTTI-
 
 ```
 music(null);
@@ -1107,19 +1107,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Aspetta... "loro" dicono che i sentimenti sono validi, allora dovresti sempre accettare le tue emozioni.
+b: Aspetta... dici che i sentimenti sono legittimi, che dovresti sempre accettare le tue emozioni.
 
 `bb({eyes:"suspect_r"});`
 
-b: Ma "loro" dicono anche che le emozioni sono irrazionali, che non ci si può fidare delle emozioni.
+b: Ma dici anche che le emozioni sono irrazionali, quindi inaffidabili.
 
 `bb({eyes:"angry"});`
 
-b: O mio dio, "loro" ci hanno ingannato tutto il tempo!
+b: Oh mio dio, ci stiamo ingannando da soli!
 
 `bb({body:"scream_a_1"})`
 
-b: "LORO" CI CIBANO DI CONTRADDIZIONI PER RENDERCI DIPENDENTI DALL'INDUSTRIA DELL'AUTO-AIUTO
+b: CI CIBIAMO DI CONTRADDIZIONI IN MODO DA DIPENDERE DALL'INDUSTRIA DELL'AUTO-AIUTO
 
 ```
 music(null);
