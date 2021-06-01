@@ -1107,11 +1107,11 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Aspetta... dici che i sentimenti sono legittimi, che dovresti sempre accettare le tue emozioni.
+b: Aspetta... stai dicendo che i sentimenti sono legittimi, che dovresti sempre accettare le tue emozioni.
 
 `bb({eyes:"suspect_r"});`
 
-b: Ma dici anche che le emozioni sono irrazionali, quindi inaffidabili.
+b: Però dici anche che le emozioni sono irrazionali, quindi inaffidabili.
 
 `bb({eyes:"angry"});`
 
@@ -1138,7 +1138,7 @@ attack("10p", "harm");
 
 h: ...
 
-h: Odio tutto questo. Sto male e *odio* tutto questo.
+h: Odio tutto questo. Sto male e questo mi fa *schifo*.
 
 h: Non posso placarti. Non posso ignorarti. Non posso combatterti.
 
@@ -1148,21 +1148,21 @@ h: Non importa quanti sforzi faccia, non riesco a sbarazzarmi di--
 
 `bb({body:"cry_1"});`
 
-b: Beh, forse NON *DOVRESTI* SBARAZZARTI DI ME.
+b: Beh, forse NON DEVI *PER FORZA* SBARAZZARTI DI ME.
 
 `bb({body:"cry_2"});`
 
-b: Come pensi che *IO* mi senta, umano?
+b: Come pensi che mi senta *IO*, Umano?
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: Ce la sto mettendo tutta per essere il tuo lupo da guardia, ma tu continui a vedermi come il Gran Lupo Cattivo!
+b: Ce la sto mettendo tutta per essere il tuo lupo guardiano, eppure continui a considerarmi un Lupo Cattivo!
 
 b: Quindi io mi sforzo *ancora di più* per avvertirti del pericolo! *Più* pericoli! *Altri* pericoli!
 
 `bb({eyes:"cry_2"})`
 
-b: Ma non importa quanto io mi impegni, tu credi *ancora* che io sia tuo nemico.
+b: Non importa quanto io mi impegni, tu credi *ancora* che io sia tuo nemico.
 
 `bb({body:"cry_5"});`
 
@@ -1170,7 +1170,7 @@ b: Dove sto sbagliando?!
 
 `bb({body:"cry_2"});`
 
-b: Lo *so* che faccio schifo come lupo da guardia. Ma ci sto *provando*, umano!
+b: Lo *so* che faccio schifo nel mio intento. Ma ci sto *provando*, umano!
 
 `bb({body:"cry_3"});`
 
@@ -1182,11 +1182,11 @@ b: Non devi seguire i miei avvertimenti, o essere d'accordo con me, non devi nea
 
 `bb({eyes:"cry_r_2"});`
 
-b: Tutto quello che voglio...è che tu sia paziente con me.
+b: Vorrei solo... che tu fossi paziente con me.
 
 `bb({eyes:"cry_r_3"});`
 
-b: Vorrei solo che tu ti sieda con me per un po', invece di guardare dall'altro lato e--
+b: Vorrei solo che ti sedessi con me per un po', invece di evitarmi, e--
 
 ```
 bb({eyes:"cry_r_4"});
@@ -1210,7 +1210,7 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Sembra che tu stia nel bel mezzo di una lotta con te stesso, ragazzo.
+r: Sembra che tu sia nel bel mezzo di una lotta con te stesso.
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1240,7 +1240,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: Oh, dio...
+h2: Oh, Dio, sono proprio una frana.
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1256,24 +1256,24 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Pensa che proprio ieri ho sentito di uno che ha avuto un esaurimento nervoso e ha scaraventato il telefono al suolo!
+r: Pensa, proprio ieri ho sentito di uno che ha avuto un crollo nervoso e ha scaraventato il telefono a terra!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Pensa che proprio ieri un tipo si è rannicchiato e si messo a piangere in pubblico!
+r: Pensa che proprio ieri un tipo si è rannicchiato e si messo a piangere davanti a tutti!
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
-r: Ascolta, so che vuol dire avere quell'animale in testa.
+r: Ascolta, so che vuol dire avere quella bestia che ti ronza intorno.
 
 ```
 publish("act2",["party_hunter",8]);
 ```
 
-r: *Tutti* lo sappiamo. Ecco perché dò una festa ogni weekend. Per dimenticarci delle nostre paure e dimenticare quell'animale.
+r: Lo sappiamo *tutti*. Ecco perché organizzo feste ogni sabato. Per dimenticarci delle nostre paure e dimenticare quella bestia.
 
 ```
 publish("act2",["party_hunter",9]);
@@ -1287,7 +1287,7 @@ publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Non preoccuparti. Io ero come te. Poi ho trovato un piccolo trucchetto per zittire quella voce negativa...
+r: Non preoccuparti. Io ero come te. Poi ho scoperto un piccolo trucchetto per zittire per sempre quella vocina...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1317,7 +1317,7 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: La mia miscela personale. È un po' più forte di...beh tutto quello che puoi comprare legalmente in effetti.
+r: La mia miscela personale. È un po' più forte di, beh... qualsiasi cosa che potresti comprare legalmente, in effetti.
 
 ```
 publish("act2",["party_hunter",12]);
@@ -1339,7 +1339,7 @@ publish("hp_show");
 
 [O. Mio. Dio.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Questo non è un buon modo di reagire.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Non è un buon modo di reagire.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [Non accettare drink dagli sconosciuti.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1378,25 +1378,25 @@ bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 
 h: Mmm, che bouquet sopraffino!
 
-h: Un forte sentore di "fatti gli affari tuoi" con un leggero retrogusto di "non voglio provare mai alcun sentimento"!
+h: Un forte sentore di "fatti gli affari tuoi" con un leggero retrogusto di "non voglio sentire niente"!
 
-b: Questo non va bene, umano. Non va per niente bene.
+b: Così non va, umano. Non va bene per niente.
 
 [È *così* che iniziano le dipendenze.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [Lo sapevo che quello stramboide era inaffidabile!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Ah, e ci potrebbero essere delle droghe lì dentro!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[E poi, potrebbero esserci delle droghe lì dentro!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2h_opt1
 
-b: Questo è *davv*--
+b: Questo è *effett*--
 
 (#act2h)
 
 # act2h_opt2
 
-b: E, loro p--
+b: E poi, tu p--
 
 (#act2h)
 
@@ -1421,17 +1421,17 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
-h: Delizioso, *e* più economico della terapia!
+h: Delizioso *e* più economico della terapia!
 
 b: UMANO TI PREGO FERMATI!
 
-h: Hehehe!
+h: Eheheheh!
 
-h: Altrimenti *cosa* fai, ^coglione^?
+h: Altrimenti *cosa* farai, ^coglione^?
 
 b: Scusami, umano.
 
-b: Ma dovrò usare il mio ATTACCO SPECIALE
+b: Mi costringi ad usare il mio ATTACCO SPECIALE
 
 ```
 bb({body:"special_a"});
@@ -1460,7 +1460,7 @@ sfx("charging");
 
 h: Cos'è questa ^merda^?
 
-h: Continuerai ad abbaiare delle *parole* per far--
+h: Continuerai ad abbaiare qualche inutile *parola* per far--
 
 ```
 bb({body:"special_c"});
@@ -1496,20 +1496,20 @@ setTimeout(function(){
 
 (...2500)
 
-h: COSA ^CAZZO^ ERA QUELLO
+h: COSA ^CAZZO^ ERA QUELLO?!
 
 b: Mi dispiace. Dovevo mostrarti le conseguenze.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: POTEVO *VEDERE* IL MIO STESSO CADAVERE. POTEVO *SENTIRE* LA SENSAZIONE DI ESSERE MORTO PER DAVVERO.
+h: POTEVO *VEDERE* IL MIO STESSO CADAVERE. *PERCEPIRE* LA SENSAZIONE DI ESSERE VERAMENTE MORTO.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: POTEVO *VEDERE* LO SGUARDO DISGUSTATO DI TUTTI. POTEVO *SENTIRE* TUTTO CIÒ CHE DICEVANO.
+h: POTEVO *VEDERE* L'ORRORE E IL DISGUSTO DI TUTTI. *SENTIRE* TUTTO CIÒ CHE DICEVANO.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: POTEVO *SENTIRE* LO SCRICCHIOLARE DELLE OSSA. POTEVO *ANNUSARE* IL SANGUE NELL'ARIA.
+h: POTEVO *SENTIRE* LO SCRICCHIOLARE DELLE OSSA. *ANNUSARE* IL SANGUE NELL'ARIA.
 {{/if}}
 
 b: Mi dispiace, umano.
@@ -1526,7 +1526,7 @@ n: FINISCILO
 
 b: Quella psicopatica si stava approfittando di te.
 
-b: Stava cercando di corromperti, di renderti incasinato come lei.
+b: Stava cercando di corromperti per farti diventare come lei.
 
 `bb({ body:"yell_angry_1" });`
 
@@ -1534,7 +1534,7 @@ b: Prendila a pugni! Mandala al tappeto!
 
 `bb({ body:"final_1" });`
 
-b: A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGN--
+b: COLPISCI COLPISCI COLPISCI COLPISCI COLPISCI COLPISCI COLPISCI COLPISCI COLP--
 
 `_.a2_ending = "fight";`
 
@@ -1542,15 +1542,15 @@ b: A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGN--
 
 # act2j_flight
 
-b: Lo *sapevo* che tutti quelli che vanno a queste feste erano profondamente incasinati. Cercano di attenuare il loro dolore con delle cose orribili.
+b: Lo *sapevo*, tutti questi festaioli sono veramente disturbati. Cercano di soffocare il dolore con delle cose orribili!
 
 `bb({ body:"yell_1" });`
 
-b: E stavano cercando di farti fare la stessa fine! Ti stanno corrompendo! Dobbiamo andare via!
+b: Stavano cercando di farti fare la stessa fine! Ti stavano corrompendo! Dobbiamo andare via!
 
 `bb({ body:"final_1" });`
 
-b: VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA--
+b: VIA VIA VIA VIA VIA VIA VIA VIA VIA VIA VIA VIA VIA VIA VIA VIA VIA VI--
 
 `_.a2_ending = "flight";`
 
@@ -1579,7 +1579,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Tutto bene, ragazzo?
+r: Tutto bene?
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1623,7 +1623,7 @@ music('party1', {volume:0.6, fade:6});
 
 r: un *peperino*.
 
-r: Mi piace. Ti invito alla mia prossima festa, carino.
+r: Mi piace. Vieni alla mia festa sabato prossimo, tesoro.
 
 ```
 publish("act2",["party_hunter",19]);
@@ -1632,11 +1632,11 @@ publish("act2",["party_hong",36]);
 
 h2: ok ciao, bye bye, adios, au revoir
 
-r: L'animale ha vinto la battaglia oggi, ma torna e ti farò bere qualcosa di un po' più farte.
+r: La bestia ha vinto la battaglia per oggi, ma se torni e ti farò bere qualcosa di un po' più forte.
 
 h2: sayōnara, auf wiedersehen, zài jiàn, shalom
 
-r: Io e te ragazzo, e faremo vedere a quella bestia chi è il capo!
+r: Io e te faremo vedere a quella bestia chi comanda!
 
 (#act2k_end)
 
@@ -1648,19 +1648,19 @@ h2: ok scusa devo andare.
 
 `publish("act2",["party_hunter",16]);`
 
-r: Maledizione. L'animale ha vinto oggi, eh?
+r: Maledizione. La bestia ha avuto la meglio, eh?
 
 `publish("act2",["party_hunter",15]);`
 
-h2: No, no. Devo fare una maratona, devo andare. E di fretta.
+h2: No, no. Devo fare una maratona, devo andarmene. E di corsa, anche.
 
 `publish("act2",["party_hunter",19]);`
 
-r: Vieni alla mia prossima festa, carino e ti farò bere qualcosa di un po' più farte.
+r: Vieni alla mia festa sabato prossimo, ti offro qualcosa di ancora più farte.
 
 h2: ok grazie adesso devo correre correre correre
 
-r: Io e te ragazzo, e faremo vedere a quella bestia chi è il capo!
+r: Io e te faremo vedere a quella bestia chi comanda!
 
 (#act2k_end)
 
@@ -1689,7 +1689,7 @@ b: Umano! Tutto bene?!
 publish("act2", ["act2_end","next"]);
 ```
 
-b: Fiuu, ci siamo andati *vicino.* Avremmo potuto davvero--
+b: Fiuu, ci siamo andati *vicino*. Abbiamo rischiato davvero--
 
 ```
 Game.clearText();
@@ -1707,11 +1707,11 @@ sfx("hit");
 
 (...1000)
 
-h: Il prossimo weekend ci ritorno a quella festa.
+h: Il prossimo weekend ci torniamo.
 
-h: E la prossima volta che combattiamo, non mi limiterò a farti *perdere*...
+h: La prossima volta che ci scontreremo non mi limiterò a farti *perdere*...
 
-h: Ma ti *ucciderò* brutto bastardo.
+h: Ti *ucciderò*, brutto b^astardo^.
 
 ```
 Game.clearText();
