@@ -31,7 +31,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n5: (Partita salvata! Ora puoi chiudere il gioco, se vuoi)
+n5: (Partita salvata! Ora puoi chiudere il gioco.)
 
 ```
 Game.clearAll();
