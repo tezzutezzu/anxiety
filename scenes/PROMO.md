@@ -14,7 +14,7 @@
 
 `clearText()`
 
-n3: Ok, prima di cominciare, come ti piacerebbe leggere?
+n3: Ok, prima di cominciare, come preferisci leggere?
 
 `publish("show_options_bottom")`
 

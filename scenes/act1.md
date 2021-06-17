@@ -186,7 +186,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Grandioso, riecco il mio lupo. Faaaaantastico.
+h: Grandioso, riecco il mio lupo. Peeerfetto.
 
 `hong({eyes:"0_neutral"})`
 
@@ -345,7 +345,7 @@ n: HAI USATO LA *PAURA DI FARSI DEL MALE*
 
 # act1b
 
-n: È SUPER EFFICACE
+n: È SUPEREFFICACE
 
 `bb({mouth:"smile", eyes:"smile"});`
 
@@ -383,7 +383,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: sai, forse è ora di controllare il telefono.
+h: Ora controllo il telefono.
 
 ```
 sfx("rustle2");
@@ -412,11 +412,11 @@ n: PRIMO ROUND: *LOTTA!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Oh. Facebook dice che ci sarà una festa questo fine settimana.
+h: Oh, Facebook dice che ci sarà una festa questo fine settimana.
 
 `bb({eyes:"uncertain"});`
 
-b: Ma quello svitato fa una festa *ogni* weekend?
+b: Ma quello svitato fa una festa *ogni* settimana?
 
 `bb({eyes:"uncertain_right"});`
 
@@ -424,11 +424,11 @@ b: Quale vuoto interiore starà cercando di colmare? È messo proprio male!
 
 `hong({eyes:"surprise"});`
 
-h: Tra l'altro, ho ricevuto un invito?
+h: Tra l'altro, ho ricevuto un invito.
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Oh bene!
+b: Oh, bene!
 
 [Accetta o moriremo di solitudine](#act1c_loner)
 
@@ -447,11 +447,11 @@ b: Quindici sigarette al giorno, umano! Quindici!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Poi nessuno verrà al nostro funerale, getteranno le ceneri nell'oceano, verremo mangiati da una balena,
+b: Poi nessuno verrà al nostro funerale, getteranno le ceneri nell'oceano, verremo mangiati da una balena
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: diventeremo CACCA DI BALENA!
+b: Diventeremo CACCA DI BALENA!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -498,7 +498,7 @@ b: Cacca di balena, umano! Cacca di balena!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: o peggio... PANE BIANCO
+b: O peggio... PANE BIANCO
 {{/if}}
 
 {{if _.whitebread}}
@@ -557,7 +557,7 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: eh, chissà perché.
+h: Eh, chissà perché.
 
 `hong({eyes:"neutral"});`
 
@@ -653,7 +653,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Ok. Lo faccio, ma per piacere calmati!
+h: Ok, lo faccio, però calmati!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
@@ -674,7 +674,7 @@ h: Probabilmente no?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: e se tutti stessero sparlando alle nostre spalle?
+b: E se tutti stessero sparlando alle nostre spalle?
 
 h: Non--
 
@@ -688,13 +688,13 @@ h: Io non--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: ma *se fosse*
+b: Ma *se fosse*
 
 h: S--
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *se fosse*
+b: *Se fosse*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -861,7 +861,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: DECLINA DECLINA DECLINA DECLINA DECLINA DECLINA DECLINA DE-
+b: RIFIUTA RIFIUTA RIFIUTA RIFIUTA RIFIUTA RIFIUTA RIFIUTA RI-
 
 
 ```
@@ -877,7 +877,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Ok ok, declinerò! Dio santo.
+h: Ok ok, rifiuterò l'invito! Dio santo.
 
 (#act1f)
 
@@ -900,7 +900,7 @@ h: Forse non avrei dovuto rifiutare l'invito...
 {{/if}}
 
 {{if _.badnews}}
-[AAspetta, abbiamo retwittato senza controllare le fonti.](#act1e_ignore_factcheck)
+[Aspetta, abbiamo retwittato senza controllare le fonti.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
@@ -1067,7 +1067,7 @@ h: Perché devi fare così?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... sembra molto divertente.
+h: Uhm... sembra molto divertente.
 
 h: Forse non avrei dovuto ignorare l'invito.
 
@@ -1098,7 +1098,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: quindi siamo pari.
+b: Quindi siamo pari.
 
 (#act1f)
 
@@ -1106,7 +1106,7 @@ b: quindi siamo pari.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: Stai... permettendo che io mi diverta?
+h: Tu stai... permettendo che mi diverta?
 
 b: Beh, voglio dire, la solitudine *può* ucciderci.
 
@@ -1179,11 +1179,11 @@ b: PERICOLO PERICOLO PERICOLO PERICOLO PERICOLO PERICOLO
 
 b: Gli incontri occasionali potrebbero riempire il vuoto laggiù,
 
-b: ma non potranno mai colmare il vuoto...
+b: Ma non potranno mai colmare il vuoto...
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: *qui*.
+b: *Qui*.
 
 (...1000)
 
@@ -1344,18 +1344,18 @@ h: Non ne posso più di questo gioco.
 
 h:
 {{if _.fifteencigs}}"la solitudine ci ucciderà"... {{/if}}
-{{if _.parasite}}"siamo un parassita della società"... {{/if}}
-{{if _.whitebread}}"non mangiarlo, ci ucciderà"... {{/if}}
-{{if _.subtweet}}"stanno parlando alle nostre spalle"... {{/if}}
-{{if _.badnews}}"il mondo brucia"... {{/if}}
-{{if _.hookuphole}}"moriremo in solitudine"... {{/if}}
-{{if _.serialkiller}}"sono serial killer"... {{/if}}
-{{if _.catmilk}}"i gatti non digeriscono il latte"... {{/if}}
+{{if _.parasite}}"Siamo un parassita della società"... {{/if}}
+{{if _.whitebread}}"Non mangiarlo, ci ucciderà"... {{/if}}
+{{if _.subtweet}}"Stanno parlando alle nostre spalle"... {{/if}}
+{{if _.badnews}}"Il mondo brucia"... {{/if}}
+{{if _.hookuphole}}"Moriremo in solitudine"... {{/if}}
+{{if _.serialkiller}}"Sono serial killer"... {{/if}}
+{{if _.catmilk}}"I gatti non digeriscono il latte"... {{/if}}
 {{if _.pokemon}}"la ^fottuta^ parodia di una sigla"... {{/if}}
 
-h: voglio solo vivere la mia vita
+h: Voglio solo vivere la mia vita
 
-h: voglio solo liberarmi di questo... dolore.
+h: Voglio solo liberarmi di questo... dolore.
 
 `bb({eyes:"look_sad"});`
 
@@ -1435,13 +1435,13 @@ h: *^FOT-TE-RE^*.
 
 (...500)
 
-b: c-
+b: C-
 
 (...1500)
 
 `bb({eyes:"wat_2"});`
 
-b: cosa?
+b: Cosa?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
@@ -1452,7 +1452,7 @@ h: E NON perché lo vuoi tu, ma perché lo voglio *IO*.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Ci vado proprio PERCHÈ tu non vuoi.
+h: Ci vado PROPRIO PERCHÈ tu non vuoi.
 {{/if}}
 
 ```

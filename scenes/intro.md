@@ -35,14 +35,14 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="replay"}}
-[#play1# RIGIOCA! #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[#play1# GIOCA DI NUOVO! #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE}}
 [Seleziona un capitolo](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
-[(Note sul contenuto)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
+[(Note di contenuto)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
 
 # chapter-select
 
@@ -69,14 +69,14 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if window.localStorage.credits}}
-[V. Credits](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[Crediti](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.credits}}
-[V. Credits]()
+[Crediti]()
 {{/if}}
 
-[(main menu)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[(Menu Principale)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # to-credits
 
@@ -92,17 +92,17 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Benvenuti! Questo, più che un "gioco", è una storia interattiva. Spero che ti piaccia leggere!
+n3: Ti diamo il benvenuto! Questo "gioco" è, più che altro, una storia interattiva. Spero che ti piaccia leggere!
 
-n3: Prima che iniziamo, *come* vorresti leggere?
+n3: Prima di iniziare: *come* preferisci leggere?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Perfetto! Nota: puoi sempre cambiare le opzioni con l'icona ⚙ qui sotto. Inoltre il gioco salva automaticamente ad ogni capitolo!
+n3: Perfetto! Nota: puoi sempre cambiare le opzioni cliccando sull'icona ⚙. Inoltre il gioco salva automaticamente ad ogni capitolo!
 
-n3: Adesso iniziamo la nostra storia...
+n3: Ora siamo pronti per iniziare...
 
 `clearText()`
 
